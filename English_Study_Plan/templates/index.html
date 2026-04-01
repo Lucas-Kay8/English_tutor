@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VocabQuest - Oli的单词冒险</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- ===== 加载视图 ===== -->
+        <div id="loading-view" class="view active">
+            <div class="container" style="display:flex; justify-content:center; align-items:center; min-height:80vh;">
+                <p style="color:var(--text-secondary);">正在加载...</p>
+            </div>
+        </div>
+
+        <!-- ===== 首页仪表板 ===== -->
+        <div id="home-view" class="view">
+            <div class="container">
+                <!-- 头部 -->
+                <header class="dashboard-header">
+                    <div class="user-profile" style="display: flex; align-items: center; gap: 16px;">
+                        <div class="user-avatar-container"
+                            style="width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--primary-color); background: #eee; flex-shrink: 0; box-shadow: 0 4px 12px rgba(88, 204, 2, 0.3); overflow: hidden; position: relative;">
+                            <img id="user-avatar-img" src="" alt="虚拟形象"
+                                style="width: 100%; height: 100%; object-fit: cover; display: none;">
+                            <div id="user-avatar-emoji"
+                                style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 38px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);">
+                                🐣</div>
+                        </div>
+                        <div class="greeting" style="min-width: 0;">
+                            <h1
+                                style="display: flex; align-items: center; gap: 8px; margin: 0; margin-bottom: 4px; flex-wrap: wrap;">
+                                <span style="white-space: nowrap;">你好，Oli！</span>
+                                <span id="header-user-rank"
+                                    style="font-size: 14px; font-weight: 600; background: linear-gradient(135deg, #FFD700, #FFA500); color: white; padding: 2px 10px; border-radius: 12px; box-shadow: 0 2px 4px rgba(255, 165, 0, 0.3); letter-spacing: 0.5px; white-space: nowrap; line-height: 1.2;">新手冒险家</span>
+                            </h1>
+                            <p
+                                style="margin: 0; color: var(--text-secondary); font-size: 14px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">
+                                准备好今天的单词冒险了吗？</p>
+                        </div>
+                    </div>
+                    <div class="header-controls" style="display: flex; align-items: center; gap: 12px; flex-shrink: 0;">
+                        <div class="streak-badge" id="streak-badge" style="white-space: nowrap;">
+                            <span class="flame">🔥</span>
+                            <span id="streak-days">0</span> 天连击
+                        </div>
+                        <div class="user-switch-container">
+                            <select id="user-select" class="user-select">
+                                <option value="oli">👤 Oli</option>
+                                <option value="test">🧪 测试模式</option>
+                            </select>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- 进度环 -->
+                <div class="progress-ring-container">
+                    <div class="progress-ring">
+                        <svg width="160" height="160">
+                            <circle class="bg" cx="80" cy="80" r="68"></circle>
+                            <circle class="progress" id="progress-circle" cx="80" cy="80" r="68" stroke-dasharray="427"
+                                stroke-dashoffset="427"></circle>
+                        </svg>
+                        <div class="percentage" id="mastery-pct">0%</div>
+                        <div class="label">掌握度</div>
+                    </div>
+                    <button class="btn-primary" id="btn-start">
+                        <span>开始学习</span>
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+
+                <!-- 统计卡片 -->
+                <div class="stats-grid">
+                    <div class="stat-card hearts">
+                        <div class="icon">❤️</div>
+                        <div class="value" id="hearts-count">5</div>
+                        <div class="label">生命值</div>
+                    </div>
+                    <div class="stat-card xp">
+                        <div class="icon">⭐</div>
+                        <div class="value" id="xp-count">0</div>
+                        <div class="label">经验值</div>
+                    </div>
+                    <div class="stat-card review">
+                        <div class="icon">📝</div>
+                        <div class="value" id="review-count">0</div>
+                        <div class="label">待复习</div>
+                    </div>
+                </div>
+
+                <!-- 智能引导卡片 -->
+                <div class="hero-action-card" id="hero-adventure-card">
+                    <div class="hero-content">
+                        <h3 id="hero-title">继续你的冒险</h3>
+                        <p id="hero-subtitle">第 1 天：万能动词</p>
+                        <button class="btn-hero" id="btn-hero-start">
+                            <span>开启挑战</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 学习路径 -->
+                <div class="path-section">
+                    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+                        <h2 style="margin-bottom:0;">学习计划</h2>
+                        <span id="path-total-days" style="font-size: 13px; color: var(--text-secondary); font-weight: 600;">共 40 天</span>
+                    </div>
+                    
+                    <!-- 分段控制器 (Segmented Control) -->
+                    <div class="segmented-control" id="week-selector">
+                        <!-- JS 动态生成 -->
+                    </div>
+
+                    <div class="path-list" id="path-list">
+                        <!-- JS 动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 快捷操作 (重构为横滑卡片) -->
+                <div class="path-section" style="margin-top:24px;">
+                    <h2>更多练习</h2>
+                    <div class="horizontal-scroll-snap" id="quick-actions-scroll">
+                        <div class="stat-card" style="cursor:pointer;" id="btn-review">
+                            <div class="icon">📖</div>
+                            <div class="label">错题本</div>
+                        </div>
+                        <div class="stat-card" style="cursor:pointer;" id="btn-listening">
+                            <div class="icon">🎧</div>
+                            <div class="label">听力训练</div>
+                        </div>
+                        <div class="stat-card" style="cursor:pointer;" id="btn-cloze">
+                            <div class="icon">🧩</div>
+                            <div class="label">完型填空</div>
+                        </div>
+                        <div class="stat-card" style="cursor:pointer;" id="btn-grand">
+                            <div class="icon">🎯</div>
+                            <div class="label">全量测试</div>
+                        </div>
+                        <div class="stat-card" style="cursor:pointer;" id="btn-parent">
+                            <div class="icon">📊</div>
+                            <div class="label">学习报告</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 预习视图 (Flashcard) ===== -->
+        <div id="study-view" class="view">
+            <div class="quiz-container">
+                <!-- 顶部导航 -->
+                <div class="quiz-header">
+                    <button class="btn-close" id="btn-study-quit">✕</button>
+                    <div class="progress-bar">
+                        <div class="fill" id="study-progress" style="width:0%"></div>
+                    </div>
+                    <div class="study-counter">
+                        <span id="study-current">1</span>/<span id="study-total">25</span>
+                    </div>
+                </div>
+
+                <!-- 单词卡片 -->
+                <div class="flashcard-container">
+                    <div class="flashcard" id="flashcard">
+                        <!-- 正面：英文单词 -->
+                        <div class="flashcard-front">
+                            <button class="btn-audio-large" id="btn-study-audio">🔊</button>
+                            <div class="flashcard-word" id="study-word">afford</div>
+                            <p class="flashcard-hint">点击卡片查看释义</p>
+                        </div>
+                        <!-- 背面：释义和例句 -->
+                        <div class="flashcard-back">
+                            <div class="flashcard-meaning" id="study-meaning">买得起</div>
+                            <div class="flashcard-example" id="study-example">
+                                I can't afford to buy a new computer.
+                            </div>
+                            <div class="flashcard-example-cn" id="study-example-cn">
+                                我买不起新电脑。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 底部操作 -->
+                <div class="study-actions">
+                    <button class="btn-secondary" id="btn-study-prev" disabled>
+                        ← 上一个
+                    </button>
+                    <button class="btn-primary" id="btn-study-next">
+                        下一个 →
+                    </button>
+                </div>
+
+                <!-- 完成后的按钮 -->
+                <div class="study-complete hidden" id="study-complete">
+                    <h2>📚 预习完成！</h2>
+                    <p>你已经学习了 <span id="studied-count">25</span> 个单词</p>
+                    <button class="btn-primary" id="btn-start-quiz">
+                        开始测试 🎮
+                    </button>
+                    <button class="btn-secondary" id="btn-study-again">
+                        再学一遍
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 测试视图 ===== -->
+        <div id="quiz-view" class="view">
+            <div class="quiz-container">
+                <!-- 顶部导航 -->
+                <div class="quiz-header">
+                    <button class="btn-close" id="btn-quit">✕</button>
+                    <div class="progress-bar">
+                        <div class="fill" id="quiz-progress" style="width:0%"></div>
+                    </div>
+                    <div class="hearts-display" id="hearts-display">
+                        <!-- JS 生成心形 -->
+                    </div>
+                </div>
+
+                <!-- 问题区域 -->
+                <div class="question-area">
+                    <div class="question-type" id="question-type">拼写题</div>
+
+                    <!-- 发音按钮（听力题显示） -->
+                    <button class="btn-audio hidden" id="btn-audio">🔊</button>
+
+                    <!-- 问题内容 -->
+                    <div class="question-content" id="question-content">...</div>
+                    <div class="question-example hidden" id="question-example">...</div>
+                </div>
+
+                <!-- 答案区域 -->
+                <div class="answer-area">
+                    <!-- 输入模式 -->
+                    <div id="input-mode" class="hidden">
+                        <input type="text" class="input-answer" id="answer-input" placeholder="输入单词..."
+                            autocomplete="one-time-code" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus>
+                    </div>
+
+                    <!-- 选择模式 -->
+                    <div id="choice-mode" class="choices-grid hidden">
+                        <!-- JS 生成选项 -->
+                    </div>
+                </div>
+
+                <!-- 连击提示 -->
+                <div class="streak-indicator" id="streak-indicator">
+                    🔥 <span id="streak-count">3</span> 连击！
+                </div>
+
+                <!-- XP 弹出 -->
+                <div class="xp-popup" id="xp-popup">+10 XP</div>
+
+
+            </div>
+
+            <!-- 底部反馈栏 -->
+            <div class="feedback-bar" id="feedback-bar">
+                <div class="feedback-content">
+                    <div class="feedback-message">
+                        <span class="feedback-icon" id="feedback-icon">✓</span>
+                        <div class="feedback-text">
+                            <h3 id="feedback-title">正确！</h3>
+                            <p id="feedback-detail"></p>
+                        </div>
+                    </div>
+                    <button class="btn-continue" id="btn-continue">继续</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 结果视图 ===== -->
+        <div id="result-view" class="view">
+            <div class="container">
+                <div class="result-container">
+                    <div class="result-celebration">🎉</div>
+                    <h1 class="result-title" id="result-title">太棒了！</h1>
+                    <p class="result-score" id="result-score">22/25 正确</p>
+
+                    <div class="result-xp" id="result-xp">
+                        ⭐ +220 经验值
+                    </div>
+
+                    <div class="result-stats">
+                        <div class="result-stat">
+                            <div class="icon">🔥</div>
+                            <div class="value" id="result-streak">6 天</div>
+                            <div class="label">连续学习</div>
+                        </div>
+                        <div class="result-stat">
+                            <div class="icon">⏱️</div>
+                            <div class="value" id="result-time">5:32</div>
+                            <div class="label">用时</div>
+                        </div>
+                        <div class="result-stat">
+                            <div class="icon">🎯</div>
+                            <div class="value" id="result-accuracy">88%</div>
+                            <div class="label">准确率</div>
+                        </div>
+                    </div>
+
+                    <div class="result-actions">
+                        <button class="btn-primary" id="btn-home">继续学习</button>
+                        <button class="btn-secondary" id="btn-review-mistakes">查看错题</button>
+                    </div>
+
+                    <!-- 错题列表 -->
+                    <div class="mistakes-section hidden" id="mistakes-section">
+                        <h3>本次错题</h3>
+                        <div id="mistakes-list">
+                            <!-- JS 生成 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 听力模式视图 ===== -->
+        <div id="listening-view" class="view">
+            <div class="container">
+                <header class="dashboard-header">
+                    <div class="greeting">
+                        <h1>每日听力</h1>
+                        <p>Zhongkao Listening Practice</p>
+                    </div>
+                    <button class="btn-close" id="btn-listening-close">✕</button>
+                </header>
+
+                <div class="listening-container">
+                    <!-- 1. 播放器 -->
+                    <div class="audio-player-card">
+                        <div class="audio-info">
+                            <h2 id="listening-title">Loading...</h2>
+                            <p>请点击播放，仔细聆听短文。</p>
+                        </div>
+                        <div class="audio-controls">
+                            <button class="btn-audio-control" id="btn-play-article">▶️ 播放短文</button>
+                            <button class="btn-audio-control secondary" id="btn-show-script">📄 显示/隐藏原文</button>
+                        </div>
+                        <div id="listening-script" class="script-content hidden">
+                            <!-- JS 填充 -->
+                        </div>
+                    </div>
+
+                    <!-- 2. 题目区 -->
+                    <div id="listening-quiz-area" class="quiz-area">
+                        <!-- JS 生成题目 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 完型填空模式视图 ===== -->
+        <div id="cloze-view" class="view">
+            <div class="container">
+                <header class="dashboard-header">
+                    <div class="greeting">
+                        <h1>完型填空</h1>
+                        <p>Cloze Test Practice (Haidian Middle School Level)</p>
+                    </div>
+                    <button class="btn-close" id="btn-cloze-close">✕</button>
+                </header>
+
+                <div class="cloze-container">
+                    <div class="audio-player-card">
+                        <div class="audio-info">
+                            <h2 id="cloze-title">Loading...</h2>
+                            <p>请阅读短文，并选择最合适的单词填入空格。</p>
+                        </div>
+                    </div>
+
+                    <div id="cloze-quiz-area" class="cloze-quiz-area" style="background: white; padding: 24px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); line-height: 2;">
+                        <!-- JS 生成完型内容 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 家长报告视图 ===== -->
+        <div id="parent-view" class="view">
+            <div class="container">
+                <header class="dashboard-header">
+                    <div class="greeting">
+                        <h1>学习报告</h1>
+                        <p>Oli 的学习数据概览</p>
+                    </div>
+                    <button class="btn-close" id="btn-parent-close">✕</button>
+                </header>
+
+                <!-- 1. 概览卡片 -->
+                <div id="report-trend-banner">
+                    <!-- JS 动态生成趋势指示器 -->
+                </div>
+
+                <div class="stats-grid report-stats">
+                    <div class="stat-card">
+                        <div class="icon">📚</div>
+                        <div class="value" id="parent-words">0</div>
+                        <div class="label">已学单词</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon">🎯</div>
+                        <div class="value" id="parent-avg-acc">0%</div>
+                        <div class="label">平均正确率</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon">🔥</div>
+                        <div class="value" id="parent-streak">0</div>
+                        <div class="label">连续天数</div>
+                    </div>
+                </div>
+
+                <!-- 2. 趋势折线图 -->
+                <div class="chart-container">
+                    <div class="chart-title">📈 正确率趋势</div>
+                    <div id="trend-chart-area">
+                        <!-- JS 动态生成 SVG 折线图 -->
+                    </div>
+                </div>
+
+                <!-- 3. 每日成绩卡片 -->
+                <div class="chart-container">
+                    <div class="chart-title">📅 每日学习成绩</div>
+                    <div id="daily-cards-area">
+                        <!-- JS 动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 4. 进阶分析（可折叠） -->
+                <div class="chart-container collapsible-section">
+                    <div class="collapse-toggle" id="btn-toggle-analysis">
+                        <span class="chart-title" style="margin-bottom:0;">🔬 进阶分析</span>
+                        <span class="collapse-arrow" id="collapse-arrow">▼</span>
+                    </div>
+                    <div class="collapse-body hidden" id="analysis-body">
+                        <!-- AI 提分建议 -->
+                        <div class="analysis-block">
+                            <div class="analysis-block-title">💡 AI 提分建议</div>
+                            <div id="ai-advice" class="advice-box"></div>
+                        </div>
+
+                        <!-- 能力维度 -->
+                        <div class="analysis-block">
+                            <div class="analysis-block-title">🎯 能力维度</div>
+                            <div id="topic-radar" class="radar-box"></div>
+                        </div>
+
+                        <!-- 顽固错词 -->
+                        <div class="analysis-block">
+                            <div class="analysis-block-title">😤 顽固错词</div>
+                            <div id="hardest-words" class="mistake-list"></div>
+                        </div>
+
+                        <!-- 错词排行 -->
+                        <div class="analysis-block">
+                            <div class="analysis-block-title">📋 错词排行</div>
+                            <div id="top-mistakes" style="max-height:200px; overflow-y:auto;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ===== 全局弹窗 ===== -->
+    <!-- 救援模式弹出 -->
+    <div class="rescue-modal hidden" id="rescue-modal">
+        <div class="rescue-content">
+            <h2>💔 生命值耗尽！</h2>
+            <p>不要灰心！完成「精准救援」挑战即可满血复活。</p>
+            <div class="rescue-challenge">
+                <div class="challenge-item">🎯 连续答对 3 题</div>
+                <div class="challenge-item">🚫 中途不能出错</div>
+            </div>
+            <button class="btn-primary" id="btn-start-rescue">开始救援挑战</button>
+            <button class="btn-secondary" id="btn-quit-rescue">放弃并退出</button>
+        </div>
+    </div>
+
+    <!-- 救援失败弹出 -->
+    <div class="rescue-modal hidden" id="rescue-fail-modal">
+        <div class="rescue-content">
+            <h2>💥 救援失败</h2>
+            <p>差一点点！要再试一次吗？</p>
+            <button class="btn-primary" id="btn-retry-rescue">重试</button>
+            <button class="btn-secondary" id="btn-quit-fail">退出</button>
+        </div>
+    </div>
+
+    <!-- 救援成功弹出 -->
+    <div class="rescue-modal hidden" id="rescue-success-modal">
+        <div class="rescue-content">
+            <h2>❤️ 救援成功！</h2>
+            <p>生命值已完全恢复！</p>
+            <button class="btn-primary" id="btn-continue-rescue">继续学习</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v={{ version }}"></script>
+</body>
+
+</html>

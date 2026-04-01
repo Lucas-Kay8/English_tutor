@@ -1,0 +1,47 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://198.18.0.1:8888
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [05/Mar/2026 15:36:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2026 15:36:51] "GET /static/script.js?v=1772696211.265558 HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2026 15:36:51] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2026 15:36:51] "GET /api/vocabulary HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2026 15:36:51] "GET /api/progress?user=oli HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2026 15:36:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [05/Mar/2026 15:36:52] "GET /static/avatars/stage_3.png HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:00] "GET / HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:00] "GET /static/style.css HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:00] "GET /static/script.js?v=1772696340.7129211 HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:01] "GET /api/vocabulary HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:01] "GET /api/progress?user=oli HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:01] "GET /static/avatars/stage_3.png HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.31.95 - - [05/Mar/2026 15:39:47] "POST /api/progress HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "GET / HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "POST /api/progress HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "GET /static/script.js?v=1772696388.0919812 HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "GET /api/vocabulary HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "GET /api/progress?user=test HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:48] "GET /static/avatars/stage_2.png HTTP/1.1" 200 -
+192.168.31.95 - - [05/Mar/2026 15:39:57] "GET /api/listening HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "GET / HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "GET /static/style.css HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "GET /static/script.js?v=1772711734.556003 HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "GET /api/vocabulary HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "GET /api/progress?user=oli HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.31.71 - - [05/Mar/2026 19:55:34] "[36mGET /static/avatars/stage_3.png HTTP/1.1[0m" 304 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "GET / HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "GET /static/script.js?v=1772711771.6400158 HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "GET /api/vocabulary HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "GET /api/progress?user=oli HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 19:56:11] "[36mGET /static/avatars/stage_3.png HTTP/1.1[0m" 304 -
+192.168.31.71 - - [05/Mar/2026 20:32:36] "POST /api/progress HTTP/1.1" 200 -
+192.168.31.71 - - [05/Mar/2026 20:33:31] "GET /api/vocabulary HTTP/1.1" 200 -

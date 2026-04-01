@@ -1,0 +1,2069 @@
+[
+    {
+        "id": "C1",
+        "day": 1,
+        "title": "A Productive Morning",
+        "text": "Every morning, Li Ming wakes up early to prepare for school. He believes that a good start is very {1}. First, he checks his school bag to make sure he doesn't {2} his homework. His parents don't {3} him to play games on weekdays, so he has more time to read. He hopes to {4} a doctor in the future. After a quick breakfast, he carries his bag and runs to {5} the bus.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "important",
+                    "difficult",
+                    "boring"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "forget",
+                    "remember",
+                    "finish"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "allow",
+                    "invite",
+                    "help"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "become",
+                    "call",
+                    "change"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "catch",
+                    "break",
+                    "build"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C2",
+        "day": 2,
+        "title": "Choosing a Hobby",
+        "text": "Last weekend, Wang Lei and I {1} to try a new hobby. We {2} several choices, like chess and painting. We {3} it for a long time but couldn't agree at first. Finally, we managed to find a solution. We {4} to try both and then choose the one we liked better. I didn't {5} to enjoy chess so much, but it was really fun!",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "decided",
+                    "failed",
+                    "forgot"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "considered",
+                    "explained",
+                    "imagined"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "discussed",
+                    "mentioned",
+                    "noticed"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "offered",
+                    "expected",
+                    "chose"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 5,
+                "options": [
+                    "expect",
+                    "mean",
+                    "know"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C3",
+        "day": 3,
+        "title": "A Rainy Day Discovery",
+        "text": "It rained heavily yesterday, so I stayed at home. I felt {1} and started reading a book about nature. The book {2} that protecting the environment is our duty. I {3} that many common things we use come from plants. For example, some clothes are made of cotton. This experience made me {4} how wonderful the world is. Even a rainy day can {5} us a great chance to learn.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "bored",
+                    "active",
+                    "brave"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "explained",
+                    "failed",
+                    "followed"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "noticed",
+                    "forgot",
+                    "guessed"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "realize",
+                    "imagine",
+                    "mention"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "provide",
+                    "refuse",
+                    "repair"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C4",
+        "day": 4,
+        "title": "A Brave Boy",
+        "text": "Tom was alone at home yesterday. Suddenly, he heard an {1} sound. He felt a bit {2}, but he was a {3} boy. He took a {4} and walked into the garden. It was very {5} outside. Finally, he found that it was just a little cat.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "amazing",
+                    "awful",
+                    "angry"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "options": [
+                    "afraid",
+                    "bored",
+                    "blind"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "brave",
+                    "busy",
+                    "careful"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "light",
+                    "dark",
+                    "deep"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "dark",
+                    "bright",
+                    "clean"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C5",
+        "day": 5,
+        "title": "A Healthy Menu",
+        "text": "Eating {1} food is very important for us. My mother always cooks {2} meals for our family. She says that vegetables are {3} for our health. Although some healthy food is {4}, it's still {5} than eating too much fast food.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "delicious",
+                    "different",
+                    "difficult"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "healthy",
+                    "dirty",
+                    "fat"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "helpful",
+                    "good",
+                    "great"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 4,
+                "options": [
+                    "expensive",
+                    "cheap",
+                    "easy"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "better",
+                    "worse",
+                    "easier"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C6",
+        "day": 6,
+        "title": "Important Rules",
+        "text": "Learning English is {1} for our future. It is {2} to practice every day. Sometimes it seems {3}, but don't be {4}. You should be {5} with yourself and keep working hard.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "important",
+                    "impossible",
+                    "interesting"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "necessary",
+                    "noisy",
+                    "natural"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "impossible",
+                    "easy",
+                    "lucky"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "lazy",
+                    "kind",
+                    "loud"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "patient",
+                    "perfect",
+                    "personal"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C7",
+        "day": 31,
+        "title": "Space Mission",
+        "text": "The {1} of outer space is an exciting mission. Researchers use powerful {2} to study the universe. They want to know if there are other {3} on remote planets. Since the {4} from Earth is very far, they need enough {5} to complete the journey.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "exploration",
+                    "experiment",
+                    "explanation"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "telescopes",
+                    "signals",
+                    "systems"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "creatures",
+                    "researchers",
+                    "satellites"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "distance",
+                    "gravity",
+                    "orbit"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "fuel",
+                    "oxygen",
+                    "limit"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C8",
+        "day": 32,
+        "title": "The Power of Art",
+        "text": "Art is a unique way to {1} with others. Whether it's a {2} or a piano {3}, it can show our feelings. Many people {4} classic {5} because it has deep meanings. We should try to protect our cultural heritage.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "communicate",
+                    "appreciate",
+                    "maintain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "painting",
+                    "novel",
+                    "style"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "performance",
+                    "instrument",
+                    "style"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "appreciate",
+                    "meaningful",
+                    "standard"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "literature",
+                    "architecture",
+                    "custom"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C9",
+        "day": 33,
+        "title": "Community Betterment",
+        "text": "Every {1} should have a sense of {2}. We can join local {3} to help those in poverty. By providing {4} to the elderly, we show our {5} for them. Small efforts make a big difference in society.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "citizen",
+                    "volunteer",
+                    "manager"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "responsibility",
+                    "protection",
+                    "poverty"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "charities",
+                    "companies",
+                    "factories"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "service",
+                    "donation",
+                    "support"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "respect",
+                    "courage",
+                    "success"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C10",
+        "day": 34,
+        "title": "A Future Architect",
+        "text": "Choosing a right {1} requires careful thought. You should know your {2} and skills. To prepare for an {3}, you need some work {4}. If you become an {5} in your field, you will have a successful life.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "career",
+                    "business",
+                    "company"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "ambition",
+                    "pressure",
+                    "salary"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "interview",
+                    "employer",
+                    "employee"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "experience",
+                    "knowledge",
+                    "result"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "expert",
+                    "manager",
+                    "manager"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C11",
+        "day": 35,
+        "title": "Logical Writing",
+        "text": "In your essay, it is {1} to have a clear {2}. You should provide {3} and clear {4} to support your opinion. An {5} conclusion is also very important for a high-score writing.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "essential",
+                    "valuable",
+                    "excellent"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "perspective",
+                    "result",
+                    "evidence"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "evidence",
+                    "solution",
+                    "conclusion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "reasoning",
+                    "argument",
+                    "conclusion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "excellent",
+                    "significant",
+                    "crucial"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C12",
+        "day": 7,
+        "title": "A Museum Visit",
+        "text": "Last Thursday, our class went to the museum. We saw many {1} animals and historical objects. Our guide {2} how people lived in the {3}. I bought a small {4} as a souvenir. It was a very {5} day for everyone.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "ancient",
+                    "active",
+                    "awful"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "explained",
+                    "failed",
+                    "forgot"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "past",
+                    "future",
+                    "now"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "model",
+                    "match",
+                    "meal"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "educational",
+                    "empty",
+                    "expensive"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C13",
+        "day": 8,
+        "title": "Grandpa's Garden",
+        "text": "My neighbor has a beautiful garden. He grows many kinds of {1} and vegetables. In spring, the {2} smell very sweet. He taught me how to {3} seeds in the soil. Gardening requires a lot of {4} and care. I feel a sense of {5} when I see my plants grow.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "flowers",
+                    "furniture",
+                    "factories"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "tulips",
+                    "tomatoes",
+                    "telescopes"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "plant",
+                    "paint",
+                    "point"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "patience",
+                    "pressure",
+                    "poverty"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "achievement",
+                    "accident",
+                    "agreement"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C14",
+        "day": 9,
+        "title": "Online Learning",
+        "text": "During the holiday, I tried online learning. At first, I found it {1} because there were too many {2} at home. My cat kept jumping on my {3}. But I soon developed good study {4}. The best part is that I can study at my own {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "difficult",
+                    "delicious",
+                    "dangerous"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "distractions",
+                    "directions",
+                    "discussions"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "desk",
+                    "dish",
+                    "dress"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "habits",
+                    "hobbys",
+                    "hearts"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "pace",
+                    "piece",
+                    "price"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C15",
+        "day": 10,
+        "title": "A Meaningful Gift",
+        "text": "Last Saturday was my birthday. My parents took me to a {1} center. We helped {2} up a park and {3} trees. At first, I was a bit {4}. But in the end, I realized that helping others is the best {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "volunteer",
+                    "vacation",
+                    "violin"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "clean",
+                    "call",
+                    "catch"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "plant",
+                    "paint",
+                    "point"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "disappointed",
+                    "delicious",
+                    "different"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "gift",
+                    "goal",
+                    "grain"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C16",
+        "day": 11,
+        "title": "At the Zoo",
+        "text": "The city zoo is a {1} place for children. We saw monkeys {2} from tree to tree. The pandas were {3} bamboo lazily. In the afternoon, we watched a {4} show. I bought a panda {5} as a souvenir.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "wonderful",
+                    "waste",
+                    "wooden"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "jumping",
+                    "jogging",
+                    "joining"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "eating",
+                    "earning",
+                    "emptying"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "dolphin",
+                    "distance",
+                    "danger"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "toy",
+                    "theory",
+                    "tool"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C17",
+        "day": 12,
+        "title": "New Friend Tom",
+        "text": "On my first day at school, I was very {1}. A boy named Tom noticed me {2} a book. He said he {3} astronomy too. We became friends and played {4} together. I am happy to have a friend with similar {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "lonely",
+                    "loud",
+                    "lucky"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "reading",
+                    "repairing",
+                    "refusing"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "loves",
+                    "leads",
+                    "limits"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "sports",
+                    "space",
+                    "systems"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "interests",
+                    "instruments",
+                    "interviews"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C18",
+        "day": 13,
+        "title": "Riding a Bike",
+        "text": "When I was young, my dad taught me how to {1} a bike. He bought me a red {2}. At first, I was {3} of falling off. He held the back of the {4}. After a few days, I finally found my {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "ride",
+                    "run",
+                    "raise"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "bicycle",
+                    "blanket",
+                    "business"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "scared",
+                    "strict",
+                    "smart"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "seat",
+                    "space",
+                    "sky"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "balance",
+                    "benefit",
+                    "base"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C19",
+        "day": 14,
+        "title": "Countryside Picnic",
+        "text": "Spring is a perfect {1} for a picnic. My mom prepared {2} and fruit. We found a beautiful {3} area near a river. My dad and I tried to fly a {4}. The food tasted much better in {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "season",
+                    "signal",
+                    "service"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "sandwiches",
+                    "sculptures",
+                    "satellites"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "grassy",
+                    "gravity",
+                    "greedy"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "kite",
+                    "king",
+                    "knife"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "nature",
+                    "nuclear",
+                    "novel"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C20",
+        "day": 15,
+        "title": "The Little Prince",
+        "text": "My favorite book is 'The Little Prince'. It's about a prince who {1} around the universe. He meets a fox who tells him that essential things are {2} to the eye. I read it once a {3}. Every time I discover a new {4}. The book is full of deep {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "travels",
+                    "trades",
+                    "treats"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "invisible",
+                    "incredible",
+                    "important"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "year",
+                    "yard",
+                    "young"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "meaning",
+                    "mission",
+                    "manager"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "philosophy",
+                    "poverty",
+                    "pressure"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C21",
+        "day": 16,
+        "title": "Toothache Day",
+        "text": "Yesterday I had a sharp pain in my {1}. My mother made an {2} with the dentist. The dentist was very {3} and gentle. He found a small {4} and repaired it. He reminded me to {5} my teeth twice a day.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "tooth",
+                    "throat",
+                    "theory"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "appointment",
+                    "achievement",
+                    "agreement"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "friendly",
+                    "foreign",
+                    "famous"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "cavity",
+                    "creature",
+                    "community"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "brush",
+                    "break",
+                    "build"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C22",
+        "day": 17,
+        "title": "School Science Club",
+        "text": "We decided to {1} a new science club. I had to {2} many things to prepare for it. First, I had to {3} that we had enough space. I also had to {4} to my teacher's advice. I {5} my new role in the club.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "set up",
+                    "shut down",
+                    "show up"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "look through",
+                    "look forward to",
+                    "look after"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "make sure",
+                    "make a decision",
+                    "make friends"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "pay attention",
+                    "point at",
+                    "put off"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "look forward to",
+                    "look after",
+                    "look through"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C23",
+        "day": 18,
+        "title": "After School Life",
+        "text": "After school, I usually {1} my younger brother. He {2} my father in personality. Sometimes he doesn't {3} on time for dinner. My mother always {4} us very well. Today, she {5} of my brother's progress in math.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "take care of",
+                    "take off",
+                    "take part in"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "takes after",
+                    "takes off",
+                    "takes place"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "show up",
+                    "shut down",
+                    "set up"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "looks after",
+                    "looks for",
+                    "looks forward to"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "speaks highly",
+                    "speaks loudly",
+                    "speaks out"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C24",
+        "day": 19,
+        "title": "A Busy Week",
+        "text": "{1}, I have a very busy life. {2} I don't have much free time, I still enjoy my hobbies. I like all kinds of sports, {3} basketball. I often go to the park {4} it is close to my house. {5}, I can relax there after a long day.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "Actually",
+                    "Finally",
+                    "Maybe"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "Although",
+                    "Because",
+                    "Besides"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "especially",
+                    "exactly",
+                    "equally"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "because",
+                    "but",
+                    "besides"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "Finally",
+                    "Immediately",
+                    "Instead"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C25",
+        "day": 20,
+        "title": "My Study Habits",
+        "text": "I have {1} finished my homework for tonight. {2}, I started to learn a second language. I have been practicing {3} last week. I {4} go to the library once a week. {5}, I feel tired, but I'm proud of myself.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "already",
+                    "ago",
+                    "always"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "Recently",
+                    "Really",
+                    "Rightly"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "since",
+                    "soon",
+                    "still"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "usually",
+                    "suddenly",
+                    "then"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "Sometimes",
+                    "Soon",
+                    "Still"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C26",
+        "day": 21,
+        "title": "Reviewing English",
+        "text": "Studying English requires {1} effort. You should {2} the words you have learned. If you {3} to remember them, don't worry. Just {4} your goal and keep trying. {5}, you will succeed.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "continuous",
+                    "careful",
+                    "common"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "review",
+                    "repeat",
+                    "receive"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "fail",
+                    "fill",
+                    "fall"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "think about",
+                    "talk about",
+                    "throw away"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "Soon",
+                    "Suddenly",
+                    "Slowly"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C27",
+        "day": 22,
+        "title": "A Sick Day",
+        "text": "I had a terrible {1} yesterday. I also had a high {2} and felt very weak. My mother told me to take a good {3} in bed. The doctor gave me some medicine for my sore {4}. I hope I can recover {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "stomachache",
+                    "stomach",
+                    "standard"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "fever",
+                    "feeling",
+                    "fair"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "rest",
+                    "risk",
+                    "report"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "throat",
+                    "thought",
+                    "theory"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "soon",
+                    "since",
+                    "still"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C28",
+        "day": 23,
+        "title": "Community Helper",
+        "text": "Being a {1} is a great way to help others. I spent {2} hours cleaning the park last Sunday. I felt a strong sense of {3} when I saw the clean environment. Helping others brings me great {4}. It was like a wonderful {5} for me.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "volunteer",
+                    "vocabulary",
+                    "value"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "several",
+                    "silent",
+                    "special"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "satisfaction",
+                    "situation",
+                    "suggestion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "joy",
+                    "journey",
+                    "just"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "journey",
+                    "joint",
+                    "junior"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C29",
+        "day": 24,
+        "title": "A Rainy Night",
+        "text": "A heavy {1} hit our area last night. My mother {2} me that we were safe inside our {3} house. I saw a {4} trick in my dream. Today, I saw a {5} tree in the yard. Nature is truly powerful.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "storm",
+                    "stone",
+                    "smile"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "reminded",
+                    "reported",
+                    "refused"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "wooden",
+                    "weak",
+                    "window"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "magic",
+                    "match",
+                    "marry"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "fallen",
+                    "fast",
+                    "fair"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C30",
+        "day": 25,
+        "title": "Wonders of the World",
+        "text": "China has a large {1} and many {2} cities. Every year, millions of {3} visit the Great Wall. We should protect {4} and avoid making {5} mistakes. The world is full of wonders.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "population",
+                    "protection",
+                    "progress"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "ancient",
+                    "awake",
+                    "amusement"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "tourists",
+                    "towers",
+                    "targets"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "nature",
+                    "nuclear",
+                    "novel"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "huge",
+                    "hard",
+                    "heavy"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C31",
+        "day": 27,
+        "title": "Learning Ability",
+        "text": "Everyone has the {1} to learn something new. To {2} your goal, you must pay {3} to every detail. Reading can increase your {4}. I recently {5} a new method to learn English.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "ability",
+                    "attention",
+                    "aloud"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "achieve",
+                    "aloud",
+                    "already"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "attention",
+                    "action",
+                    "amount"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "knowledge",
+                    "keeper",
+                    "knee"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "discovered",
+                    "developed",
+                    "dropped"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C32",
+        "day": 28,
+        "title": "Trust and Respect",
+        "text": "It is important to {1} your best friends. If they make a mistake, you should {2} them. A {3} person is often more popular. We should always show {4} to our teachers and be {5} when talking to others.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "trust",
+                    "throw",
+                    "tour"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "forgive",
+                    "follow",
+                    "forget"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "humorous",
+                    "honest",
+                    "heavy"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "respect",
+                    "regret",
+                    "refuse"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "polite",
+                    "proud",
+                    "patient"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C33",
+        "day": 29,
+        "title": "Clean Energy",
+        "text": "Environmental {1} is a serious problem. We must {2} paper and plastic to protect the Earth. Clean {3} like solar power is being developed. New {4} helps us live a better life. We should not {5} water.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "pollution",
+                    "protection",
+                    "population"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "recycle",
+                    "research",
+                    "receive"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "energy",
+                    "effort",
+                    "excited"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "technology",
+                    "tomorrow",
+                    "tonight"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "waste",
+                    "wall",
+                    "wood"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C34",
+        "day": 30,
+        "title": "Facing Challenges",
+        "text": "Life is full of {1}, but we can {2} them with effort. If you want to {3} in the future, you must make a {4} now. Your {5} is to become a better person every day.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "challenges",
+                    "choices",
+                    "changes"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "overcome",
+                    "often",
+                    "off"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "succeed",
+                    "service",
+                    "support"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "decision",
+                    "distance",
+                    "deep"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "purpose",
+                    "praise",
+                    "poverty"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C36",
+        "day": 36,
+        "title": "Digital Life",
+        "text": "Nowadays, technology {1} every part of our lives. We use smartphones to {2} with friends and find {3} easily. Although it's very {4}, we shouldn't spend too much time online. Real communication is more {5} than virtual messages.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "affects",
+                    "appears",
+                    "agrees"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "communicate",
+                    "consider",
+                    "control"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "information",
+                    "instruction",
+                    "instrument"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "convenient",
+                    "common",
+                    "certain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "important",
+                    "impossible",
+                    "interesting"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C37",
+        "day": 37,
+        "title": "Protecting Nature",
+        "text": "Our environment is in {1} because of pollution. We must take {2} to protect the Earth. For example, we should {3} water and reduce waste. Everyone should be a {4} to help the community. Small efforts will {5} to a better future.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "danger",
+                    "doubt",
+                    "distance"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "action",
+                    "advice",
+                    "attention"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "save",
+                    "spend",
+                    "share"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "volunteer",
+                    "visitor",
+                    "villager"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "lead",
+                    "leave",
+                    "look"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C38",
+        "day": 38,
+        "title": "A Great Inventor",
+        "text": "Edison was a famous {1}. He showed that {2} is very important for success. Even if you {3} many times, you shouldn't {4}. His hard work has {5} the whole world.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "inventor",
+                    "instrument",
+                    "information"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "persistence",
+                    "pressure",
+                    "poverty"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "fail",
+                    "follow",
+                    "forget"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "give up",
+                    "get up",
+                    "grow up"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "changed",
+                    "closed",
+                    "called"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C39",
+        "day": 39,
+        "title": "Career Choice",
+        "text": "It is {1} to choose a suitable career. You should {2} your interests and skills. If you want to be a doctor, you need to study {3} hard. Don't be afraid of the {4} path. Success {5} on your determination.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "essential",
+                    "excellent",
+                    "empty"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "consider",
+                    "control",
+                    "call"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "science",
+                    "subject",
+                    "service"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "difficult",
+                    "different",
+                    "dangerous"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "depends",
+                    "decides",
+                    "discusses"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C40",
+        "day": 40,
+        "title": "True Friendship",
+        "text": "A good friend will {1} you when you're in trouble. You should share your {2} with them. True friendship is {3} on trust and support. It is more {4} than money. We should {5} our friends carefully.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "help",
+                    "hurt",
+                    "hire"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "feelings",
+                    "failures",
+                    "forces"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "based",
+                    "built",
+                    "broken"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "valuable",
+                    "various",
+                    "visible"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "choose",
+                    "catch",
+                    "change"
+                ],
+                "answer": 0
+            }
+        ]
+    }
+]

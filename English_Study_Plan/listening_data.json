@@ -1,0 +1,1522 @@
+[
+    {
+        "id": "L1",
+        "day": 1,
+        "title": "My School Day",
+        "text": "Hello, my name is Li Hua. I am a student at Beijing No. 4 Middle School. My parents don't allow me to play games on weekdays. I believe that studying hard is important. I hope to become a doctor in the future. Every morning, I carry my bag and catch the bus to school. My school day usually starts at seven thirty. We have four classes in the morning. I enjoy learning English because the teacher always encourages us to speak. After school, I often play basketball with my friends. I can't afford to waste any time, so I finish my homework before dinner.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What does Li Hua want to become?",
+                "options": [
+                    "A teacher",
+                    "A doctor",
+                    "A basketball player"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "When does his school day start?",
+                "options": [
+                    "7:00",
+                    "7:30",
+                    "8:00"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does he do after school?",
+                "options": [
+                    "Plays games",
+                    "Plays basketball",
+                    "Goes home immediately"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L2",
+        "day": 2,
+        "title": "Choosing a Hobby",
+        "text": "Last weekend, my friend Wang Lei and I decided to try something new. We considered several choices. Wang Lei wanted to join a chess club, but I preferred painting. We discussed it for a long time and couldn't agree at first. Finally, we managed to find a solution. We would try both activities and then choose the one we liked better. On Saturday, we joined the chess club. I didn't expect to enjoy it, but it was really fun! On Sunday, we tried painting together. Wang Lei was surprised because he created a beautiful picture. In the end, we both decided to keep doing both hobbies. Sometimes you don't need to choose just one thing.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did Wang Lei want to try first?",
+                "options": [
+                    "Painting",
+                    "Chess",
+                    "Basketball"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What was their solution?",
+                "options": [
+                    "Only do chess",
+                    "Try both activities",
+                    "Give up both"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What happened in the end?",
+                "options": [
+                    "They chose chess only",
+                    "They chose painting only",
+                    "They kept doing both"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L3",
+        "day": 3,
+        "title": "A Rainy Day",
+        "text": "It rained heavily yesterday. The weather report said it would last the whole day. I felt bored at home, so I started reading a book about different cultures around the world. I learned that in some countries, people celebrate the rain because it helps the crops grow. The book mentioned that the natural environment is very important for everyone. I also discovered that many common things we use daily come from nature. For example, the cotton in our clothes comes from plants. Reading made me realize how wonderful the world is. Even a rainy day can be a great chance to learn something new.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Why did the speaker start reading?",
+                "options": [
+                    "It was homework",
+                    "He felt bored",
+                    "His friend told him to"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "Why do some people celebrate rain?",
+                "options": [
+                    "They like swimming",
+                    "It helps crops grow",
+                    "They can stay home"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is the main message of the passage?",
+                "options": [
+                    "Rain is bad",
+                    "Rainy days are good for learning",
+                    "Books are expensive"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L4",
+        "day": 4,
+        "title": "The Science Fair",
+        "text": "Our school held a science fair last Friday. Every student had to prepare a project. My partner Zhang Wei and I built a small robot that could follow a straight line on the floor. We were both nervous and excited. The whole school gathered in the gym to watch each presentation. When it was our turn, I explained how the robot worked while Zhang Wei operated it. The robot moved smoothly across the floor. The audience clapped loudly. Although we didn't win first prize, we received a special award for creativity. The experience taught me that working as a team is more valuable than winning alone.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did the speaker and Zhang Wei build?",
+                "options": [
+                    "A model plane",
+                    "A small robot",
+                    "A computer program"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What award did they receive?",
+                "options": [
+                    "First prize",
+                    "A special award for creativity",
+                    "No award"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What lesson did the speaker learn?",
+                "options": [
+                    "Winning is everything",
+                    "Teamwork is valuable",
+                    "Science is boring"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L5",
+        "day": 5,
+        "title": "Visiting Grandma",
+        "text": "During the Spring Festival holiday, my family traveled to my grandmother's village. The village is in the mountains, about three hours from Beijing by car. When we arrived, Grandma was already cooking delicious food for us. She made dumplings, fish, and my favorite dish: sweet and sour pork. After lunch, my cousin and I explored the area around the village. We walked through a beautiful forest and found a small stream. The water was so clear that we could see the stones at the bottom. My cousin told me that the village had changed a lot in recent years. New roads were built, and many families now have internet access. But the peaceful atmosphere and fresh air remained the same. I felt so relaxed there.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How far is the village from Beijing?",
+                "options": [
+                    "One hour",
+                    "Two hours",
+                    "Three hours"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 2,
+                "question": "What did they find in the forest?",
+                "options": [
+                    "A small stream",
+                    "A wild animal",
+                    "An old house"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "What has NOT changed in the village?",
+                "options": [
+                    "The roads",
+                    "The internet",
+                    "The peaceful atmosphere"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L6",
+        "day": 6,
+        "title": "An English Speech Contest",
+        "text": "Yesterday, I took part in an English speech contest at school. I had been preparing for two weeks. My topic was about protecting the environment. I practiced my speech every night before going to bed. When I stood on the stage, my heart was beating fast. I looked at the audience and took a deep breath. Then I began speaking clearly and confidently. I talked about how pollution affects our health and what we can do to reduce waste. I suggested that everyone should bring their own bags when shopping and save water at home. When I finished, the audience gave me warm applause. My teacher said she was proud of me, whether I won or not. I felt that the experience itself was already a great reward.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What was the speech about?",
+                "options": [
+                    "Sports",
+                    "Protecting the environment",
+                    "Travel"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "How long did the speaker prepare?",
+                "options": [
+                    "One week",
+                    "Two weeks",
+                    "One month"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How did the speaker feel about the experience?",
+                "options": [
+                    "It was a waste of time",
+                    "Winning was the only goal",
+                    "The experience itself was rewarding"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L7",
+        "day": 7,
+        "title": "The School Trip to the Museum",
+        "text": "Last Thursday, our class went on a trip to the Beijing Natural History Museum. We traveled there by school bus. The museum was huge and had many interesting exhibits. First, we visited the dinosaur hall. There was a complete skeleton of a T-Rex that was over ten meters tall. Everyone was amazed. Then we went to the ocean hall, where we saw models of whales and sharks. Our guide explained how these animals live deep in the sea. After that, we watched a short film about space in the theater. The film showed beautiful images of planets and stars. Before leaving, we visited the gift shop. I bought a small model of the Earth for my younger sister. The whole trip was both educational and exciting. I hope we can visit more museums in the future.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How did they get to the museum?",
+                "options": [
+                    "By subway",
+                    "By school bus",
+                    "On foot"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What was in the dinosaur hall?",
+                "options": [
+                    "Live dinosaurs",
+                    "A T-Rex skeleton",
+                    "Dinosaur eggs"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker buy?",
+                "options": [
+                    "A book",
+                    "A model of the Earth",
+                    "A toy shark"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L8",
+        "day": 8,
+        "title": "My Neighbor's Garden",
+        "text": "My neighbor, Grandpa Chen, has the most beautiful garden on our street. He spends hours every day taking care of his flowers and vegetables. In spring, colorful tulips and roses bloom everywhere. In summer, his tomatoes and cucumbers grow big and healthy. Grandpa Chen often shares his vegetables with our family. Last month, he taught me how to plant sunflower seeds. He said the most important things are sunlight, water, and patience. I watered my sunflowers every morning. After three weeks, tiny green shoots appeared from the soil. I was so excited that I took photos to show my classmates. Grandpa Chen smiled and said that gardening teaches us to be patient and to respect nature. I think he is right. Growing something with your own hands gives you a special feeling of achievement.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What does Grandpa Chen grow in summer?",
+                "options": [
+                    "Tulips and roses",
+                    "Tomatoes and cucumbers",
+                    "Sunflowers only"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did Grandpa Chen teach the speaker?",
+                "options": [
+                    "How to cook vegetables",
+                    "How to plant sunflower seeds",
+                    "How to draw flowers"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What lesson does gardening teach?",
+                "options": [
+                    "How to make money",
+                    "Patience and respect for nature",
+                    "How to take photos"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L9",
+        "day": 9,
+        "title": "Online Learning Experience",
+        "text": "During the winter holiday, I tried online learning for the first time. My parents helped me set up the computer and download the learning app. The teacher gave lessons through video calls. At first, I found it difficult to focus because there were many distractions at home. My cat kept jumping on my desk, and I could hear my little brother playing in the next room. However, I gradually developed good study habits. I created a quiet study space in my room and made a daily schedule. I found that online learning has some advantages. I could replay the videos if I didn't understand something, and I could study at my own pace. But I also missed seeing my classmates and talking to them face to face. Overall, I think online learning is a useful tool, but it cannot completely replace going to school.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What made it hard to focus at first?",
+                "options": [
+                    "The internet was slow",
+                    "There were distractions at home",
+                    "The teacher was boring"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What advantage of online learning is mentioned?",
+                "options": [
+                    "No homework",
+                    "Can replay videos",
+                    "No need to study"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker think about online learning?",
+                "options": [
+                    "It's better than school",
+                    "It's useful but can't replace school",
+                    "It's a waste of time"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L10",
+        "day": 10,
+        "title": "A Special Birthday Gift",
+        "text": "Last Saturday was my fourteenth birthday. I expected my parents to buy me a new phone, but they had a different plan. On the morning of my birthday, my dad woke me up early and said we were going somewhere special. We drove for about an hour to a volunteer center in the countryside. There, we helped clean up a park and plant trees with other volunteers. At first, I was a little disappointed because I wanted to stay home and celebrate. But as I worked with the other volunteers, I started to enjoy myself. We planted twenty trees in total. An old man at the center told me that these trees would grow tall and provide shade for people in the future. After the work was done, my parents gave me a photo album with pictures from the day. My mom said the best gift is the memory of doing something meaningful. Now I agree with her. That birthday taught me that happiness comes from helping others, not just from receiving gifts.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did the speaker expect as a gift?",
+                "options": [
+                    "A new phone",
+                    "A bicycle",
+                    "A book"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "question": "How many trees did they plant?",
+                "options": [
+                    "Ten",
+                    "Fifteen",
+                    "Twenty"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker learn from this birthday?",
+                "options": [
+                    "Gifts are important",
+                    "Happiness comes from helping others",
+                    "Volunteering is boring"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L11",
+        "day": 11,
+        "title": "A Trip to the Zoo",
+        "text": "Last Sunday, my parents took me to the city zoo. We arrived early in the morning when there were not many people. First, we visited the monkey enclosure. The monkeys were very active, jumping from tree to tree. One monkey even reached out to ask for food, but a sign said we shouldn't feed them. Next, we went to see the pandas. They were sleeping lazily under the bamboo trees. In the afternoon, we watched a dolphin show. The dolphins were so smart that they could catch balls and jump high out of the water. I took many photos of them. Before we left, I bought a panda toy as a souvenir. It was an unforgettable day.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did the monkey do?",
+                "options": [
+                    "Slept under a tree",
+                    "Asked for food",
+                    "Jumped into the water"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did they see in the afternoon?",
+                "options": [
+                    "A panda show",
+                    "A dolphin show",
+                    "A monkey show"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What souvenir did the speaker buy?",
+                "options": [
+                    "A dolphin toy",
+                    "A monkey picture",
+                    "A panda toy"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L12",
+        "day": 12,
+        "title": "Making a New Friend",
+        "text": "On my first day at the new school, I felt very lonely. I didn't know anyone and sat quietly in the classroom. During the lunch break, a boy named Tom came over to my desk. He noticed I was reading a book about space and said he loves astronomy too. We started talking and found out we both like playing table tennis. Tom introduced me to his friends, and they invited me to play sports with them after school. I happily agreed. We had a great time playing together. Thanks to Tom, I quickly made new friends and started to enjoy my new school life. I realized that sharing common interests is the best way to make friends.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How did the speaker feel on the first day?",
+                "options": [
+                    "Lonely",
+                    "Excited",
+                    "Angry"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "question": "What did the speaker and Tom both like?",
+                "options": [
+                    "Basketball",
+                    "Astronomy and table tennis",
+                    "Reading history books"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker learn about making friends?",
+                "options": [
+                    "It's about having money",
+                    "Sharing common interests is the best way",
+                    "You should wait for others to talk"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L13",
+        "day": 13,
+        "title": "Learning to Ride a Bike",
+        "text": "When I was seven years old, my father decided to teach me how to ride a bike. He bought me a red bicycle with training wheels. At first, I was scared of falling off. My father held the back of the seat and ran along with me. He kept encouraging me, saying 'keep practicing'. I pedaled hard and tried to keep my balance. After a few days, without telling me, he let go of the seat. I didn't realize it until I turned my head and saw him smiling at me from far away. I felt a great sense of achievement. Learning to ride a bike taught me that we shouldn't give up when we face difficulties.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What color was the bicycle?",
+                "options": [
+                    "Blue",
+                    "Red",
+                    "Green"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the father do to help?",
+                "options": [
+                    "He rode another bike",
+                    "He held the back of the seat",
+                    "He just watched"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker feel when realizing he was riding alone?",
+                "options": [
+                    "Very angry",
+                    "A sense of achievement",
+                    "Extremely frightened"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L14",
+        "day": 14,
+        "title": "A Family Picnic",
+        "text": "Spring is the best season for a picnic. Last Saturday, our family drove to the countryside. My mother prepared sandwiches, fruit, and some cold drinks. My father brought a large blanket and a kite. When we found a beautiful grassy area near a river, we laid out the blanket and had our lunch. The food tasted much better outdoors. After eating, my father and I tried to fly the kite. The wind was strong enough to lift the kite high into the blue sky. We spent the whole afternoon laughing and talking. The pleasant weather and beautiful nature made our family trip perfect. It is wonderful to spend time with family away from the busy city.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did they bring for the picnic?",
+                "options": [
+                    "Hot dogs and coffee",
+                    "Sandwiches, fruit, and drinks",
+                    "Pizza and cola"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did they do after lunch?",
+                "options": [
+                    "Went swimming",
+                    "Flew a kite",
+                    "Played basketball"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "Why was the trip perfect according to the speaker?",
+                "options": [
+                    "Because of the weather, nature, and family time",
+                    "Because the food was expensive",
+                    "Because they caught a big fish"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L15",
+        "day": 15,
+        "title": "My Favorite Book",
+        "text": "My favorite book is 'The Little Prince' by Antoine de Saint-Exupéry. I first read it when I was ten years old. The story is about a little prince who travels from his small planet to different parts of the universe. Along the way, he meets a king, a businessman, and a fox. Each character teaches him something about life and adults' strange behavior. The most important lesson he learns is from the fox, who tells him that it is only with the heart that one can see rightly; what is essential is invisible to the eye. This quote really touched me. The book is simple but full of deep philosophy. I read it once a year, and every time I discover a new meaning.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Who does the little prince learn the most important lesson from?",
+                "options": [
+                    "A king",
+                    "A businessman",
+                    "A fox"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 2,
+                "question": "What is the key message from the quote?",
+                "options": [
+                    "You should use your eyes more",
+                    "Essential things are invisible to the eye",
+                    "Adults know everything"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How often does the speaker read the book?",
+                "options": [
+                    "Once a month",
+                    "Once a year",
+                    "Never again"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L16",
+        "day": 16,
+        "title": "A Visit to the Dentist",
+        "text": "Yesterday afternoon, I noticed a sharp pain in my tooth. My mother immediately made an appointment with the dentist. I have always been afraid of going to the dentist. When we arrived at the clinic, I sat in the waiting area, feeling nervous. Soon, the nurse called my name. The dentist was very friendly and gentle. He examined my teeth and told me I had a small cavity. He explained every step of the process to make me feel relaxed. It didn't hurt as much as I expected. Before leaving, the dentist reminded me to brush my teeth twice a day and eat fewer sweets. I promised to take better care of my teeth from now on.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Why did the speaker go to the dentist?",
+                "options": [
+                    "For a regular check-up",
+                    "Because of a toothache",
+                    "To buy a toothbrush"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the dentist find?",
+                "options": [
+                    "A perfect set of teeth",
+                    "A small cavity",
+                    "A missing tooth"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What advice did the dentist give?",
+                "options": [
+                    "Brush teeth twice a day",
+                    "Eat more sweets",
+                    "Stop drinking water"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L17",
+        "day": 17,
+        "title": "The School Sports Field",
+        "text": "Our school has recently built a new sports field. It is much larger and more modern than the old one. There is a green football pitch in the center, surrounded by a red running track. After class, many students rushed to the field to do exercises. Some boys were playing football, while others were jogging along the track. My classmates and I formed a relay team to practice for the upcoming school sports meet. Our P.E. teacher stood nearby, giving us advice on how to pass the baton faster. Exercising not only makes our bodies strong but also helps us reduce the pressure of studying. Everyone loves the new sports field.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the new sports field like?",
+                "options": [
+                    "Small and old",
+                    "Large and modern",
+                    "It has no running track"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What was the speaker practicing for?",
+                "options": [
+                    "A football match",
+                    "A basketball game",
+                    "A relay race"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 3,
+                "question": "According to the speaker, what is a benefit of exercising?",
+                "options": [
+                    "Winning more money",
+                    "Reducing study pressure",
+                    "Getting better grades"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L18",
+        "day": 18,
+        "title": "Helping at Home",
+        "text": "Because both of my parents work very hard, I try to help them with housework on weekends. Last Sunday, I decided to give the living room a thorough cleaning. I started by dusting the furniture and the bookshelves. Then, I used the vacuum cleaner to clean the carpet. It took me about an hour, and I was sweating a little. After that, I completely reorganized my desk. When my parents came back from the supermarket, they were astonished by how tidy the house looked. My mother praised me for being so helpful. Although doing chores was tiring, I felt happy watching them smile. Being a part of the family means sharing responsibilities.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Why does the speaker help with housework?",
+                "options": [
+                    "His parents pay him",
+                    "Because his parents work hard",
+                    "His teacher told him to"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did he clean first?",
+                "options": [
+                    "The carpet",
+                    "The furniture and bookshelves",
+                    "His own clothes"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker conclude about family?",
+                "options": [
+                    "It means sharing responsibilities",
+                    "It means having fun together",
+                    "It means giving each other gifts"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L19",
+        "day": 19,
+        "title": "A Day at the Beach",
+        "text": "My summer vacation started with a wonderful trip to the beach. My family and I drove for three hours to reach the seacoast. The weather was perfect: sunny and breezy. As soon as we arrived, I ran toward the ocean. The water was cool and refreshing. My brother and I built a huge sandcastle on the shore. We used shells and small stones to decorate it. Later in the afternoon, we went swimming. My father taught me how to float on my back. We stayed at the beach until evening to watch the sunset. The sky turned orange and pink, making the ocean look magical. We took many beautiful pictures. We collected our things and headed home with joyful hearts.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How long did they drive to the beach?",
+                "options": [
+                    "One hour",
+                    "Two hours",
+                    "Three hours"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 2,
+                "question": "What did the speaker and his brother build?",
+                "options": [
+                    "A boat",
+                    "A sandcastle",
+                    "A tent"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did they do in the evening?",
+                "options": [
+                    "Watched the sunrise",
+                    "Watched the sunset",
+                    "Went fishing"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L20",
+        "day": 20,
+        "title": "The Science Museum",
+        "text": "Our class visited the city science museum yesterday. We were all very excited because we had heard about its interactive exhibits. When we walked in, we saw a giant model of the solar system. The guide told us many facts about the planets. My favorite part of the trip was a special lab room where we could try out interesting physics experiments. I learned how sound waves travel through different materials. There was also a robot that could answer our questions and play music. At the end of the tour, we watched a 3D movie about space exploration. I was fascinated by the advanced technology shown in the film. The science museum totally sparked my interest in learning more about science.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did they see when they walked in?",
+                "options": [
+                    "A 3D movie",
+                    "A giant model of the solar system",
+                    "A dinosaur bone"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What was the speaker's favorite part?",
+                "options": [
+                    "A 3D movie",
+                    "A special lab room for experiments",
+                    "The robot playing music"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How did the visit to the science museum affect the speaker?",
+                "options": [
+                    "Sparked interest in science",
+                    "Made him want to be an artist",
+                    "He felt bored"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L21",
+        "day": 21,
+        "title": "My Dream Job",
+        "text": "When people ask me what I want to be in the future, my answer is always the same: an architect. I have loved drawing and building models since I was a little child. Designing houses allows me to use my imagination to create beautiful and useful spaces for people. I know that becoming a successful architect isn't easy. It requires a lot of hard work, especially studying math and art. To prepare for my dream job, I often read magazines about modern buildings and practice my drawing skills during weekends. I also keep a notebook to draw any new ideas that come to my mind. I hope that one day I can design a library for my hometown. It is my firm belief that with continuous effort, I can make my dream come true.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the speaker's dream job?",
+                "options": [
+                    "A teacher",
+                    "An architect",
+                    "A painter"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What subjects does the speaker need to study hard?",
+                "options": [
+                    "History and literature",
+                    "Math and art",
+                    "Science and music"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker hope to design one day?",
+                "options": [
+                    "A library for his hometown",
+                    "A hospital",
+                    "A big shopping mall"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L22",
+        "day": 22,
+        "title": "A Healthy Lifestyle",
+        "text": "Last week, my friend Li Ming fell ill and had to stay in bed. He had a high fever and a sore throat. The doctor advised him to take an X-ray and get plenty of rest. This experience made me realize the importance of a healthy lifestyle. I decided to take more exercise and eat more vegetables. I also made a plan to sleep at least eight hours a night. When Li Ming recovered, he joined me for a walk in the park. We both felt much better and more energetic.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What happened to Li Ming last week?",
+                "options": [
+                    "He went on a trip",
+                    "He fell ill",
+                    "He won a race"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the doctor advise?",
+                "options": [
+                    "Take an X-ray and rest",
+                    "Go to school",
+                    "Eat more sweets"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker decide to do?",
+                "options": [
+                    "Sleep less",
+                    "Exercise and eat vegetables",
+                    "Buy a new phone"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L23",
+        "day": 23,
+        "title": "Volunteering in the Community",
+        "text": "Being a volunteer is a meaningful experience. Last month, I joined a group of several students to help several elderly people in our community. We helped them with their rubbish and cleaned their messy gardens. One old man, the owner of a small house, told us many interesting stories about his life journey. He smiled with great satisfaction when we finished our work. I felt a strong sense of joy in helping others. It taught me that we should treat everyone with fairness and kindness.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did the volunteers do?",
+                "options": [
+                    "Played games",
+                    "Helped elderly people",
+                    "Went to the cinema"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "Who told stories to the volunteers?",
+                "options": [
+                    "A teacher",
+                    "The owner of a house",
+                    "A young boy"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How did the speaker feel after volunteering?",
+                "options": [
+                    "Bored",
+                    "Angry",
+                    "A strong sense of joy"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L24",
+        "day": 24,
+        "title": "A Stormy Night",
+        "text": "A heavy storm hit our area last night. The wind was blowing strongly, and I could hear the rain hitting the window. I felt a little afraid, but my mother reminded me that we were safe inside our wooden house. Suddenly, the lights went out, and the room became dark. I found a match and lit a candle. The light of the candle made the room look magic. I eventually fell asleep while listening to the sound of the rain. This morning, I found a fallen tree in our yard. Nature is truly powerful.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What was the weather like last night?",
+                "options": [
+                    "Sunny",
+                    "A heavy storm",
+                    "Breezy"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the speaker use when the lights went out?",
+                "options": [
+                    "A flashlight",
+                    "A candle",
+                    "A phone"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker find this morning?",
+                "options": [
+                    "A magic stone",
+                    "A robot",
+                    "A fallen tree"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L25",
+        "day": 25,
+        "title": "The Giant Panda Protection",
+        "text": "Pandas are rare wild animals and are considered a national treasure of China. Most wild pandas live in the bamboo forests of Sichuan. Today, the population of pandas is slowly increasing thanks to the government's protection. I recently visited a panda base and saw a keeper feeding them bamboo. I was full of excitement to see these huge but gentle creatures. The invention of new technology helps researchers track and protect pandas more effectively. We must continue to protect nature to ensure a better future for these beautiful animals.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Where do most wild pandas live?",
+                "options": [
+                    "In the desert",
+                    "In bamboo forests",
+                    "On an island"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "Why is the population of pandas increasing?",
+                "options": [
+                    "Because they eat more",
+                    "Because of government protection",
+                    "Because tourists feed them"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What was the keeper doing?",
+                "options": [
+                    "Taking photos",
+                    "Feeding bamboo",
+                    "Cleaning the cage"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L26",
+        "day": 26,
+        "title": "Roots and Affixes",
+        "text": "In our English study, understanding word parts is very useful. For example, adding '-ful' to a word often makes it an adjective, like 'careful' or 'helpful'. The prefix 'un-' can change a word to its opposite, like 'unfair' or 'unhappy'. Also, '-ist' or '-er' suffixes usually refer to people, such as 'tourist' or 'teacher'. By learning these patterns, you can increase your vocabulary much faster. It's like having a magic key to open the door of language.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What does '-ful' usually make a word?",
+                "options": [
+                    "A noun",
+                    "An adjective",
+                    "A verb"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What does the prefix 'un-' do to a word?",
+                "options": [
+                    "Makes it opposite",
+                    "Makes it stronger",
+                    "Makes it plural"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "Why is learning these patterns useful?",
+                "options": [
+                    "It's fun",
+                    "It increases vocabulary faster",
+                    "It helps with math"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L27",
+        "day": 27,
+        "title": "A Great Discovery",
+        "text": "Discovery and creation are essential for human progress. Thousands of years ago, people discovered how to use fire, which changed human history. Later, inventors created machines like the steam engine to improve our work speed. Today, we use modern technology and the internet to connect with people all over the world. My partner and I recently did an experiment in the chemistry lab to learn about how different materials react. Our teacher encouraged us to pay attention to every detail and repeat the process if necessary. Through hard work, we can achieve our goals and increase our knowledge of the world.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is mentioned as a major historical discovery?",
+                "options": [
+                    "How to use fire",
+                    "The telephone",
+                    "Computers"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "question": "What did the speaker and their partner do recently?",
+                "options": [
+                    "Played sports",
+                    "An experiment in the lab",
+                    "Traveled abroad"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the teacher encourage them to do?",
+                "options": [
+                    "Give up early",
+                    "Pay attention to details",
+                    "Talk loudly"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L28",
+        "day": 28,
+        "title": "Respecting Others",
+        "text": "In our daily life, it is important to communicate with others in a polite way. We should always show respect to our teachers and never be rude to strangers. I honestly believe that a humorous person is often more popular because they can make others laugh even in a difficult situation. My parents always encourage me to be confident but humble. When I made a mistake, I felt regret, but my friend forgave me. I admire people who are patient and supportive. By trusting each other, we can build a more harmonious society.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How should we treat strangers?",
+                "options": [
+                    "Be rude",
+                    "Never talk to them",
+                    "Be polite and respectful"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 2,
+                "question": "Why is a humorous person often popular?",
+                "options": [
+                    "They have money",
+                    "They can make others laugh",
+                    "They are strict"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How did the speaker feel after making a mistake?",
+                "options": [
+                    "Regret",
+                    "Joy",
+                    "Proud"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L29",
+        "day": 29,
+        "title": "Protecting the Earth",
+        "text": "Environmental pollution is a serious problem today. Plastic waste is especially harmful to the oceans and creatures. We must start to recycle paper and plastic to protect our environment. Scientists are also researching new ways to use clean energy like solar power. I predict that in the future, more factories will use green technology. Everyone should take responsibility for our planet. Small actions, like using fewer plastic bags, can make a significant difference. Protect nature, protect our future.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is a serious problem mentioned?",
+                "options": [
+                    "Lack of food",
+                    "Environmental pollution",
+                    "Too much work"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What should we recycle?",
+                "options": [
+                    "Food",
+                    "Paper and plastic",
+                    "Old clothes"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker predict?",
+                "options": [
+                    "Factories will close",
+                    "More green technology will be used",
+                    "Energy will be free"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L30",
+        "day": 30,
+        "title": "Facing Challenges",
+        "text": "Life is full of challenges, but we should never be afraid to fail. When you face a difficult choice, think carefully before making a decision. Last semester, I succeeded in passing a very hard math exam. It required a lot of effort and preparation. My P.E. teacher, who influenced me a lot, said that to overcome fear, we must take the first lead. I managed to control my nervousness and stayed focused. The experience taught me that continuous effort is worth more than a quick result. No matter what the purpose is, always try your best.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What should we NOT be afraid of?",
+                "options": [
+                    "Succeeding",
+                    "Failing",
+                    "Learning"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the speaker succeed in last semester?",
+                "options": [
+                    "A math exam",
+                    "A sports meet",
+                    "A music contest"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "Who influenced the speaker a lot?",
+                "options": [
+                    "Math teacher",
+                    "P.E. teacher",
+                    "His parents"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L31",
+        "day": 31,
+        "title": "Space Exploration",
+        "text": "Space exploration is one of the most exciting missions of human beings. For many years, researchers have used powerful telescopes to look at the vast universe. They want to find out if there are other creatures on remote planets. Astronauts go into orbit and live in the space station to do experiments. They need enough oxygen and fuel to stay there. The Earth's gravity makes everything fall, but in space, things float around. I believe that in the future, we will build a base on the moon and discover more secrets of the stars.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What do researchers use to look at the universe?",
+                "options": [
+                    "Cameras",
+                    "Telescopes",
+                    "Microscopes"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "Where do astronauts live to do experiments?",
+                "options": [
+                    "On the moon",
+                    "In the space station",
+                    "In a lab on Earth"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does gravity do on Earth?",
+                "options": [
+                    "Makes things float",
+                    "Makes things fall",
+                    "Has no effect"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L32",
+        "day": 32,
+        "title": "Traditional Festivals",
+        "text": "China is a country with 5,000 years of history and rich cultural heritage. Every festival has its unique charm and customs. During the Spring Festival, families gather together for a meaningful reunion. We appreciate traditional art like paper-cutting and painting. I enjoy watching the dragon dance performance. The music played with traditional instruments is very beautiful. My grandfather likes to read ancient poetry aloud. He says that tradition is a symbol of our identity. By communicating our culture to the world, we can make more people appreciate its beauty.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How long is China's history mentioned?",
+                "options": [
+                    "1,000 years",
+                    "5,000 years",
+                    "2,000 years"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What traditional art is mentioned?",
+                "options": [
+                    "Modern dance",
+                    "Paper-cutting and painting",
+                    "Photography"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the grandfather say tradition is?",
+                "options": [
+                    "A waste of time",
+                    "A symbol of identity",
+                    "Just for old people"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L33",
+        "day": 33,
+        "title": "Civic Responsibility",
+        "text": "Every citizen has a responsibility to contribute to society. We should follow the laws and school rules to ensure safety. Volunteering in the community is a good way to help those in poverty. By providing service to the elderly or donating money to a local charity, we can show our respect and kindness. Hard work and patience are necessary for any success. Let's make a great effort and build a better future together. Each contribution, no matter how small, is valuable.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What should every citizen do?",
+                "options": [
+                    "Ignore the law",
+                    "Follow the laws and rules",
+                    "Stay at home"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "How can we help people in poverty?",
+                "options": [
+                    "By volunteering and donating",
+                    "By taking photos",
+                    "By sleeping more"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "What is necessary for success according to the text?",
+                "options": [
+                    "Loud voice",
+                    "Hard work and patience",
+                    "Luck"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L34",
+        "day": 34,
+        "title": "Career Planning",
+        "text": "Choosing a career is an important decision in life. You should think about your ambition and set clear goals. To prepare for an interview, you need to show your skills and work experience. Being an expert in a certain profession requires a lot of knowledge and continuous study. In the future, I want to work for a big company as a manager. I know there will be a lot of pressure and stress, but I am ready to face the challenge. I believe that results come from hard work and the right choices.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What should you do when choosing a career?",
+                "options": [
+                    "Don't think about it",
+                    "Set clear goals",
+                    "Only think about money"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is needed to prepare for an interview?",
+                "options": [
+                    "New clothes",
+                    "Skills and experience",
+                    "A loud voice"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker want to be in the future?",
+                "options": [
+                    "A pilot",
+                    "A manager in a big company",
+                    "A teacher"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L35",
+        "day": 35,
+        "title": "Writing a Logical Argument",
+        "text": "In English writing, it is essential to present your perspective clearly. You should start with a strong opinion and provide enough evidence to support your reasoning. A good essay should have a clear conclusion. Talk about the advantages and disadvantages of a policy to show a balanced view. Consider the impact of technology on every individual. Using crucial facts and valuable examples will make your work excellent. Remember, significant progress in writing comes from regular practice and the courage to improve.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is essential in English writing?",
+                "options": [
+                    "Using simple words",
+                    "Presenting your perspective clearly",
+                    "Making it short"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What should a good essay include?",
+                "options": [
+                    "Only drawings",
+                    "Advantages and disadvantages",
+                    "Just one sentence"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How can you achieve progress in writing?",
+                "options": [
+                    "By stopping practice",
+                    "By regular practice and courage",
+                    "By copying others"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L36",
+        "day": 36,
+        "title": "The Impact of Technology",
+        "text": "Technology has changed our lives in many ways. In the past, people wrote letters to keep in touch with friends and family. It often took several days or even weeks for a letter to arrive. Nowadays, we can send messages and make video calls instantly using smartphones and the Internet. However, technology also brings some challenges. For example, some people spend too much time on their phones and forget to talk to those around them. We should learn to use technology wisely. It is important to find a balance between the digital world and real life. Technology should be a tool to help us, not something that controls us.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How did people keep in touch in the past?",
+                "options": [
+                    "By making video calls",
+                    "By writing letters",
+                    "By using smartphones"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is a challenge brought by technology?",
+                "options": [
+                    "It is too expensive",
+                    "People spend too much time on phones",
+                    "It is hard to learn"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker think about technology?",
+                "options": [
+                    "It's better to live without it",
+                    "It should control our lives",
+                    "It should be used wisely as a tool"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L37",
+        "day": 37,
+        "title": "Environmental Volunteering",
+        "text": "Last Saturday, a group of students from our school joined a volunteering activity at the local park. Our goal was to clean up the trash and plant more flowers. We were divided into small teams. Some students picked up plastic bottles and paper on the grass, while others watered the newly planted trees. Our teacher, Mr. Smith, told us that small actions can make a big difference to our environment. By the end of the afternoon, the park looked much cleaner and more beautiful. We felt tired but very happy. This experience taught us the importance of protecting nature and working together for a common goal. We plan to do this once a month.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What was the main goal of the activity?",
+                "options": [
+                    "To play games",
+                    "To clean the park and plant flowers",
+                    "To have a picnic"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did students do during the activity?",
+                "options": [
+                    "Built a new playground",
+                    "Watered trees and picked up trash",
+                    "Sold flowers"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How often do they plan to do this again?",
+                "options": [
+                    "Once a week",
+                    "Once a month",
+                    "Once a year"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L38",
+        "day": 38,
+        "title": "A Story of Thomas Edison",
+        "text": "Thomas Edison was one of the greatest inventors in history. He is most famous for inventing the light bulb, but he actually failed many times before he succeeded. It is said that he tried over a thousand materials for the filament before finding the right one. When people asked him why he didn't give up, he replied that he hadn't failed; he had just found a thousand ways that didn't work. His story teaches us that persistence and hard work are essential for success. Edison also invented many other things, like the phonograph and the motion picture camera. He once said that genius is one percent inspiration and ninety-nine percent perspiration.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is Edison most famous for?",
+                "options": [
+                    "The airplane",
+                    "The light bulb",
+                    "The telephone"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "How did Edison feel about his failures?",
+                "options": [
+                    "He was very disappointed",
+                    "He saw them as ways that didn't work",
+                    "He decided to stop"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "According to Edison, what is genius mainly made of?",
+                "options": [
+                    "Inspiration",
+                    "Perspiration (hard work)",
+                    "Luck"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L39",
+        "day": 39,
+        "title": "Future Career Planning",
+        "text": "Choosing a career is one of the most important decisions in life. When I was younger, I wanted to be an astronaut. However, as I grew up, I realized that I am more interested in medicine. My dream now is to become a doctor. To achieve this goal, I need to study hard, especially in science subjects like biology and chemistry. I also plan to volunteer at a hospital during my summer vacation to learn more about how doctors help people. Being a doctor requires not only medical knowledge but also a kind heart and patience. I know the path will be difficult, but I am determined to work hard and make my dream come true.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What did the speaker want to be when he was younger?",
+                "options": [
+                    "A doctor",
+                    "An astronaut",
+                    "A teacher"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What subjects does he need to study hard?",
+                "options": [
+                    "Math and Art",
+                    "History and Geography",
+                    "Biology and Chemistry"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 3,
+                "question": "What quality does he think a doctor should have?",
+                "options": [
+                    "A funny character",
+                    "A kind heart and patience",
+                    "A lot of money"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L40",
+        "day": 40,
+        "title": "A New Friendship",
+        "text": "Last semester, a new student named Anna joined our class. She was from Italy and didn't speak much Chinese at first. She seemed quite shy and sat alone during breaks. I decided to talk to her and help her get used to the new environment. I introduced her to my friends and invited her to join our English club. We soon discovered that we both love painting and dancing. Anna's Chinese improved quickly with our help, and she taught us some Italian words. Making friends with Anna taught me that language is not a barrier when people are kind and have common interests. I'm glad that I reached out to her.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Where was Anna from?",
+                "options": [
+                    "USA",
+                    "Italy",
+                    "France"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What common interests do they share?",
+                "options": [
+                    "Cooking and reading",
+                    "Painting and dancing",
+                    "Sports and music"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What did the speaker learn from this experience?",
+                "options": [
+                    "Italian is hard to learn",
+                    "Language is not a barrier for friendship",
+                    "It is better to be shy"
+                ],
+                "answer": 1
+            }
+        ]
+    }
+]
