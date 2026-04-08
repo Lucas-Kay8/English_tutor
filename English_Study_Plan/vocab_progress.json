@@ -39,7 +39,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
     ],
     "completedListeningDays": [
         1,
@@ -67,7 +68,7 @@
         23,
         24
     ],
-    "hearts": 7,
+    "hearts": 5,
     "history": [
         {
             "date": "2026-02-11T07:01:25.670Z",
@@ -1055,14 +1056,30 @@
         },
         {
             "date": "2026-04-01T12:40:49.790Z",
-            "mode": "review",
             "day": 35,
+            "mode": "review",
             "score": 0,
             "total": 20,
             "xp": 0
+        },
+        {
+            "date": "2026-04-04T14:19:26.917Z",
+            "mode": "day",
+            "day": 36,
+            "score": 25,
+            "total": 27,
+            "xp": 250
+        },
+        {
+            "date": "2026-04-04T14:19:35.988Z",
+            "mode": "grand",
+            "day": 36,
+            "score": 0,
+            "total": 30,
+            "xp": 0
         }
     ],
-    "lastStudyDate": "2026-03-31T13:06:21.870Z",
+    "lastStudyDate": "2026-04-04T14:19:26.916Z",
     "mistakes": [
         "allow",
         "check",
@@ -1128,7 +1145,9 @@
         "goal",
         "progress",
         "valuable",
-        "disadvantage"
+        "disadvantage",
+        "instant",
+        "data"
     ],
     "streak": 1,
     "wordStats": {
@@ -2183,10 +2202,10 @@
             "wrong": 0
         },
         "connect": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-17T12:30:59.368Z",
-            "nextReview": 1773837059368,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-04T14:18:31.436Z",
+            "nextReview": 1775571511436,
             "wrong": 0
         },
         "consider": {
@@ -3532,10 +3551,10 @@
             "wrong": 0
         },
         "information": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-02-27T09:55:44.194Z",
-            "nextReview": 1772272544194,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-04T14:14:43.831Z",
+            "nextReview": 1775571283831,
             "wrong": 0
         },
         "instead": {
@@ -5127,10 +5146,10 @@
             "wrong": 0
         },
         "technology": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-21T13:13:52.849Z",
-            "nextReview": 1774185232849,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-04T14:16:23.086Z",
+            "nextReview": 1775571383086,
             "wrong": 0
         },
         "telescope": {
@@ -5461,7 +5480,161 @@
             "lastStudy": "2026-03-11T12:06:02.740Z",
             "nextReview": 1773317162740,
             "wrong": 0
+        },
+        "update": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:12:21.646Z",
+            "box": 1,
+            "nextReview": 1775398341646
+        },
+        "online": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:12:58.007Z",
+            "box": 1,
+            "nextReview": 1775398378007
+        },
+        "browse": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:13:22.041Z",
+            "box": 1,
+            "nextReview": 1775398402041
+        },
+        "password": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:13:46.003Z",
+            "box": 1,
+            "nextReview": 1775398426003
+        },
+        "automated": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:14:09.487Z",
+            "box": 1,
+            "nextReview": 1775398449487
+        },
+        "efficient": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:14:16.096Z",
+            "box": 1,
+            "nextReview": 1775398456096
+        },
+        "hardware": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:15:02.340Z",
+            "box": 1,
+            "nextReview": 1775398502340
+        },
+        "software": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:15:14.623Z",
+            "box": 1,
+            "nextReview": 1775398514623
+        },
+        "app": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:15:22.436Z",
+            "box": 1,
+            "nextReview": 1775398522436
+        },
+        "instant": {
+            "correct": 1,
+            "wrong": 1,
+            "lastStudy": "2026-04-04T14:16:35.359Z",
+            "box": 2,
+            "nextReview": 1775571395359
+        },
+        "data": {
+            "correct": 1,
+            "wrong": 1,
+            "lastStudy": "2026-04-04T14:16:45.565Z",
+            "box": 2,
+            "nextReview": 1775571405565
+        },
+        "secure": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:16:13.769Z",
+            "box": 1,
+            "nextReview": 1775398573769
+        },
+        "account": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:16:59.560Z",
+            "box": 1,
+            "nextReview": 1775398619560
+        },
+        "digital": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:17:21.417Z",
+            "box": 1,
+            "nextReview": 1775398641417
+        },
+        "upload": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:00.714Z",
+            "box": 1,
+            "nextReview": 1775398680714
+        },
+        "smart": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:06.612Z",
+            "box": 1,
+            "nextReview": 1775398686612
+        },
+        "access": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:14.165Z",
+            "box": 1,
+            "nextReview": 1775398694165
+        },
+        "security": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:21.726Z",
+            "box": 1,
+            "nextReview": 1775398701726
+        },
+        "privacy": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:38.744Z",
+            "box": 1,
+            "nextReview": 1775398718744
+        },
+        "network": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:18:53.772Z",
+            "box": 1,
+            "nextReview": 1775398733772
+        },
+        "convenient": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:19:09.679Z",
+            "box": 1,
+            "nextReview": 1775398749679
+        },
+        "download": {
+            "correct": 1,
+            "wrong": 0,
+            "lastStudy": "2026-04-04T14:19:16.856Z",
+            "box": 1,
+            "nextReview": 1775398756856
         }
     },
-    "xp": 12185
+    "xp": 12540
 }

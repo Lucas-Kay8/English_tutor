@@ -1377,7 +1377,7 @@
 1. **challenge** - 挑战
     * *I like to take on a new **challenge**.* (我喜欢迎接新的挑战。)
 2. **overcome** - 克服；战胜
-    * *He finally **overcame** his fear of heights.* (他最终克服了恐高症。)
+    * *He finally **overcame** his fear of heights.* (他最终克服了控高症。)
 3. **succeed** - 成功
     * *He **succeeded** in passing the exam.* (他成功通过了考试。)
 4. **fail** - 失败；不及格
@@ -1435,7 +1435,7 @@
     * *The **researchers** are looking for a cure for the disease.* (研究人员正在寻找这种病的治疗方法。)
 4. **telescope** - 望远镜
     * *Through the **telescope**, we can see the stars clearly.* (通过望远镜，我们可以看清星星。)
-5. **experiment** - 实验 (already used, but can reinforce)
+5. **experiment** - 实验
     * *We are doing an **experiment** in the lab.* (我们正在实验室做实验。)
 6. **theory** - 理论；学说
     * *His **theory** was proven correct by the results.* (他的理论被结果证明是正确的。)
@@ -1718,6 +1718,36 @@
     * *You can find a lot of **information** on the Internet.* (你可以在互联网上找到很多信息。)
 10. **access** - 接触；进入
     * *Students have easy **access** to the school library.* (学生可以方便地进入学校图书馆。)
+11. **password** - 密码
+    * *Never share your **password** with others.* (永远不要跟别人分享你的密码。)
+12. **account** - 账户
+    * *I need to create a new **account** to use the service.* (我需要创建一个新账户来使用这项服务。)
+13. **data** - 数据
+    * *Big **data** analysis can help predict the future.* (大数据分析可以帮助预测未来。)
+14. **update** - 更新
+    * *You should **update** your software regularly.* (你应该定期更新你的软件。)
+15. **download** - 下载
+    * *I **downloaded** a useful English learning app.* (我下载了一个有用的英语学习app。)
+16. **upload** - 上传
+    * *It takes time to **upload** large videos.* (上传大型视频需要时间。)
+17. **network** - 网络
+    * *The 5G **network** is much faster than 4G.* (5G网络比4G快得多。)
+18. **browse** - 浏览
+    * *I like to **browse** the news before going to bed.* (我喜欢在睡觉前浏览新闻。)
+19. **software** - 软件
+    * *The company designs educational **software**.* (这家公司设计教育软件。)
+20. **hardware** - 硬件
+    * *The **hardware** of this computer is very powerful.* (这台电脑的硬件非常强大。)
+21. **efficient** - 高效的
+    * *AI can make our work more **efficient**.* (人工智能可以让我们的工作更高效。)
+22. **automated** - 自动化的
+    * *Many factories use **automated** machines now.* (现在很多工厂使用自动化机器。)
+23. **security** - 安全性
+    * *Internet **security** is becoming more important.* (网络安全正变得越来越重要。)
+24. **online** - 在线的
+    * *I enjoy taking **online** courses at home.* (我喜欢在家上在线课程。)
+25. **app** - 应用程序
+    * *This **app** helps me track my daily steps.* (这个应用帮助我追踪每天的步数。)
 
 ### Day 37: 气候变化与可持续发展 (Sustainability)
 
@@ -1741,6 +1771,36 @@
     * *It's our duty to **protect** our Earth.* (保护地球是我们的责任。)
 10. **nature** - 自然
     * *We should live in harmony with **nature**.* (我们应该与自然和谐相处。)
+11. **pollution** - 污染
+    * *Air **pollution** is serious in some big cities.* (在一些大城市，空气污染很严重。)
+12. **species** - 物种
+    * *Many **species** are in danger of extinction.* (许多物种正面临灭绝的危险。)
+13. **extinct** - 灭绝的
+    * *The dinosaurs became **extinct** long ago.* (恐龙很久以前就灭绝了。)
+14. **conserve** - 保护/节约
+    * *We must **conserve** electricity in daily life.* (我们在日常生活中必须节约用电。)
+15. **renewable** - 可再生的
+    * *Wind is a great source of **renewable** energy.* (风能是很好的可再生能源。)
+16. **carbon** - 碳
+    * *We need to reduce our **carbon** emissions.* (我们需要减少碳排放。)
+17. **footprint** - 足迹
+    * *How can we reduce our environmental **footprint**?* (我们如何减少环境足迹？)
+18. **diversity** - 多样性
+    * *Biological **diversity** is essential for existence.* (生物多样性对生存至关重要。)
+19. **organic** - 有机的
+    * *More and more people prefer **organic** food.* (越来越多的人喜欢有机食物。)
+20. **ecosystem** - 生态系统
+    * *The ocean is a huge and complex **ecosystem**.* (海洋是一个庞大而复杂的生态系统。)
+21. **awareness** - 意识
+    * *Public **awareness** of recycling is increasing.* (公众对于回收的意识正在增强。)
+22. **participate** - 参与
+    * *Students are encouraged to **participate** in Earth Day.* (学生们被鼓励参加地球日活动。)
+23. **policy** - 政策
+    * *The government released a new green **policy**.* (政府发布了一项新的绿色政策。)
+24. **global** - 全球的
+    * *We must face the **global** challenges together.* (我们必须共同面对全球性的挑战。)
+25. **warming** - 变暖
+    * *Global **warming** leads to ice melting.* (全球变暖导致冰川融化。)
 
 ### Day 38: 逆境、毅力与天才 (Persistence & Talent)
 
@@ -1764,6 +1824,36 @@
     * *She has the **determination** to achieve her goal.* (她有实现目标的决心。)
 10. **achievement** - 成就
     * *Winning the Nobel Prize is a great **achievement**.* (获得诺贝尔奖是一项伟大的成就。)
+11. **ambition** - 志向/野心
+    * *His **ambition** is to be an astronaut.* (他的志向是成为一名宇航员。)
+12. **challenge** - 挑战
+    * *Facing a **challenge** makes you stronger.* (面对挑战让你更强大。)
+13. **spirit** - 精神
+    * *The Olympic **spirit** is about participation.* (奥林匹克精神在于参与。)
+14. **patience** - 耐心
+    * *Learning a language takes time and **patience**.* (学习一门语言需要时间和耐心。)
+15. **struggle** - 奋斗/努力
+    * *He **struggled** for years before succeeding.* (他在成功前奋斗了多年。)
+16. **courage** - 勇气
+    * *It takes **courage** to tell the truth.* (说出真相需要勇气。)
+17. **confidence** - 自信
+    * *Always have **confidence** in yourself.* (永远对自己有信心。)
+18. **positive** - 积极的
+    * *A **positive** attitude is helpful.* (积极的态度很有帮助。)
+19. **negative** - 消极的
+    * *Don't let **negative** thoughts affect you.* (别让消极想法影响你。)
+20. **goal** - 目标
+    * *Set a clear **goal** for your study.* (为你的学习设定一个明确的目标。)
+21. **achieve** - 实现
+    * *I hope to **achieve** my dream one day.* (我希望有一天能实现我的梦想。)
+22. **potential** - 潜力
+    * *Everyone has the **potential** to improve.* (每个人都有进步的潜力。)
+23. **victory** - 胜利
+    * *They celebrated their final **victory**.* (他们庆祝了最终的胜利。)
+24. **limit** - 限制/界限
+    * *We should try to push our **limit**s.* (我们应该尝试挑战自己的极限。)
+25. **outstanding** - 杰出的
+    * *She is an **outstanding** student in our class.* (她是班里一名杰出的学生。)
 
 ### Day 39: 专业技能与职场素质 (Professional Qualities)
 
@@ -1787,6 +1877,36 @@
     * ***Science** helps us understand the world.* (科学帮助我们了解世界。)
 10. **preparation** - 准备
     * *Good **preparation** is half the battle.* (良好的准备是成功的一半。)
+11. **cooperate** - 合作
+    * *We need to **cooperate** to finish the project.* (我们需要合作来完成这个项目。)
+12. **teamwork** - 团队合作
+    * ***Teamwork** is highly valued in companies.* (团队合作在公司里备受重视。)
+13. **punctual** - 准时的
+    * *Always be **punctual** for meetings.* (开会一定要准时。)
+14. **reliable** - 可靠的
+    * *Our teacher is a very **reliable** person.* (我们的老师是一个非常可靠的人。)
+15. **creative** - 有创造力的
+    * *He always comes up with **creative** ideas.* (他总是能想出有创意的点子。)
+16. **independent** - 独立的
+    * *Students should learn to be **independent**.* (学生应该学会独立。)
+17. **leadership** - 领导力
+    * *He showed great **leadership** during the activity.* (他在活动中表现出了出色的领导力。)
+18. **responsible** - 负责任的
+    * *We should be **responsible** for our choices.* (我们应该为自己的选择负责。)
+19. **organized** - 有条理的
+    * *She keeps her room very **organized**.* (她把房间整理得很有条理。)
+20. **communicative** - 沟通顺畅的
+    * *Being **communicative** helps solve problems.* (善于沟通有助于解决问题。)
+21. **flexible** - 灵活的
+    * *We need to be **flexible** in different situations.* (在不同情况下我们需要灵活应对。)
+22. **standard** - 标准
+    * *The product meets the safety **standard**.* (该产品符合安全标准。)
+23. **quality** - 质量
+    * *The **quality** of life is more important than wealth.* (生活质量比财富更重要。)
+24. **efficient** - 高效的
+    * *Working in an **efficient** way saves time.* (以高效的方式工作能节省时间。)
+25. **performance** - 表现
+    * *His **performance** in the interview was great.* (他在面试中的表现很出色。)
 
 ### Day 40: 跨文化交流与共感 (Empathy & Culture)
 
@@ -1810,3 +1930,139 @@
     * *We should be active members of the **society**.* (我们应该是社会的积极成员。)
 10. **respect** - 尊重
     * *We should show **respect** for the elderly.* (我们应该表达对老人的尊重。)
+11. **volunteer** - 志愿者
+    * *She works as a **volunteer** in the hospital.* (她在医院当志愿者。)
+12. **support** - 支持
+    * *Thank you for your kind **support**.* (谢谢你的热心支持。)
+13. **generous** - 慷慨的
+    * *The **generous** man donated a lot of books.* (那位慷慨的人捐了很多书。)
+14. **tolerate** - 宽容/容忍
+    * *Learning to **tolerate** differences is important.* (学会宽容差异很重要。)
+15. **conflict** - 冲突
+    * *Try to avoid **conflict**s with your friends.* (尽量避免和朋友发生冲突。)
+16. **harmony** - 和谐
+    * *Let's build a society in **harmony**.* (让我们建设一个和谐的社会。)
+17. **peace** - 和平
+    * *Children enjoy living in **peace**.* (孩子们喜欢生活在和平中。)
+18. **unite** - 团结
+    * *United we stand, divided we fall.* (团结则存，分裂则亡。)
+19. **citizen** - 公民
+    * *Every **citizen** should follow the laws.* (每个公民都应该遵守法律。)
+20. **contribution** - 贡献
+    * *He made a great **contribution** to science.* (他为科学做出了巨大贡献。)
+21. **background** - 背景
+    * *People from different **background**s can be friends.* (来自不同背景的人可以成为朋友。)
+22. **perspective** - 观点/视角
+    * *Try to see things from others' **perspective**.* (试着从别人的视角来看待事情。)
+23. **empathetic** - 有同理心的
+    * *Being **empathetic** makes you more popular.* (有同理心会让你更受欢迎。)
+24. **universal** - 普世的/通用的
+    * *Smiling is a **universal** language.* (微笑是通用的语言。)
+25. **diversity** - 多样性
+    * *Cultural **diversity** makes the world colorful.* (文化多样性让世界更精彩。)
+
+### Day 41: 艺术、历史与文化遗产 (Art & Heritage)
+
+1. **tradition** - 传统
+    * *It is a **tradition** to eat mooncakes on Mid-Autumn Day.* (中秋节吃月饼是一个传统。)
+2. **heritage** - 遗产
+    * *The Great Wall is a world cultural **heritage**.* (长城是世界文化遗产。)
+3. **museum** - 博物馆
+    * *The Palace **Museum** attracts millions of tourists.* (故宫博物院吸引了数百万游客。)
+4. **exhibition** - 展览
+    * *There is an art **exhibition** this weekend.* (这周末有一个艺术展。)
+5. **artist** - 艺术家
+    * *He hopes to become a famous **artist**.* (他希望成为一名著名的艺术家。)
+6. **masterpiece** - 杰作
+    * *This painting is considered a **masterpiece**.* (这幅画被认为是一部杰作。)
+7. **painting** - 绘画
+    * *Traditional Chinese **painting** is very beautiful.* (中国传统绘画非常漂亮。)
+8. **sculpture** - 雕塑
+    * *The **sculpture** was made of stone.* (这个雕塑是由石头制成的。)
+9. **architecture** - 建筑
+    * *Beijing is famous for its ancient **architecture**.* (北京以其古建筑而闻名。)
+10. **ancient** - 古老的
+    * *Pyramids are **ancient** buildings in Egypt.* (金字塔是埃及的古老建筑。)
+11. **historical** - 历史的
+    * *This city has many **historical** sites.* (这座城市有很多历史遗迹。)
+12. **cultural** - 文化的
+    * *We should learn about different **cultural** traditions.* (我们应该了解不同的文化传统。)
+13. **inspire** - 启发
+    * *Nature often **inspire**s artists.* (大自然经常启发艺术家。)
+14. **gallery** - 画廊
+    * *Many paintings are displayed in the **gallery**.* (画廊里陈列着许多画作。)
+15. **classic** - 经典的
+    * *I like reading **classic** novels.* (我喜欢读经典小说。)
+16. **poetry** - 诗歌
+    * *Li Bai is a famous master of **poetry**.* (李白是著名的诗歌大师。)
+17. **literature** - 文学
+    * *Chinese **literature** has a long history.* (中国文学历史悠久。)
+18. **drama** - 戏剧
+    * *The school **drama** club will perform tonight.* (学校戏剧社今晚将进行表演。)
+19. **performance** - 表演
+    * *The dance **performance** was wonderful.* (舞蹈表演非常精彩。)
+20. **appreciate** - 欣赏
+    * *We should learn how to **appreciate** art.* (我们应该学会如何欣赏艺术。)
+21. **style** - 风格
+    * *I like his unique musical **style**.* (我喜欢他独特的音乐风格。)
+22. **expression** - 表达
+    * *Art is a form of self-**expression**.* (艺术是自我表达的一种形式。)
+23. **unique** - 独特的
+    * *Every culture has its **unique** charms.* (每种文化都有其独特的魅力。)
+24. **original** - 原版的/最初的
+    * *The **original** drawing is kept in the museum.* (原稿保存在博物馆里。)
+25. **treasure** - 宝藏/珍藏
+    * *These items are national **treasure**s.* (这些物品是国宝。)
+
+### Day 42: 全球视野与未来梦想 (Global Vision & Future Dreams)
+
+1. **global** - 全球的
+    * *Global **warming** affects everyone.* (全球变暖影响每一个人。)
+2. **vision** - 视野
+    * *Reading helps open up our **vision**.* (阅读有助于开拓我们的视野。)
+3. **international** - 国际的
+    * *He works for an **international** organization.* (他在一家国际组织工作。)
+4. **cooperation** - 合作
+    * *International **cooperation** is key to world peace.* (国际合作是世界和平的关键。)
+5. **future** - 未来
+    * *Education is the key to the **future**.* (教育是通往未来的关键。)
+6. **sustainable** - 可持续的
+    * *We aim for **sustainable** development.* (我们的目标是可持续发展。)
+7. **trend** - 趋势
+    * *AI is a major **trend** in technology.* (人工智能是科技的一大趋势。)
+8. **innovation** - 创新
+    * ***Innovation** drives the progress of society.* (创新驱动社会进步。)
+9. **explore** - 探索
+    * *Scientists like to **explore** the unknown.* (科学家喜欢探索未知。)
+10. **adventure** - 冒险
+    * *Traveling to space is a great **adventure**.* (去太空旅行是一次伟大的冒险。)
+11. **dream** - 梦想
+    * *Never give up on your **dream**.* (永不放弃你的梦想。)
+12. **ambition** - 志向
+    * *His **ambition** is to explore the ocean.* (他的志向是探索海洋。)
+13. **opportunity** - 机会
+    * *Take every **opportunity** to practice English.* (抓住每一个练习英语的机会。)
+14. **succeed** - 成功
+    * *If you work hard, you will **succeed**.* (如果你努力，你就会成功。)
+15. **influence** - 影响
+    * *My teacher had a great **influence** on me.* (我的老师对我影响很大。)
+16. **impact** - 冲击/影响
+    * *The internet has a big **impact** on shopping.* (互联网对购物有很大影响。)
+17. **responsibility** - 责任
+    * *It's our **responsibility** to keep the school clean.* (保持学校整洁是我们的责任。)
+18. **essential** - 必要的
+    * *Sleep is **essential** for good health.* (睡眠对健康至关重要。)
+19. **crucial** - 至关重要的
+    * *It's **crucial** to make a plan before acting.* (行动前制定计划至关重要。)
+20. **significant** - 意义重大的
+    * *This discovery is very **significant**.* (这个发现非常有意义。)
+21. **outstanding** - 杰出的
+    * *He received an award for his **outstanding** work.* (由于他杰出的工作，他获得了奖项。)
+22. **potential** - 潜力
+    * *Don't underestimate your **potential**.* (不要低估你的潜力。)
+23. **challenge** - 挑战
+    * *Life is full of **challenge**s and surprises.* (生活充满了挑战 and 惊喜。)
+24. **victory** - 胜利
+    * *The team won a great **victory**.* (这个团队赢得了一次伟大的胜利。)
+25. **progress** - 进步
+    * *Keep practicing and you will make **progress**.* (坚持练习，你就会取得进步。)

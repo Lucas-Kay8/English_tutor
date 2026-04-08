@@ -5,35 +5,10 @@
  * Running on http://127.0.0.1:8888
  * Running on http://198.18.0.1:8888
 [33mPress CTRL+C to quit[0m
-[2026-03-20 21:26:52,312] ERROR in app: Exception on /api/progress [HEAD]
-Traceback (most recent call last):
-  File "/Users/lucas/Work/AntiGravity/Oli/English_Study_Plan/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/Users/lucas/Work/AntiGravity/Oli/English_Study_Plan/venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
-    return self.finalize_request(rv)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^
-  File "/Users/lucas/Work/AntiGravity/Oli/English_Study_Plan/venv/lib/python3.13/site-packages/flask/app.py", line 939, in finalize_request
-    response = self.make_response(rv)
-  File "/Users/lucas/Work/AntiGravity/Oli/English_Study_Plan/venv/lib/python3.13/site-packages/flask/app.py", line 1212, in make_response
-    raise TypeError(
-    ...<3 lines>...
-    )
-TypeError: The view function for 'handle_progress' did not return a valid response. The function either returned None or ended without a return statement.
-127.0.0.1 - - [20/Mar/2026 21:26:52] "[35m[1mHEAD /api/progress?user=oli HTTP/1.1[0m" 500 -
-127.0.0.1 - - [20/Mar/2026 21:26:52] "GET /api/progress?user=oli HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "GET / HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "GET /static/script.js?v=1774013229.738364 HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "GET /api/vocabulary HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "GET /api/progress?user=oli HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 21:27:09] "[36mGET /static/avatars/stage_3.png HTTP/1.1[0m" 304 -
-192.168.31.123 - - [20/Mar/2026 21:45:37] "POST /api/progress HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:02:08] "POST /api/progress HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:02:34] "GET /api/listening HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:06:43] "POST /api/progress HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:06:48] "GET /api/listening HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:06:53] "POST /api/progress HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:09:42] "GET /api/vocabulary HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:09:42] "GET /api/progress?user=oli HTTP/1.1" 200 -
-192.168.31.123 - - [20/Mar/2026 22:09:43] "[36mGET /static/avatars/stage_3.png HTTP/1.1[0m" 304 -
-192.168.31.123 - - [20/Mar/2026 22:09:51] "GET /api/vocabulary HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "GET /static/script.js?v=1775561122.843261 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "GET /api/progress?user=oli HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "GET /api/vocabulary HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2026 19:25:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [07/Apr/2026 19:25:24] "[36mGET /static/avatars/stage_4.png HTTP/1.1[0m" 304 -
