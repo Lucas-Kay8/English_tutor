@@ -33,31 +33,63 @@ def save_progress(progress, user_id='oli'):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(progress, f, indent=4, ensure_ascii=False)
 
-def load_listening_data():
-    if os.path.exists(LISTENING_FILE):
-        with open(LISTENING_FILE, 'r', encoding='utf-8') as f:
-            try:
-                data = json.load(f)
-                print(f"Loaded listening data: {len(data)} items")
-                return data
-            except Exception as e:
-                print(f"Error loading listening data: {e}")
-                return []
-    print(f"Listening file not found: {LISTENING_FILE}")
-    return []
+# Global Data Cache
+_cached_vocab_data = load_vocab(VOCAB_FILE)
+_cached_listening_data = None
+_cached_cloze_data = None
+_cached_api_vocabulary = None
 
-def load_cloze_data():
-    if os.path.exists(CLOZE_FILE):
-        with open(CLOZE_FILE, 'r', encoding='utf-8') as f:
+def get_cached_listening_data():
+    global _cached_listening_data
+    if _cached_listening_data is None:
+        if os.path.exists(LISTENING_FILE):
+            with open(LISTENING_FILE, 'r', encoding='utf-8') as f:
+                try:
+                    _cached_listening_data = json.load(f)
+                    print(f"Cached listening data: {len(_cached_listening_data)} items")
+                except Exception as e:
+                    print(f"Error loading listening data: {e}")
+                    _cached_listening_data = []
+        else:
+            _cached_listening_data = []
+    return _cached_listening_data
+
+def get_cached_cloze_data():
+    global _cached_cloze_data
+    if _cached_cloze_data is None:
+        if os.path.exists(CLOZE_FILE):
+            with open(CLOZE_FILE, 'r', encoding='utf-8') as f:
+                try:
+                    _cached_cloze_data = json.load(f)
+                    print(f"Cached cloze data: {len(_cached_cloze_data)} items")
+                except Exception as e:
+                    print(f"Error loading cloze data: {e}")
+                    _cached_cloze_data = []
+        else:
+            _cached_cloze_data = []
+    return _cached_cloze_data
+
+def get_cached_api_vocabulary():
+    global _cached_api_vocabulary
+    if _cached_api_vocabulary is None:
+        result = []
+        import re
+        for day_num, words in _cached_vocab_data.items():
             try:
-                data = json.load(f)
-                print(f"Loaded cloze data: {len(data)} items")
-                return data
-            except Exception as e:
-                print(f"Error loading cloze data: {e}")
-                return []
-    print(f"Cloze file not found: {CLOZE_FILE}")
-    return []
+                day = int(''.join(filter(str.isdigit, day_num)))
+            except:
+                day = 1
+            for word in words:
+                example_en = word.get('example_en', '')
+                example_en = re.sub(r'\*\*(.+?)\*\*', r'\1', example_en)
+                result.append({
+                    'word': word.get('word', ''),
+                    'meaning': word.get('meaning', ''),
+                    'example': example_en,
+                    'day': day
+                })
+        _cached_api_vocabulary = result
+    return _cached_api_vocabulary
 
 @app.route('/')
 def index():
@@ -65,46 +97,25 @@ def index():
 
 @app.route('/api/vocab')
 def get_vocab():
-    vocab_data = load_vocab(VOCAB_FILE)
-    return jsonify(vocab_data)
+    return jsonify(_cached_vocab_data)
 
 @app.route('/api/all_words')
 def get_all_words_route():
-    vocab_data = load_vocab(VOCAB_FILE)
-    all_words = get_all_words(vocab_data)
+    all_words = get_all_words(_cached_vocab_data)
     return jsonify(all_words)
 
 @app.route('/api/listening')
 def get_listening():
-    return jsonify(load_listening_data())
+    return jsonify(get_cached_listening_data())
 
 @app.route('/api/cloze')
 def get_cloze():
-    return jsonify(load_cloze_data())
+    return jsonify(get_cached_cloze_data())
 
 @app.route('/api/vocabulary')
 def get_vocabulary():
     """返回带有 day 属性的词汇列表供前端使用"""
-    vocab_data = load_vocab(VOCAB_FILE)
-    result = []
-    for day_num, words in vocab_data.items():
-        # 提取天数数字
-        try:
-            day = int(''.join(filter(str.isdigit, day_num)))
-        except:
-            day = 1
-        for word in words:
-            # 清理例句中的 **word** 标记
-            import re
-            example_en = word.get('example_en', '')
-            example_en = re.sub(r'\*\*(.+?)\*\*', r'\1', example_en)
-            result.append({
-                'word': word.get('word', ''),
-                'meaning': word.get('meaning', ''),
-                'example': example_en,
-                'day': day
-            })
-    return jsonify(result)
+    return jsonify(get_cached_api_vocabulary())
 
 
 @app.route('/api/progress', methods=['GET', 'POST'])

@@ -7,3 +7,6 @@ _bmad-output/
 node_modules/
 .idea/
 .vscode/
+
+*.log
+*.pid
