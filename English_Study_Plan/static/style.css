@@ -1868,3 +1868,77 @@ body {
     border-top: none;
     padding-top: 0;
 }
+
+/* ===== 复习门槛弹窗 (Review Gate) ===== */
+.review-gate-content h2 {
+    color: var(--apple-orange) !important;
+    font-size: 22px;
+}
+
+.review-gate-icon {
+    font-size: 56px;
+    margin-bottom: 12px;
+}
+
+.review-gate-info {
+    background: linear-gradient(135deg, #FFF7ED, #FFEDD5);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    text-align: left;
+    border: 1px solid #FED7AA;
+}
+
+.review-gate-info .challenge-item {
+    color: #92400E;
+}
+
+#btn-review-gate-skip {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: var(--text-muted) !important;
+    font-weight: 500 !important;
+}
+
+/* ===== 三合一进度指示器 ===== */
+.triple-pass-indicator {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.triple-pass-item {
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: var(--apple-gray-light);
+    color: var(--text-muted);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    white-space: nowrap;
+}
+
+.triple-pass-item.done {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.triple-pass-item.done .tp-icon::after {
+    content: '✓';
+}
+
+.triple-pass-item .tp-icon {
+    font-size: 10px;
+}
+
+/* ===== 错题消化进度提示 ===== */
+.mistake-digest-hint {
+    font-size: 12px;
+    color: var(--apple-orange);
+    font-weight: 600;
+    margin-top: 4px;
+}

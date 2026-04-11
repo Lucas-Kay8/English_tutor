@@ -509,6 +509,22 @@
         </div>
     </div>
 
+    <!-- 复习门槛弹窗 (Review Gate) -->
+    <div class="rescue-modal hidden" id="review-gate-modal">
+        <div class="rescue-content review-gate-content">
+            <div class="review-gate-icon">📚</div>
+            <h2>先消化错题再冲关！</h2>
+            <p id="review-gate-message">你有 <strong id="review-gate-count">0</strong> 个错题需要消化。</p>
+            <div class="review-gate-info">
+                <div class="challenge-item">📝 完成一轮错题复习</div>
+                <div class="challenge-item">🎯 正确率达到 60% 即可解锁</div>
+                <div class="challenge-item">💡 真正掌握的词才会移出错题本</div>
+            </div>
+            <button class="btn-primary" id="btn-review-gate-start">开始复习错题</button>
+            <button class="btn-secondary" id="btn-review-gate-skip" style="opacity:0.6; font-size:13px; margin-top:8px;">跳过（仅限紧急情况）</button>
+        </div>
+    </div>
+
     <script src="{{ url_for('static', filename='script.js') }}?v={{ version }}"></script>
 </body>
 

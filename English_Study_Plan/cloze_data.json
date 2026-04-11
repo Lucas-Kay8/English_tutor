@@ -2065,5 +2065,270 @@
                 "answer": 0
             }
         ]
+    },
+    {
+        "id": "C41",
+        "day": 41,
+        "title": "Art and Heritage",
+        "text": "Traditional art is a part of our {1}. It represents the wisdom of our {2}. To protect these sites, the {3} has made great efforts. We should learn to {4} the beauty of ancient sculptures and {5}. Passing on these traditions is our common responsibility.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "heritage",
+                    "habit",
+                    "heart"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "ancestors",
+                    "actors",
+                    "architects"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "government",
+                    "group",
+                    "guide"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "appreciate",
+                    "appear",
+                    "achieve"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "paintings",
+                    "patterns",
+                    "passengers"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C42",
+        "day": 42,
+        "title": "Global Vision",
+        "text": "In a {1} world, we should care about global issues. Solving {2} and climate change requires our {3}. If you have a dream to change the world, you must work {4} to achieve it. With a global {5}, we can build a better future for everyone.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "connected",
+                    "collected",
+                    "closed"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "poverty",
+                    "progress",
+                    "pressure"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "support",
+                    "service",
+                    "sign"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "hard",
+                    "hardly",
+                    "heavy"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "vision",
+                    "visit",
+                    "value"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C43",
+        "day": 43,
+        "title": "Space Dreams",
+        "text": "Space {1} has always been a human dream. Scientists use powerful {2} to study the stars and planets. Maybe one day, humans will live on another {3}. However, it is a great {4} that requires advanced technology and {5} work.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "exploration",
+                    "experiment",
+                    "experience"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "telescopes",
+                    "telephones",
+                    "televisions"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "planet",
+                    "plane",
+                    "plant"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "challenge",
+                    "change",
+                    "choice"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "hard",
+                    "half",
+                    "huge"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C44",
+        "day": 44,
+        "title": "Healthy Lifestyle",
+        "text": "A healthy lifestyle is {1} for a long life. We should have a balanced {2} and do exercise regularly. Sleeping {3} is also very important for our {4}. Let's take {5} now to change our bad habits.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "essential",
+                    "equivalent",
+                    "endless"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "diet",
+                    "date",
+                    "dust"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "enough",
+                    "easily",
+                    "early"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "brains",
+                    "bones",
+                    "backs"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "action",
+                    "attention",
+                    "advice"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C45",
+        "day": 45,
+        "title": "Future Technology",
+        "text": "Modern {1} is developing faster than ever. From the Internet to AI, these {2} have changed our lives completely. Although they are very {3}, we should also think about safety. We must ensure that technology is used to {4} humans and create a {5} world.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "technology",
+                    "tradition",
+                    "trouble"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "inventions",
+                    "instruments",
+                    "instructions"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "convenient",
+                    "certain",
+                    "common"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "serve",
+                    "save",
+                    "share"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "peaceful",
+                    "painful",
+                    "powerless"
+                ],
+                "answer": 0
+            }
+        ]
     }
 ]

@@ -464,10 +464,21 @@ function updateProgressRing(percentage) {
     circle.style.strokeDashoffset = offset;
 }
 
-// ===== 渲染学习路径 (分页逻辑) =====
+// ===== 判断某天是否三合一全部完成 =====
+function isDayFullyCompleted(day) {
+    const p = state.progress;
+    const vocabDone = (p.completedDays || []).includes(day);
+    const listeningDone = (p.completedListeningDays || []).includes(day);
+    const clozeDone = (p.completedClozeDays || []).includes(day);
+    return vocabDone && listeningDone && clozeDone;
+}
+
+// ===== 渲染学习路径 (分页逻辑 + 三合一进度) =====
 function renderPathList() {
     const pathList = document.getElementById('path-list');
     const completedDays = state.progress.completedDays || [];
+    const completedListening = state.progress.completedListeningDays || [];
+    const completedCloze = state.progress.completedClozeDays || [];
     const maxDay = state.vocabulary.length > 0 ? Math.max(...state.vocabulary.map(v => v.day)) : 21;
 
     // 计算当前页显示的起始和结束天数
@@ -476,21 +487,35 @@ function renderPathList() {
 
     let html = '';
     for (let day = weekStart; day <= weekEnd; day++) {
-        const isCompleted = completedDays.includes(day);
+        const vocabDone = completedDays.includes(day);
+        const listeningDone = completedListening.includes(day);
+        const clozeDone = completedCloze.includes(day);
+        const fullyDone = vocabDone && listeningDone && clozeDone;
         const isCurrent = day === state.currentDay;
         const isLocked = day > state.currentDay;
 
-        let statusClass = isLocked ? 'locked' : (isCompleted ? 'completed' : (isCurrent ? 'current' : ''));
-        let nodeIcon = isLocked ? '🔒' : (isCompleted ? '✓' : '★');
+        let statusClass = isLocked ? 'locked' : (fullyDone ? 'completed' : (isCurrent ? 'current' : (vocabDone ? 'completed' : '')));
+        let nodeIcon = isLocked ? '🔒' : (fullyDone ? '✓' : '★');
 
         const dayWords = state.vocabulary.filter(w => w.day === day);
-        const bestScore = isCompleted ? getDayBestScore(day) : null;
+        const bestScore = vocabDone ? getDayBestScore(day) : null;
         let scoreHTML = '';
-        let statusText = isLocked ? '未解锁' : (isCurrent ? '进行中' : '已完成');
+        let statusText = isLocked ? '未解锁' : (isCurrent ? '进行中' : '');
+
+        // 三合一进度指示器（非锁定状态下显示）
+        let tripleHTML = '';
+        if (!isLocked) {
+            tripleHTML = `
+                <div class="triple-pass-indicator">
+                    <span class="triple-pass-item ${vocabDone ? 'done' : ''}">📝<span class="tp-icon"></span></span>
+                    <span class="triple-pass-item ${listeningDone ? 'done' : ''}">🎧<span class="tp-icon"></span></span>
+                    <span class="triple-pass-item ${clozeDone ? 'done' : ''}">🧩<span class="tp-icon"></span></span>
+                </div>
+            `;
+        }
 
         if (bestScore) {
             const accColor = getAccuracyColor(bestScore.accuracy);
-            statusText = '';
             scoreHTML = `
                 <div class="path-score-section">
                     <div class="accuracy-badge ${accColor.cssClass}">
@@ -508,8 +533,9 @@ function renderPathList() {
                 <div class="node">${nodeIcon}</div>
                 <div class="info">
                     <div class="title">Day ${day}: ${DAY_LABELS[day - 1] || '词汇'}</div>
-                    <div class="subtitle">${dayWords.length} 个单词</div>
+                    <div class="subtitle">${dayWords.length} 个单词 ${fullyDone ? '🏆' : ''}</div>
                 </div>
+                ${tripleHTML}
                 ${scoreHTML}
                 <div class="status">${statusText}</div>
             </div>
@@ -925,12 +951,55 @@ async function switchUser(userId) {
     }
 }
 
+// ===== 【改造一】复习门槛检查 (Review Gate) =====
+function checkReviewGate() {
+    const mistakes = state.progress.mistakes || [];
+    const lastReviewDate = state.progress.lastReviewDate;
+    const daysSinceReview = lastReviewDate
+        ? Math.floor((Date.now() - new Date(lastReviewDate).getTime()) / 86400000)
+        : 999;
+
+    // 条件1：错题超过15个 且 2天以上没复习
+    // 条件2：错题超过30个（无论是否复习过）
+    if ((mistakes.length >= 15 && daysSinceReview >= 2) || mistakes.length >= 30) {
+        return mistakes.length;
+    }
+    return 0;
+}
+
+// ===== 显示复习门槛弹窗 =====
+function showReviewGateModal(mistakeCount) {
+    const modal = document.getElementById('review-gate-modal');
+    document.getElementById('review-gate-count').textContent = mistakeCount;
+    modal.classList.remove('hidden');
+
+    // 绑定按钮
+    document.getElementById('btn-review-gate-start').onclick = () => {
+        modal.classList.add('hidden');
+        startReviewQuiz();
+    };
+    document.getElementById('btn-review-gate-skip').onclick = () => {
+        modal.classList.add('hidden');
+    };
+}
+
 // ===== 开始每日学习（先预习再测试） =====
 function startDayQuiz(day) {
     // 检查生命值
     if (state.hearts <= 0) {
         showRescueModal();
         return;
+    }
+
+    // 【改造一】复习门槛检查：开始新的一天之前，检查是否需要先消化错题
+    const completedDays = state.progress.completedDays || [];
+    if (!completedDays.includes(day)) {
+        // 只在尝试新关卡时触发门槛，重做已完成的关卡不受限制
+        const gateCount = checkReviewGate();
+        if (gateCount > 0) {
+            showReviewGateModal(gateCount);
+            return;
+        }
     }
 
     state.studyDay = day;
@@ -1055,6 +1124,35 @@ function updateHeartsDisplay() {
     container.innerHTML = html;
 }
 
+// ===== 【改造二】加权随机工具函数 =====
+function weightedRandom(weights) {
+    const entries = Object.entries(weights);
+    const total = entries.reduce((sum, [, w]) => sum + w, 0);
+    let rand = Math.random() * total;
+    for (const [type, weight] of entries) {
+        rand -= weight;
+        if (rand <= 0) return type;
+    }
+    return entries[entries.length - 1][0];
+}
+
+// ===== 【改造二】根据掌握度选择题型 =====
+function getWeightedQuestionType(word) {
+    const stats = state.progress.wordStats?.[word.word];
+    const box = stats?.box || 0;
+
+    if (box >= 3) {
+        // 已经比较熟悉：80% 产出型（拼写/填空/听写），20% 选择
+        return weightedRandom({ spell: 35, fill: 30, listen: 15, choice: 20 });
+    } else if (box >= 1) {
+        // 学过但不熟：60% 产出型
+        return weightedRandom({ spell: 25, fill: 20, listen: 15, choice: 40 });
+    } else {
+        // 全新词：先以选择题建立初印象
+        return weightedRandom({ spell: 10, fill: 10, listen: 10, choice: 70 });
+    }
+}
+
 // ===== 渲染问题 =====
 function renderQuestion() {
     const q = state.quizWords[state.currentQuestion];
@@ -1067,8 +1165,8 @@ function renderQuestion() {
     const progress = (state.currentQuestion / state.quizWords.length) * 100;
     document.getElementById('quiz-progress').style.width = progress + '%';
 
-    // 随机题型
-    const type = state.questionTypes[Math.floor(Math.random() * state.questionTypes.length)];
+    // 【改造二】加权题型选择，替代均匀随机
+    const type = getWeightedQuestionType(q);
 
     // 重置UI
     hideFeedback();
@@ -1271,6 +1369,22 @@ function checkAnswer() {
     }
 }
 
+// ===== 【改造四】检查错题是否可以移除 =====
+function tryRemoveFromMistakes(word) {
+    const stats = state.progress.wordStats?.[word];
+    if (!stats) return false;
+
+    // 需要 Leitner Box >= 3（即在不同 session 中多次正确）才移除
+    if (stats.box >= 3 && state.progress.mistakes) {
+        const idx = state.progress.mistakes.indexOf(word);
+        if (idx !== -1) {
+            state.progress.mistakes.splice(idx, 1);
+            return true;
+        }
+    }
+    return false;
+}
+
 // ===== 处理正确 =====
 function handleCorrect() {
     state.sessionScore++;
@@ -1287,6 +1401,9 @@ function handleCorrect() {
     const word = state.quizWords[state.currentQuestion].word;
     updateWordStats(word, true);
 
+    // 【改造四】尝试从错题本移除（Box >= 3 才行）
+    const removed = tryRemoveFromMistakes(word);
+
     // 显示XP弹出
     showXPPopup(xpGain);
 
@@ -1298,7 +1415,7 @@ function handleCorrect() {
         showStreakIndicator();
     }
 
-    // 显示反馈
+    // 显示反馈（含错题消化进度提示）
     if (state.quizMode === 'rescue') {
         state.rescueProgress++;
         showFeedback(true, '救援行动', `进度：${state.rescueProgress}/${state.rescueTarget}`);
@@ -1306,8 +1423,18 @@ function handleCorrect() {
         if (state.rescueProgress >= state.rescueTarget) {
             setTimeout(showRescueSuccess, 1000);
         }
+    } else if (removed) {
+        showFeedback(true, '太棒了！🎉', `「${word}」已从错题本移除！+${xpGain} XP`);
     } else {
-        showFeedback(true, '太棒了！', `+${xpGain} 经验值`);
+        // 检查是否在错题本中，给出消化进度提示
+        const inMistakes = (state.progress.mistakes || []).includes(word);
+        const stats = state.progress.wordStats?.[word];
+        if (inMistakes && stats) {
+            const remaining = 3 - (stats.box || 0);
+            showFeedback(true, '太棒了！', `+${xpGain} XP · 再答对 ${remaining} 次可移出错题本`);
+        } else {
+            showFeedback(true, '太棒了！', `+${xpGain} 经验值`);
+        }
     }
 }
 
@@ -1585,6 +1712,11 @@ function finishQuiz() {
     // 标记当天完成
     if (state.quizMode === 'day') {
         markDayCompleted(state.currentDay);
+    }
+
+    // 【改造四】复习模式完成后记录最后复习日期
+    if (state.quizMode === 'review') {
+        state.progress.lastReviewDate = new Date().toISOString();
     }
 
     // 保存进度

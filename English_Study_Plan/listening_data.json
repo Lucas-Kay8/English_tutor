@@ -1518,5 +1518,195 @@
                 "answer": 1
             }
         ]
+    },
+    {
+        "id": "L41",
+        "day": 41,
+        "title": "Protecting Our Heritage",
+        "text": "The Palace Museum in Beijing is a world-famous cultural heritage site. It has a history of over 600 years. Every year, millions of tourists visit it to admire the ancient architecture and traditional art. However, protecting such a large site is a huge challenge. The government has spent a lot of money on repairing the buildings and using technology to monitor the environment. For example, sensors are used to check the humidity and temperature in the rooms to protect the ancient paintings and sculptures. We should all show respect to our history and work together to pass it on to future generations.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How long is the history of the Palace Museum?",
+                "options": [
+                    "Over 400 years",
+                    "Over 600 years",
+                    "Over 1000 years"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is used to protect the ancient paintings?",
+                "options": [
+                    "Traditional paper",
+                    "Sensors and technology",
+                    "More guards"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What does the speaker suggest to the audience?",
+                "options": [
+                    "Visit more museums",
+                    "Work together to protect heritage",
+                    "Stop visiting ancient sites"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L42",
+        "day": 42,
+        "title": "A Global Vision for the Future",
+        "text": "In today's world, having a global vision is more important than ever. As the world becomes more connected, we should learn to communicate with people from different backgrounds. My dream is to work for an international organization that helps children in need around the world. To achieve this, I need to master English and learn about different cultures and traditions. Having a global vision means we should care about global issues like climate change and poverty. Even small actions can change the world. By understanding each other and sharing our resources, we can build a better and more peaceful future for everyone.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the speaker's dream job?",
+                "options": [
+                    "A famous artist",
+                    "Working for an international organization",
+                    "A local teacher"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What kind of issues should we care about?",
+                "options": [
+                    "Only personal issues",
+                    "Local news only",
+                    "Global issues like climate change"
+                ],
+                "answer": 2
+            },
+            {
+                "id": 3,
+                "question": "How can we build a better future according to the speaker?",
+                "options": [
+                    "By working alone",
+                    "By understanding and sharing",
+                    "By making more money"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L43",
+        "day": 43,
+        "title": "Virtual Reality in Education",
+        "text": "Virtual Reality, or VR, is changing the way students learn in the classroom. Instead of just reading from books, students can wear VR glasses to travel to the moon or explore the deep ocean. Last week, our class used VR to visit ancient Egypt. It felt like we were really walking among the pyramids. This technology makes learning more interesting and easier to understand. Teachers say that VR helps students focus as they are fully immersed in the experience. However, some people are worried that spending too much time in the virtual world might not be good for our eyes. We should use it as a powerful tool but not rely on it too much.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What can students do with VR glasses?",
+                "options": [
+                    "Only read books",
+                    "Travel to the moon or deep ocean",
+                    "Build real pyramids"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "According to teachers, what is a benefit of VR?",
+                "options": [
+                    "It is very expensive",
+                    "It helps students focus",
+                    "It replaces teachers"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is a possible concern about using VR?",
+                "options": [
+                    "It's too boring",
+                    "It might hurt our eyes",
+                    "It has no useful information"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L44",
+        "day": 44,
+        "title": "The Importance of Mental Health",
+        "text": "When we talk about being healthy, we often focus on our bodies. But mental health is just as important. In modern life, both adults and students face a lot of pressure from work and study. It's normal to feel nervous or sad sometimes. To stay mentally healthy, we should learn to manage our stress. Talking to friends or parents can be very helpful. We can also do things we enjoy, like listening to music, reading a book, or exercising in nature. Don't be afraid to ask for help when you feel down. Remember, a healthy mind is the key to a happy life.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What do people usually focus on when talking about health?",
+                "options": [
+                    "Their minds",
+                    "Their bodies",
+                    "Their money"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is a suggested way to manage stress?",
+                "options": [
+                    "Keep it to yourself",
+                    "Talking to friends or parents",
+                    "Eating more sweets"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is the key to a happy life according to the speaker?",
+                "options": [
+                    "A healthy mind",
+                    "Getting high grades",
+                    "Having no work"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L45",
+        "day": 45,
+        "title": "AI Assistants in the Future",
+        "text": "In the near future, AI assistants will become a part of every household. They will not only answer our questions but also help us manage our daily schedules and even provide emotional support. For example, an AI assistant could remind you to take your medicine or help you practice a new language. However, as AI becomes more advanced, we should also think about privacy and safety. We need to make sure that the technology is used for good purposes. AI should be designed to help humans be more creative and efficient, not to replace the human heart. The future of AI depends on how we choose to build and use it today.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What can AI assistants do in the future?",
+                "options": [
+                    "Only play music",
+                    "Help manage schedules and provide support",
+                    "Do all our homework"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is a concern mentioned about AI?",
+                "options": [
+                    "Privacy and safety",
+                    "It's too slow",
+                    "It doesn't speak well"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "question": "What is the purpose of AI according to the speaker?",
+                "options": [
+                    "To replace humans",
+                    "To make humans more creative and efficient",
+                    "To control the world"
+                ],
+                "answer": 1
+            }
+        ]
     }
 ]
