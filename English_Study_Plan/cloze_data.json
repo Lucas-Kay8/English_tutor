@@ -2330,5 +2330,217 @@
                 "answer": 0
             }
         ]
+    },
+    {
+        "id": "C46",
+        "day": 46,
+        "title": "City Parks",
+        "text": "Green spaces are very {1} for city life. Many new parks have {2} in Beijing recently. They offer a place for people to {3} and enjoy nature. We should take {4} to protect these trees. Let's work together to make our city {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "important",
+                    "impossible",
+                    "interesting"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "appeared",
+                    "affected",
+                    "answered"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "exercise",
+                    "examine",
+                    "expect"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "action",
+                    "advice",
+                    "attention"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "greener",
+                    "greater",
+                    "goodly"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C47",
+        "day": 47,
+        "title": "Lantern Riddles",
+        "text": "During the Lantern Festival, people {1} riddles on the lanterns. It is a {2} way to have fun. Family members often {3} together to eat sweet rice balls. This day {4} the end of the Spring Festival. It's full of {5} and hope.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "solve",
+                    "send",
+                    "save"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "traditional",
+                    "terrible",
+                    "thin"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "gather",
+                    "get",
+                    "go"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "marks",
+                    "makes",
+                    "meets"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "joy",
+                    "joke",
+                    "juice"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C48",
+        "day": 48,
+        "title": "Reading Habits",
+        "text": "Developing a good reading habit is {1} for students. Books provide us with a lot of {2}. We can learn about {3} through reading. It also helps to {4} our imagination. We should {5} reading every day.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "helpful",
+                    "hungry",
+                    "heavy"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "knowledge",
+                    "keyboard",
+                    "kitchen"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "culture",
+                    "color",
+                    "car"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "improve",
+                    "invite",
+                    "invent"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "practice",
+                    "prepare",
+                    "present"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C49",
+        "day": 49,
+        "title": "Astronauts' Life",
+        "text": "Living in space is very {1} from living on Earth. Astronauts work in a {2} gravity environment. They carry out many {3} experiments. Their work {4} many young people on Earth. We are {5} of their achievements.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "different",
+                    "difficult",
+                    "dangerous"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "zero",
+                    "zoom",
+                    "zone"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "scientific",
+                    "simple",
+                    "silent"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "inspires",
+                    "inspects",
+                    "insists"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "proud",
+                    "poor",
+                    "painful"
+                ],
+                "answer": 0
+            }
+        ]
     }
 ]

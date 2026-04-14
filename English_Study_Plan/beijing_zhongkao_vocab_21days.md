@@ -2066,3 +2066,304 @@
     * *The team won a great **victory**.* (这个团队赢得了一次伟大的胜利。)
 25. **progress** - 进步
     * *Keep practicing and you will make **progress**.* (坚持练习，你就会取得进步。)
+
+### Day 43: 蓝天保卫战与极简生活 (Environment & Simple living)
+1. **pollution** - 污染
+* *Air pollution has become a serious problem in many cities.* (空气污染已成为许多城市的严重问题。)
+2. **resource** - 资源
+* *We should cherish natural resources like water and forests.* (我们应该珍惜水和森林等自然资源。)
+3. **recycle** - 回收利用
+* *It's a good habit to recycle paper and plastic bottles.* (回收纸张和塑料瓶是个好习惯。)
+4. **reduce** - 减少
+* *Try to reduce the use of plastic bags when shopping.* (购物时尽量减少塑料袋的使用。)
+5. **protect** - 保护
+* *It is our duty to protect the environment for the future.* (为未来保护环境是我们的责任。)
+6. **environment** - 环境
+* *A clean environment makes us feel more comfortable.* (洁净的环境让我们感到更舒适。)
+7. **action** - 行动
+* *Small actions can make a big difference to the world.* (小小的行动也能给世界带来巨大的改变。)
+8. **solar** - 太阳的
+* *Solar energy is a kind of clean and renewable energy.* (太阳能是一种清洁的可再生能源。)
+9. **waste** - 浪费、垃圾
+* *Don't waste food; there are many people in need.* (不要浪费食物；还有很多人需要帮助。)
+10. **green** - 绿色的、环保的
+
+11. **nature** - 大自然
+* *We should learn to live in harmony with nature.* (我们应该学会与大自然和谐相处。)
+12. **wildlife** - 野生生物
+* *The national park is a safe home for wildlife.* (国家公园是野生生物的安全家园。)
+13. **Earth** - 地球
+* *We have only one Earth; let's take care of it.* (我们只有一个地球；让我们爱护它。)
+14. **ocean** - 海洋
+* *The ocean covers more than 70 percent of our planet.* (海洋覆盖了我们星球70%以上的面积。)
+15. **climate** - 气候
+* *Climate change is an important global issue.* (气候变化是一个重要的全球性议题。)
+16. **mountain** - 山
+* *They were tired after climbing the high mountain.* (爬完高山后他们很累。)
+17. **disaster** - 灾难
+* *Floods can be a terrible natural disaster.* (洪水可能是可怕的自然灾害。)
+18. **prevent** - 预防、防止
+* *Regular cleaning can help to prevent diseases.* (定期清洁有助于预防疾病。)
+19. **avoid** - 避免
+* *We should avoid wasting water in our daily lives.* (日常生活中我们应该避免浪费水。)
+20. **harm** - 伤害
+* *Pollution can harm the health of local people.* (污染会伤害当地人的健康。)
+* *Many people prefer a green lifestyle nowadays.* (如今许多人更喜欢环保的生活方式。)
+
+### Day 44: 身心平衡与健康管理 (Health & Well-being)
+1. **healthy** - 健康的
+* *A healthy diet is essential for growing teenagers.* (健康的饮食对成长中的青少年至关重要。)
+2. **exercise** - 锻炼
+* *Regular exercise helps to keep our bodies strong.* (定期锻炼有助于保持身体强壮。)
+3. **balanced** - 平衡的
+* *We need balanced nutrition to avoid getting sick.* (我们需要平衡的营养以避免生病。)
+4. **sleep** - 睡眠
+* *Getting enough sleep is very important for your brain.* (保证充足的睡眠对你的大脑非常重要。)
+5. **active** - 活跃的、积极的
+* *He is very active in all kinds of school sports.* (他在各种学校运动中都非常活跃。)
+6. **habit** - 习惯
+* *Good habits are the foundation of a success life.* (良好的习惯是成功人生的基础。)
+7. **fresh** - 新鲜的
+* *Try to eat more fresh fruits and vegetables.* (试着多吃新鲜的水果和蔬菜。)
+8. **relax** - 放松
+* *Listening to music is a great way to relax.* (听音乐是放松的好方法。)
+9. **illness** - 疾病
+* *The doctor told him how to prevent common illnesses.* (医生告诉他如何预防普通疾病。)
+10. **energy** - 能量、精力
+
+11. **nutrition** - 营养
+* *Milk provides essential nutrition for children.* (牛奶为孩子提供必需的营养。)
+12. **weight** - 重量、体重
+* *He is trying to lose weight by exercising.* (他正试着通过锻炼来减肥。)
+13. **stomach** - 胃
+* *Don't eat too much if your stomach feels uncomfortable.* (如果胃不舒服就不要吃太多。)
+14. **headache** - 头疼
+* *I have had a bad headache since this morning.* (从今天早上起我就一直头疼得很厉害。)
+15. **medicine** - 药
+* *The doctor gave me some medicine for my cold.* (医生给我开了些治感冒的药。)
+16. **advice** - 建议
+* *You should follow the doctor's advice carefully.* (你应该仔细遵循医生的建议。)
+17. **balance** - 平衡
+* *It's important to keep a balance between work and rest.* (保持劳逸结合很重要。)
+18. **mental** - 心理的、精神的
+* *Mental health is as important as physical health.* (心理健康与身体健康同样重要。)
+19. **fit** - 健康的、合适的
+* *Swimming is a good way to keep fit.* (游泳是保持健康的一种好方法。)
+20. **strength** - 力量、体力
+* *Doing sports can help to increase your strength.* (做运动有助于增强体力。)
+* *Fruit provides us with the energy we need each day.* (水果为我们提供每天所需的能量。)
+
+### Day 45: 体育精神与超越自我 (Sports & Spirit)
+1. **competition** - 比赛
+* *The swimming competition will be held next Friday.* (游泳比赛将在下周五举行。)
+2. **spirit** - 精神
+* *The Olympic spirit is about participation and friendship.* (奥运精神关乎参与和友谊。)
+3. **player** - 运动员、选手
+* *She is one of the best players on the school team.* (她是校队里最优秀的选手之一。)
+4. **victory** - 胜利
+* *They celebrated their victory after the final match.* (他们在决赛后庆祝了胜利。)
+5. **challenge** - 挑战
+* *Doing sports is a good way to challenge yourself.* (做运动是挑战自我的一种好方法。)
+6. **train** - 训练
+* *The athletes have to train hard every single day.* (运动员们必须每天艰苦训练。)
+7. **teamwork** - 团队合作
+* *Success in basketball depends on great teamwork.* (篮球的成功取决于伟大的团队合作。)
+8. **stadium** - 体育场
+* *The new stadium can hold over fifty thousand people.* (新体育场可以容纳超过五万人。)
+9. **champion** - 冠军
+* *He dreamed of becoming a world champion.* (他梦想着成为世界冠军。)
+10. **proud** - 自豪的
+
+11. **movement** - 动作、运动
+* *Pay attention to your body movement during exercise.* (锻炼时注意你的身体动作。)
+12. **athlete** - 运动员
+* *The young athlete won three gold medals.* (这位年轻的运动员赢得了三枚金牌。)
+13. **physical** - 身体的
+* *Physical activity is good for your heart.* (身体运动对你的心脏有好处。)
+14. **record** - 记录
+* *He broke the school record for the 100-meter dash.* (他打破了学校百米短跑记录。)
+15. **level** - 水平、等级
+* *You need to reach a higher level of fitness.* (你需要达到更高的健康水平。)
+16. **skill** - 技能、技巧
+* *Practice is the best way to improve your skills.* (练习是提高技能的最佳方式。)
+17. **match** - 比赛
+* *I am looking forward to the football match.* (我很期待那场足球比赛。)
+18. **progress** - 进步
+* *He has made great progress in his training.* (他在训练中取得了巨大进步。)
+19. **support** - 支持
+* *Her parents gave her a lot of support.* (她的父母给了她很多支持。)
+20. **goal** - 目标、球门
+* *He scored a great goal in the last minute.* (他在最后一分钟进了一个精彩的球。)
+* *We are all proud of her achievements in sports.* (我们都为她在体育方面的成就感到自豪。)
+
+### Day 46: 科学探索与创新思维 (Science & Innovation)
+1. **discovery** - 发现
+* *The discovery of fire changed human history.* (火的发现改变了人类历史。)
+2. **experiment** - 实验
+* *We did a chemistry experiment in the lab today.* (我们今天在实验室做了一个化学实验。)
+3. **invent** - 发明
+* *Who invented the first computer in the world?* (是谁发明了世界上第一台电脑？)
+4. **scientific** - 科学的
+* *He uses a scientific method to solve the problem.* (他用科学的方法来解决问题。)
+5. **knowledge** - 知识
+* *Books are a great source of scientific knowledge.* (书籍是科学知识的重要来源。)
+6. **space** - 空间、太空
+* *China has sent many astronauts into space.* (中国已经把许多宇航员送入太空。)
+7. **technology** - 技术
+* *Modern technology makes our lives more convenient.* (现代技术使我们的生活更加便利。)
+8. **future** - 未来
+* *Science will play a key role in the near future.* (科学将在不久的将来发挥关键作用。)
+9. **research** - 研究
+* *Scientists are doing research on the new virus.* (科学家们正在对这种新病毒进行研究。)
+10. **universe** - 宇宙
+
+11. **laptop** - 笔记本电脑
+* *I use my laptop to do my homework and research.* (我用笔记本电脑做作业和查资料。)
+12. **smartphone** - 智能手机
+* *Smartphones have changed the way we communicate.* (智能手机改变了我们交流的方式。)
+13. **internet** - 互联网
+* *You can find almost any information on the Internet.* (你几乎可以在互联网上找到任何信息。)
+14. **signal** - 信号
+* *The Wi-Fi signal is very weak in this room.* (这个房间的Wi-Fi信号很弱。)
+15. **platform** - 平台
+* *Social media is a popular platform for sharing.* (社交媒体是一个受欢的分享平台。)
+16. **keyboard** - 键盘
+* *I'm learning how to type faster on the keyboard.* (我正在学习如何用键盘打字更快。)
+17. **screen** - 屏幕
+* *Don't sit too close to the TV screen.* (不要坐得离电视屏幕太近。)
+18. **program** - 程序、计划
+* *He is learning how to write a computer program.* (他正在学习如何编写电脑程序。)
+19. **logical** - 逻辑的
+* *Coding helps to develop your logical thinking.* (编程有助于培养你的逻辑思维。)
+20. **solution** - 解决方案
+* *Scientists are trying to find a solution to the problem.* (科学家们正试图找到这个问题的解决方案。)
+* *There are billions of stars in the vast universe.* (在辽阔的宇宙中有数亿颗恒星。)
+
+### Day 47: 名胜古迹与旅行印记 (Travel & Landmarks)
+1. **landmark** - 地标、名胜
+* *The Great Wall is a world-famous landmark of China.* (长城是中国举世闻名的地标。)
+2. **travel** - 旅行
+* *Traveling can help us learn about different cultures.* (旅行可以帮助我们了解不同的文化。)
+3. **journey** - 旅程
+* *I hope you have a pleasant journey to London.* (希望你有一段前往伦敦的愉快旅程。)
+4. **experience** - 经验、经历
+* *Traveling abroad was an unforgettable experience.* (在国外旅行是一段难忘的经历。)
+5. **scenery** - 风景
+* *The scenery along the river is very beautiful.* (沿河的风景非常美丽。)
+6. **explore** - 探索
+* *Many young people like to explore unknown places.* (许多年轻人喜欢探索未知的地方。)
+7. **tourist** - 游客
+* *Every summer, many tourists visit the Palace Museum.* (每年夏天，许多游客参观故宫博物馆。)
+8. **guide** - 导游、指南
+* *The local guide told us many interesting stories.* (当地导游给我们讲了许多有趣的故事。)
+9. **ancient** - 古老的
+* *Xi'an is an ancient city with a rich history.* (西安是一座有着丰富历史的古城。)
+10. **view** - 视图、风景
+
+11. **flight** - 航班、飞行
+* *The flight to Shanghai will take two hours.* (去上海的航班将耗时两小时。)
+12. **passport** - 护照
+* *Don't forget to bring your passport when traveling.* (旅行时别忘了带护照。)
+13. **ticket** - 票
+* *I have already booked the train tickets.* (我已经订好了火车票。)
+14. **suitcase** - 行李箱
+* *My suitcase is too heavy to carry alone.* (我的行李箱太重了，一个人搬不动。)
+15. **reservation** - 预订
+* *Did you make a reservation for the hotel?* (你订好旅馆了吗？)
+16. **destination** - 目的地
+* *It took us five hours to reach our destination.* (我们花了五小时才到达目的地。)
+17. **local** - 当地的
+* *We enjoyed trying different kinds of local food.* (我们很喜欢尝试各种当地美食。)
+18. **traditional** - 传统的
+* *They were wearing traditional Chinese clothes.* (他们穿着中国传统服饰。)
+19. **souvenir** - 纪念品
+* *I bought a small souvenir for my best friend.* (我给最好的朋友买了一件小纪念品。)
+20. **abroad** - 在国外
+* *She hopes to study abroad in the future.* (她希望将来出国留学。)
+* *The hotel room has a great view of the sea.* (酒店房间可以看到绝美的海景。)
+
+### Day 48: 艺术魅力与审美表达 (Art & Aesthetics)
+1. **art** - 艺术
+* *I have been interested in art since I was a child.* (我从小就对艺术感兴趣。)
+2. **painting** - 绘画
+* *She spends her weekends painting in the park.* (她周末在公园里画画。)
+3. **music** - 音乐
+* *Classic music can help me stay calm and focused.* (古典音乐能帮我保持冷静和专注。)
+4. **instrument** - 乐器
+* *The piano is a very popular musical instrument.* (钢琴是一种非常受欢迎的乐器。)
+5. **artist** - 艺术家
+* *Picasso is one of the most famous artists in history.* (毕加索是历史上最著名的艺术家之一。)
+6. **performance** - 表演
+* *The school's dance performance was excellent.* (学校的舞蹈表演非常精彩。)
+7. **creative** - 有创造力的
+* *Drawing is a good way to be creative.* (绘画是发挥创造力的好方法。)
+8. **imagination** - 想象力
+* *Reading books can help to develop your imagination.* (看书有助于培养你的想象力。)
+9. **culture** - 文化
+* *We should learn to respect different cultures.* (我们应该学会尊重不同的文化。)
+10. **exhibition** - 展览
+
+11. **classic** - 古典的、经典的
+* *He prefers classic music to pop music.* (比起流行音乐，他更喜欢古典音乐。)
+12. **modern** - 现代的
+* *The museum shows many modern paintings.* (博物馆展示了许多现代绘画。)
+13. **simple** - 简单的
+* *The style of the building is very simple.* (这座建筑的风格非常简约。)
+14. **various** - 各种各样的
+* *The shop sells various kinds of musical instruments.* (这家商店出售各种乐器。)
+15. **valuable** - 宝贵的
+* *Art is a valuable treasure of human history.* (艺术是人类历史的宝贵财富。)
+16. **creative** - 有创造力的
+* *Children are often very creative in their thinking.* (孩子们的思维通常很有创造力。)
+17. **imagination** - 想象力
+* *You need a lot of imagination to write stories.* (写故事需要丰富的想象力。)
+18. **style** - 风格
+* *I really like the simple style of her drawings.* (我非常喜欢她画作的简约风格。)
+19. **stage** - 舞台
+* *The actors performed beautifully on the stage.* (演员们在舞台上表演得很出色。)
+20. **concert** - 音乐会
+* *Are you going to the concert this weekend?* (你这周末要去听音乐会吗？)
+* *The art exhibition will open to the public tomorrow.* (艺术展将于明天向公众开放。)
+
+### Day 49: 志愿服务与社区责任 (Community & Service)
+1. **volunteer** - 志愿者
+* *He worked as a volunteer at the local library.* (他在当地图书馆担任志愿者。)
+2. **community** - 社区
+* *Living in a friendly community makes us happy.* (生活在一个友好的社区让我们感到快乐。)
+3. **service** - 服务
+* *The community service center helps old people.* (社区服务中心为老年人提供帮助。)
+4. **charity** - 慈善
+* *They organized a charity run to raise money.* (他们组织了一场义跑来筹集资金。)
+5. **contribution** - 贡献
+* *We can all make a contribution to society.* (我们都可以为社会做出贡献。)
+6. **share** - 分享
+* *Good friends are willing to share their feelings.* (好朋友愿意分享他们的感受。)
+7. **together** - 一起
+* *Working together can make the tasks much easier.* (齐心协力可以让任务变得容易得多。)
+8. **helper** - 助手、帮手
+* *Oli is a good helper for his parents at home.* (Oli在家是父母的好帮手。)
+9. **society** - 社会
+* *Education is very important for the whole society.* (教育对整个社会都非常重要。)
+10. **kindness** - 善良
+
+11. **organization** - 组织、机构
+* *He joined a volunteer organization last summer.* (去年夏天他加入了一个志愿者组织。)
+12. **member** - 成员
+* *She is an active member of the English club.* (她是英语俱乐部的活跃成员。)
+13. **elderly** - 老年人
+* *We should show respect and care for the elderly.* (我们应该对老年人表现出尊重和关怀。)
+14. **disabled** - 残疾的
+* *The center provides help for disabled children.* (该中心为残障儿童提供帮助。)
+15. **donate** - 捐赠
+* *Many people donated money to help the library.* (许多人捐钱帮助图书馆。)
+16. **program** - 自愿项目、计划
+* *The school has a program for community service.* (学校有一个社区服务项目。)
+17. **participate** - 参与
+* *Everyone is encouraged to participate in the activity.* (鼓励每个人都参加这项活动。)
+18. **cooperation** - 合作
+* *Success depends on the cooperation of the team.* (成功取决于团队的合作。)
+19. **kindness** - 善良
+* *She is known for her kindness to everyone.* (她对每个人的善良是出了名的。)
+20. **society** - 社会
+* *Volunteering is a great way to serve society.* (志愿服务是服务社会的一种很好方式。)
+* *A small act of kindness can warm someone's heart.* (小小的一举之善也能温暖他人的心。)

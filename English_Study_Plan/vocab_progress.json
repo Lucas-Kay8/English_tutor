@@ -2,7 +2,49 @@
     "completedClozeDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
     ],
     "completedDays": [
         1,
@@ -43,12 +85,20 @@
         36,
         37,
         38,
-        39
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
     ],
     "completedListeningDays": [
         1,
-        3,
         2,
+        3,
         4,
         5,
         6,
@@ -70,9 +120,29 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
     ],
-    "hearts": 10,
+    "hearts": 5,
     "history": [
         {
             "date": "2026-02-11T07:01:25.670Z",
@@ -1116,88 +1186,391 @@
         },
         {
             "date": "2026-04-10T13:03:13.393Z",
-            "mode": "day",
             "day": 39,
+            "mode": "day",
             "score": 25,
             "total": 25,
             "xp": 250
+        },
+        {
+            "date": "2026-04-11T13:25:13.217Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 20,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T13:27:32.805Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 31,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-11T13:45:18.912Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-11T13:47:26.358Z",
+            "day": 40,
+            "mode": "review",
+            "score": 3,
+            "total": 30,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-11T13:48:03.687Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T13:59:17.508Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-11T14:00:01.215Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T14:01:45.425Z",
+            "day": 40,
+            "mode": "review",
+            "score": 3,
+            "total": 31,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-11T14:01:52.892Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T14:02:47.828Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-11T14:06:41.591Z",
+            "day": 40,
+            "mode": "review",
+            "score": 10,
+            "total": 32,
+            "xp": 100
+        },
+        {
+            "date": "2026-04-11T14:06:57.850Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T14:11:48.758Z",
+            "day": 40,
+            "mode": "review",
+            "score": 5,
+            "total": 30,
+            "xp": 50
+        },
+        {
+            "date": "2026-04-11T14:12:42.252Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 30,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-11T14:15:57.658Z",
+            "day": 40,
+            "mode": "review",
+            "score": 9,
+            "total": 31,
+            "xp": 90
+        },
+        {
+            "date": "2026-04-11T14:16:30.542Z",
+            "day": 40,
+            "mode": "review",
+            "score": 3,
+            "total": 30,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-11T14:16:37.167Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-11T14:17:07.949Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 30,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-11T14:17:45.863Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-11T14:17:55.923Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:01:26.126Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:01:36.381Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-13T12:05:16.139Z",
+            "day": 40,
+            "mode": "review",
+            "score": 8,
+            "total": 31,
+            "xp": 80
+        },
+        {
+            "date": "2026-04-13T12:05:39.395Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 31,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-13T12:07:22.058Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 31,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:07:53.585Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 30,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-13T12:08:10.630Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:09:16.580Z",
+            "day": 40,
+            "mode": "review",
+            "score": 3,
+            "total": 30,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-13T12:09:50.107Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 31,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-13T12:09:59.777Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 30,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:10:58.919Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 30,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-13T12:11:06.702Z",
+            "day": 40,
+            "mode": "review",
+            "score": 0,
+            "total": 30,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-13T12:12:05.909Z",
+            "day": 40,
+            "mode": "review",
+            "score": 3,
+            "total": 30,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-13T12:12:41.381Z",
+            "day": 40,
+            "mode": "review",
+            "score": 2,
+            "total": 28,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-13T12:13:30.272Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 27,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:14:17.957Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 26,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-13T12:14:28.913Z",
+            "day": 40,
+            "mode": "review",
+            "score": 1,
+            "total": 26,
+            "xp": 10
+        },
+        {
+            "date": "2026-04-14T12:17:40.301Z",
+            "mode": "review",
+            "day": 40,
+            "score": 0,
+            "total": 25,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-14T12:17:46.941Z",
+            "mode": "review",
+            "day": 40,
+            "score": 0,
+            "total": 25,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-14T12:37:57.409Z",
+            "mode": "review",
+            "day": 40,
+            "score": 0,
+            "total": 26,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-14T12:38:56.934Z",
+            "mode": "review",
+            "day": 40,
+            "score": 0,
+            "total": 25,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-14T12:39:03.728Z",
+            "mode": "review",
+            "day": 40,
+            "score": 0,
+            "total": 25,
+            "xp": 0
+        },
+        {
+            "date": "2026-04-14T12:40:39.455Z",
+            "mode": "review",
+            "day": 40,
+            "score": 2,
+            "total": 26,
+            "xp": 20
+        },
+        {
+            "date": "2026-04-14T12:42:14.793Z",
+            "mode": "review",
+            "day": 40,
+            "score": 3,
+            "total": 24,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-14T12:43:00.593Z",
+            "mode": "review",
+            "day": 40,
+            "score": 3,
+            "total": 24,
+            "xp": 30
+        },
+        {
+            "date": "2026-04-14T12:45:52.239Z",
+            "mode": "review",
+            "day": 40,
+            "score": 6,
+            "total": 22,
+            "xp": 60
+        },
+        {
+            "date": "2026-04-14T12:46:15.161Z",
+            "mode": "review",
+            "day": 40,
+            "score": 1,
+            "total": 19,
+            "xp": 10
         }
     ],
     "lastStudyDate": "2026-04-10T13:03:13.393Z",
-    "mistakes": [
-        "allow",
-        "check",
-        "control",
-        "come",
-        "climb",
-        "full",
-        "high",
-        "magic",
-        "think about",
-        "internet",
-        "glad",
-        "healthy",
-        "difficult",
-        "national",
-        "old",
-        "impossible",
-        "heavy",
-        "new",
-        "run out of",
-        "difference",
-        "mountain",
-        "great",
-        "hill",
-        "homework",
-        "education",
-        "bed",
-        "concert",
-        "bicycle / bike",
-        "area",
-        "earth",
-        "mark",
-        "effort",
-        "dictionary",
-        "consider",
-        "afford",
-        "own",
-        "expensive",
-        "course",
-        "form",
-        "cheer up",
-        "cut off",
-        "give up",
-        "help sb. with sth.",
-        "stop ... from doing",
-        "turn off/on",
-        "probably",
-        "however",
-        "once",
-        "tonight",
-        "rest",
-        "fever",
-        "stomach",
-        "neighbor",
-        "fair",
-        "research",
-        "reason",
-        "standard",
-        "citizen",
-        "society",
-        "courage",
-        "expert",
-        "goal",
-        "progress",
-        "valuable",
-        "disadvantage",
-        "instant",
-        "data",
-        "patience",
-        "determination",
-        "struggle",
-        "punctual",
-        "cooperate"
-    ],
+    "mistakes": [],
     "streak": 3,
     "wordStats": {
         "X-ray": {
@@ -1313,10 +1686,10 @@
             "wrong": 0
         },
         "afford": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-03T14:17:57.327Z",
-            "nextReview": 1772806677327,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:07:45.970Z",
+            "nextReview": 1776686865970,
             "wrong": 1
         },
         "against": {
@@ -1369,10 +1742,10 @@
             "wrong": 0
         },
         "allow": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-10T12:11:16.761Z",
-            "nextReview": 1773144676761,
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:35:34.331Z",
+            "nextReview": 1776429334331,
             "wrong": 2
         },
         "aloud": {
@@ -1459,6 +1832,13 @@
             "nextReview": 1774615448642,
             "wrong": 0
         },
+        "architect": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T12:57:29.926Z",
+            "nextReview": 1775912249926,
+            "wrong": 0
+        },
         "architecture": {
             "box": 1,
             "correct": 1,
@@ -1467,10 +1847,10 @@
             "wrong": 0
         },
         "area": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:13:18.147Z",
-            "nextReview": 1774757598147,
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:41:57.137Z",
+            "nextReview": 1776429717137,
             "wrong": 4
         },
         "argument": {
@@ -1684,10 +2064,10 @@
             "wrong": 0
         },
         "bed": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-02-24T03:50:42.899Z",
-            "nextReview": 1772164242899,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-13T12:08:06.473Z",
+            "nextReview": 1776686886473,
             "wrong": 1
         },
         "bedroom": {
@@ -1733,11 +2113,18 @@
             "wrong": 0
         },
         "bicycle / bike": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-02-25T07:05:07.474Z",
-            "nextReview": 1772262307474,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-13T12:14:22.650Z",
+            "nextReview": 1776687262650,
             "wrong": 1
+        },
+        "biological": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T13:03:09.528Z",
+            "nextReview": 1776085389528,
+            "wrong": 0
         },
         "bird": {
             "box": 1,
@@ -2027,11 +2414,11 @@
             "wrong": 0
         },
         "check": {
-            "box": 1,
-            "correct": 4,
-            "lastStudy": "2026-03-10T12:11:40.136Z",
-            "nextReview": 1773144700136,
-            "wrong": 4
+            "box": 3,
+            "correct": 7,
+            "lastStudy": "2026-04-13T12:03:17.728Z",
+            "nextReview": 1776686597728,
+            "wrong": 5
         },
         "cheer": {
             "box": 1,
@@ -2041,11 +2428,18 @@
             "wrong": 0
         },
         "cheer up": {
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:37:26.029Z",
+            "nextReview": 1776429446029,
+            "wrong": 5
+        },
+        "chemical": {
             "box": 1,
             "correct": 1,
-            "lastStudy": "2026-03-29T04:15:40.378Z",
-            "nextReview": 1774757740378,
-            "wrong": 4
+            "lastStudy": "2026-04-10T12:56:21.573Z",
+            "nextReview": 1775912181573,
+            "wrong": 0
         },
         "chemistry": {
             "box": 1,
@@ -2083,10 +2477,10 @@
             "wrong": 0
         },
         "citizen": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:16:49.077Z",
-            "nextReview": 1775362609077,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:10:53.887Z",
+            "nextReview": 1777378253887,
             "wrong": 1
         },
         "city": {
@@ -2125,10 +2519,10 @@
             "wrong": 0
         },
         "climb": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-03T14:11:00.288Z",
-            "nextReview": 1772633460288,
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:10:17.014Z",
+            "nextReview": 1776341417014,
             "wrong": 2
         },
         "climber": {
@@ -2202,10 +2596,10 @@
             "wrong": 0
         },
         "come": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-03T14:11:40.016Z",
-            "nextReview": 1772806300016,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:12:13.274Z",
+            "nextReview": 1776521533274,
             "wrong": 2
         },
         "come true": {
@@ -2234,6 +2628,13 @@
             "correct": 1,
             "lastStudy": "2026-02-27T09:54:34.525Z",
             "nextReview": 1772272474525,
+            "wrong": 0
+        },
+        "communicative": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T13:00:25.705Z",
+            "nextReview": 1776085225705,
             "wrong": 0
         },
         "community": {
@@ -2286,10 +2687,10 @@
             "wrong": 0
         },
         "concert": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-02-25T07:02:27.479Z",
-            "nextReview": 1772262147479,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T14:03:03.202Z",
+            "nextReview": 1776520983202,
             "wrong": 1
         },
         "conclusion": {
@@ -2335,10 +2736,10 @@
             "wrong": 0
         },
         "consider": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-21T13:04:28.354Z",
-            "nextReview": 1774703068354,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:13:24.143Z",
+            "nextReview": 1777378404143,
             "wrong": 1
         },
         "continue": {
@@ -2356,10 +2757,10 @@
             "wrong": 0
         },
         "control": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-22T11:22:47.491Z",
-            "nextReview": 1774437767491,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-11T13:46:03.220Z",
+            "nextReview": 1776519963220,
             "wrong": 3
         },
         "convenient": {
@@ -2390,6 +2791,13 @@
             "nextReview": 1771991184750,
             "wrong": 0
         },
+        "cooperate": {
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-13T12:09:06.804Z",
+            "nextReview": 1776686946804,
+            "wrong": 1
+        },
         "corner": {
             "box": 1,
             "correct": 1,
@@ -2412,17 +2820,17 @@
             "wrong": 0
         },
         "courage": {
-            "box": 3,
-            "correct": 3,
-            "lastStudy": "2026-04-09T12:50:52.537Z",
-            "nextReview": 1776343852537,
+            "box": 4,
+            "correct": 4,
+            "lastStudy": "2026-04-13T12:02:10.518Z",
+            "nextReview": 1777377730518,
             "wrong": 1
         },
         "course": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-21T13:02:16.161Z",
-            "nextReview": 1774098136161,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:12:01.360Z",
+            "nextReview": 1776687121360,
             "wrong": 3
         },
         "create": {
@@ -2430,6 +2838,13 @@
             "correct": 1,
             "lastStudy": "2026-03-17T12:27:06.142Z",
             "nextReview": 1773836826142,
+            "wrong": 0
+        },
+        "creative": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T12:59:05.831Z",
+            "nextReview": 1776085145831,
             "wrong": 0
         },
         "creature": {
@@ -2468,11 +2883,11 @@
             "wrong": 0
         },
         "cut off": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-29T04:12:07.690Z",
-            "nextReview": 1774757527690,
-            "wrong": 3
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:43:28.651Z",
+            "nextReview": 1776429808651,
+            "wrong": 4
         },
         "dance": {
             "box": 1,
@@ -2489,10 +2904,10 @@
             "wrong": 0
         },
         "data": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-04-04T14:16:45.565Z",
-            "nextReview": 1775571405565,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T13:27:23.665Z",
+            "nextReview": 1776518843665,
             "wrong": 1
         },
         "date": {
@@ -2543,11 +2958,18 @@
             "wrong": 0
         },
         "determination": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-04-09T12:54:34.798Z",
-            "nextReview": 1775998474798,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T14:16:09.306Z",
+            "nextReview": 1776521769306,
             "wrong": 1
+        },
+        "determined": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:02:49.009Z",
+            "nextReview": 1775912569009,
+            "wrong": 0
         },
         "develop": {
             "box": 1,
@@ -2571,10 +2993,10 @@
             "wrong": 0
         },
         "dictionary": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-29T04:13:14.885Z",
-            "nextReview": 1774757594885,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-14T12:37:21.820Z",
+            "nextReview": 1776429441820,
             "wrong": 3
         },
         "die of": {
@@ -2592,10 +3014,10 @@
             "wrong": 0
         },
         "difference": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:15:45.966Z",
-            "nextReview": 1775362545966,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:11:44.505Z",
+            "nextReview": 1777378304505,
             "wrong": 3
         },
         "different": {
@@ -2607,10 +3029,10 @@
         },
         "difficult": {
             "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:15:25.098Z",
-            "nextReview": 1774757725098,
-            "wrong": 6
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:45:14.119Z",
+            "nextReview": 1776170714119,
+            "wrong": 7
         },
         "digital": {
             "box": 1,
@@ -2634,11 +3056,11 @@
             "wrong": 0
         },
         "disadvantage": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-31T13:05:11.542Z",
-            "nextReview": 1775221511542,
-            "wrong": 1
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:11:41.047Z",
+            "nextReview": 1776687101047,
+            "wrong": 2
         },
         "discover": {
             "box": 2,
@@ -2739,10 +3161,10 @@
             "wrong": 0
         },
         "earth": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-10T12:14:19.647Z",
-            "nextReview": 1773749659647,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:13:41.483Z",
+            "nextReview": 1777212821483,
             "wrong": 1
         },
         "easy": {
@@ -2767,10 +3189,10 @@
             "wrong": 0
         },
         "education": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:15:42.313Z",
-            "nextReview": 1774757742313,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:17:31.175Z",
+            "nextReview": 1776521851175,
             "wrong": 2
         },
         "efficient": {
@@ -2782,9 +3204,9 @@
         },
         "effort": {
             "box": 5,
-            "correct": 6,
-            "lastStudy": "2026-04-09T12:52:07.583Z",
-            "nextReview": 1778331127583,
+            "correct": 7,
+            "lastStudy": "2026-04-14T12:40:04.971Z",
+            "nextReview": 1778762404971,
             "wrong": 2
         },
         "email": {
@@ -2928,10 +3350,10 @@
             "wrong": 0
         },
         "expensive": {
-            "box": 3,
-            "correct": 4,
-            "lastStudy": "2026-03-29T04:12:54.532Z",
-            "nextReview": 1775362374532,
+            "box": 4,
+            "correct": 5,
+            "lastStudy": "2026-04-11T14:12:48.671Z",
+            "nextReview": 1777212768671,
             "wrong": 1
         },
         "experience": {
@@ -2949,10 +3371,10 @@
             "wrong": 0
         },
         "expert": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:19:09.268Z",
-            "nextReview": 1775362749268,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:03:35.620Z",
+            "nextReview": 1777212215620,
             "wrong": 3
         },
         "exploration": {
@@ -3110,10 +3532,10 @@
             "wrong": 0
         },
         "fever": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-12T12:38:00.590Z",
-            "nextReview": 1773578280590,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:05:07.199Z",
+            "nextReview": 1776686707199,
             "wrong": 1
         },
         "field": {
@@ -3156,6 +3578,13 @@
             "correct": 1,
             "lastStudy": "2026-02-27T10:04:13.787Z",
             "nextReview": 1772273053787,
+            "wrong": 0
+        },
+        "flexible": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T12:56:57.919Z",
+            "nextReview": 1776085017919,
             "wrong": 0
         },
         "flower": {
@@ -3208,11 +3637,11 @@
             "wrong": 0
         },
         "form": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-29T04:12:19.780Z",
-            "nextReview": 1774757539780,
-            "wrong": 3
+            "box": 2,
+            "correct": 3,
+            "lastStudy": "2026-04-14T12:43:34.740Z",
+            "nextReview": 1776429814740,
+            "wrong": 5
         },
         "free": {
             "box": 1,
@@ -3243,10 +3672,10 @@
             "wrong": 0
         },
         "full": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-10T12:10:14.785Z",
-            "nextReview": 1773144614785,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-14T12:42:38.555Z",
+            "nextReview": 1776775358555,
             "wrong": 3
         },
         "fun": {
@@ -3320,17 +3749,17 @@
             "wrong": 0
         },
         "give up": {
-            "box": 1,
-            "correct": 3,
-            "lastStudy": "2026-03-29T04:13:10.085Z",
-            "nextReview": 1774757590085,
+            "box": 3,
+            "correct": 5,
+            "lastStudy": "2026-04-11T14:16:56.764Z",
+            "nextReview": 1776521816764,
             "wrong": 4
         },
         "glad": {
-            "box": 2,
-            "correct": 3,
-            "lastStudy": "2026-03-29T04:12:00.384Z",
-            "nextReview": 1775016720384,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-13T12:02:47.397Z",
+            "nextReview": 1776686567397,
             "wrong": 2
         },
         "global": {
@@ -3348,11 +3777,11 @@
             "wrong": 0
         },
         "goal": {
-            "box": 3,
-            "correct": 3,
-            "lastStudy": "2026-04-09T12:52:44.669Z",
-            "nextReview": 1776343964669,
-            "wrong": 1
+            "box": 2,
+            "correct": 4,
+            "lastStudy": "2026-04-14T12:40:56.610Z",
+            "nextReview": 1776429656610,
+            "wrong": 3
         },
         "god": {
             "box": 1,
@@ -3404,10 +3833,10 @@
             "wrong": 0
         },
         "great": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-21T13:02:05.635Z",
-            "nextReview": 1774098125635,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:04:58.741Z",
+            "nextReview": 1776686698741,
             "wrong": 2
         },
         "ground": {
@@ -3495,10 +3924,10 @@
             "wrong": 0
         },
         "healthy": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:13:23.418Z",
-            "nextReview": 1774757603418,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:15:37.279Z",
+            "nextReview": 1776521737279,
             "wrong": 4
         },
         "hear from": {
@@ -3516,10 +3945,10 @@
             "wrong": 0
         },
         "heavy": {
-            "box": 3,
-            "correct": 3,
-            "lastStudy": "2026-04-10T12:55:47.343Z",
-            "nextReview": 1776430547343,
+            "box": 4,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:11:10.716Z",
+            "nextReview": 1777212670716,
             "wrong": 1
         },
         "help": {
@@ -3530,11 +3959,11 @@
             "wrong": 0
         },
         "help sb. with sth.": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-05T12:25:14.623Z",
-            "nextReview": 1772972714623,
-            "wrong": 2
+            "box": 1,
+            "correct": 2,
+            "lastStudy": "2026-04-14T12:41:40.897Z",
+            "nextReview": 1776170500897,
+            "wrong": 4
         },
         "helpful": {
             "box": 2,
@@ -3565,17 +3994,17 @@
             "wrong": 0
         },
         "high": {
-            "box": 1,
-            "correct": 3,
-            "lastStudy": "2026-03-29T04:15:28.768Z",
-            "nextReview": 1774757728768,
-            "wrong": 3
+            "box": 2,
+            "correct": 6,
+            "lastStudy": "2026-04-14T12:41:46.387Z",
+            "nextReview": 1776429706387,
+            "wrong": 5
         },
         "hill": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:15:27.242Z",
-            "nextReview": 1774757727242,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-14T12:43:31.600Z",
+            "nextReview": 1776775411600,
             "wrong": 2
         },
         "historical": {
@@ -3614,10 +4043,10 @@
             "wrong": 0
         },
         "homework": {
-            "box": 4,
-            "correct": 3,
-            "lastStudy": "2026-03-10T12:10:01.838Z",
-            "nextReview": 1774440601838,
+            "box": 5,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:05:00.852Z",
+            "nextReview": 1778508300852,
             "wrong": 1
         },
         "honest": {
@@ -3642,10 +4071,10 @@
             "wrong": 0
         },
         "however": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-10T12:21:35.217Z",
-            "nextReview": 1773404495217,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-14T12:42:51.405Z",
+            "nextReview": 1776775371405,
             "wrong": 1
         },
         "huge": {
@@ -3740,10 +4169,10 @@
             "wrong": 0
         },
         "impossible": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-10T12:11:29.404Z",
-            "nextReview": 1773144689404,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-14T12:45:20.670Z",
+            "nextReview": 1776429920670,
             "wrong": 3
         },
         "improvement": {
@@ -3789,10 +4218,10 @@
             "wrong": 0
         },
         "instant": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-04-04T14:16:35.359Z",
-            "nextReview": 1775571395359,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T13:48:44.742Z",
+            "nextReview": 1776520124742,
             "wrong": 1
         },
         "instead": {
@@ -3817,10 +4246,10 @@
             "wrong": 0
         },
         "internet": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-21T13:03:52.961Z",
-            "nextReview": 1774357432961,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-11T13:46:56.511Z",
+            "nextReview": 1776520016511,
             "wrong": 3
         },
         "interview": {
@@ -3954,6 +4383,13 @@
             "correct": 1,
             "lastStudy": "2026-03-22T11:24:58.458Z",
             "nextReview": 1774265098458,
+            "wrong": 0
+        },
+        "leadership": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T12:58:06.466Z",
+            "nextReview": 1775912286466,
             "wrong": 0
         },
         "level": {
@@ -4090,10 +4526,10 @@
             "wrong": 0
         },
         "magic": {
-            "box": 2,
-            "correct": 3,
-            "lastStudy": "2026-03-15T03:07:43.849Z",
-            "nextReview": 1773803263849,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:17:51.236Z",
+            "nextReview": 1776521871236,
             "wrong": 1
         },
         "make a mistake": {
@@ -4146,10 +4582,10 @@
             "wrong": 0
         },
         "mark": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-10T12:13:20.635Z",
-            "nextReview": 1773749600635,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-13T12:02:33.644Z",
+            "nextReview": 1777377753644,
             "wrong": 1
         },
         "marry": {
@@ -4270,17 +4706,17 @@
             "wrong": 0
         },
         "mountain": {
-            "box": 1,
-            "correct": 3,
-            "lastStudy": "2026-03-29T04:12:49.710Z",
-            "nextReview": 1774757569710,
+            "box": 3,
+            "correct": 5,
+            "lastStudy": "2026-04-14T12:39:30.716Z",
+            "nextReview": 1776775170716,
             "wrong": 3
         },
         "national": {
-            "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:15:17.477Z",
-            "nextReview": 1774757717477,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:13:23.295Z",
+            "nextReview": 1776521603295,
             "wrong": 3
         },
         "natural": {
@@ -4319,10 +4755,10 @@
             "wrong": 0
         },
         "neighbor": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:13:26.519Z",
-            "nextReview": 1775362406519,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:13:45.765Z",
+            "nextReview": 1777212825765,
             "wrong": 2
         },
         "neither": {
@@ -4354,10 +4790,10 @@
             "wrong": 0
         },
         "new": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:16:11.796Z",
-            "nextReview": 1775016971796,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:14:46.356Z",
+            "nextReview": 1776521686356,
             "wrong": 3
         },
         "next": {
@@ -4438,17 +4874,17 @@
             "wrong": 0
         },
         "old": {
-            "box": 4,
-            "correct": 3,
-            "lastStudy": "2026-03-21T13:02:36.390Z",
-            "nextReview": 1775394156390,
+            "box": 5,
+            "correct": 4,
+            "lastStudy": "2026-04-13T12:07:31.699Z",
+            "nextReview": 1778674051699,
             "wrong": 1
         },
         "once": {
-            "box": 4,
-            "correct": 3,
-            "lastStudy": "2026-04-10T12:52:42.294Z",
-            "nextReview": 1777121562294,
+            "box": 5,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:00:17.607Z",
+            "nextReview": 1778508017607,
             "wrong": 1
         },
         "online": {
@@ -4500,6 +4936,13 @@
             "nextReview": 1775738232639,
             "wrong": 0
         },
+        "organized": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:01:26.862Z",
+            "nextReview": 1775912486862,
+            "wrong": 0
+        },
         "ourselves": {
             "box": 1,
             "correct": 1,
@@ -4523,10 +4966,10 @@
         },
         "own": {
             "box": 3,
-            "correct": 4,
-            "lastStudy": "2026-03-04T12:51:17.429Z",
-            "nextReview": 1773233477429,
-            "wrong": 1
+            "correct": 6,
+            "lastStudy": "2026-04-14T12:42:54.235Z",
+            "nextReview": 1776775374235,
+            "wrong": 2
         },
         "owner": {
             "box": 1,
@@ -4578,11 +5021,11 @@
             "wrong": 0
         },
         "patience": {
-            "box": 2,
-            "correct": 2,
-            "lastStudy": "2026-04-09T12:51:31.115Z",
-            "nextReview": 1775998291115,
-            "wrong": 1
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-11T14:16:16.664Z",
+            "nextReview": 1776521776664,
+            "wrong": 2
         },
         "patient": {
             "box": 2,
@@ -4757,6 +5200,13 @@
             "nextReview": 1774185270849,
             "wrong": 0
         },
+        "preparation": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T12:56:44.121Z",
+            "nextReview": 1776085004121,
+            "wrong": 0
+        },
         "prepare": {
             "box": 1,
             "correct": 1,
@@ -4779,10 +5229,10 @@
             "wrong": 0
         },
         "probably": {
-            "box": 3,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:11:46.257Z",
-            "nextReview": 1775362306257,
+            "box": 4,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:02:20.975Z",
+            "nextReview": 1777212140975,
             "wrong": 1
         },
         "profession": {
@@ -4792,11 +5242,18 @@
             "nextReview": 1775017275295,
             "wrong": 0
         },
+        "professional": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:00:52.742Z",
+            "nextReview": 1775912452742,
+            "wrong": 0
+        },
         "progress": {
-            "box": 2,
-            "correct": 3,
-            "lastStudy": "2026-03-31T12:59:49.854Z",
-            "nextReview": 1775221189854,
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-13T12:06:08.665Z",
+            "nextReview": 1776686768665,
             "wrong": 1
         },
         "pronounce": {
@@ -4833,6 +5290,13 @@
             "lastStudy": "2026-03-22T11:22:00.905Z",
             "nextReview": 1774264920905,
             "wrong": 0
+        },
+        "punctual": {
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-10T13:01:12.650Z",
+            "nextReview": 1776430872650,
+            "wrong": 1
         },
         "purpose": {
             "box": 1,
@@ -4882,10 +5346,10 @@
             "wrong": 0
         },
         "reason": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-22T11:22:13.677Z",
-            "nextReview": 1774437733677,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T13:46:27.254Z",
+            "nextReview": 1776519987254,
             "wrong": 1
         },
         "reasoning": {
@@ -4937,6 +5401,13 @@
             "nextReview": 1774100598439,
             "wrong": 0
         },
+        "reliable": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:02:18.532Z",
+            "nextReview": 1775912538532,
+            "wrong": 0
+        },
         "remind": {
             "box": 1,
             "correct": 1,
@@ -4980,10 +5451,10 @@
             "wrong": 0
         },
         "research": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-29T04:13:20.356Z",
-            "nextReview": 1774757600356,
+            "box": 3,
+            "correct": 3,
+            "lastStudy": "2026-04-11T14:10:40.151Z",
+            "nextReview": 1776521440151,
             "wrong": 2
         },
         "researcher": {
@@ -5014,11 +5485,18 @@
             "nextReview": 1775221379729,
             "wrong": 0
         },
-        "rest": {
+        "responsible": {
             "box": 1,
-            "correct": 2,
-            "lastStudy": "2026-03-29T04:13:21.890Z",
-            "nextReview": 1774757601890,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:01:52.265Z",
+            "nextReview": 1775912512265,
+            "wrong": 0
+        },
+        "rest": {
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-13T12:03:32.481Z",
+            "nextReview": 1776686612481,
             "wrong": 2
         },
         "result": {
@@ -5108,6 +5586,13 @@
             "correct": 1,
             "lastStudy": "2026-03-13T13:07:53.230Z",
             "nextReview": 1773493673230,
+            "wrong": 0
+        },
+        "science": {
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-10T12:58:26.685Z",
+            "nextReview": 1776085106685,
             "wrong": 0
         },
         "sculpture": {
@@ -5265,10 +5750,10 @@
             "wrong": 0
         },
         "society": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-27T14:15:53.415Z",
-            "nextReview": 1774880153415,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T13:45:11.917Z",
+            "nextReview": 1776519911917,
             "wrong": 1
         },
         "software": {
@@ -5384,10 +5869,10 @@
             "wrong": 0
         },
         "stomach": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-12T12:39:59.643Z",
-            "nextReview": 1773578399643,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-13T12:08:41.865Z",
+            "nextReview": 1776686921865,
             "wrong": 1
         },
         "stomachache": {
@@ -5447,10 +5932,10 @@
             "wrong": 0
         },
         "struggle": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-04-09T12:57:34.448Z",
-            "nextReview": 1775998654448,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-13T12:12:37.775Z",
+            "nextReview": 1776687157775,
             "wrong": 1
         },
         "style": {
@@ -5551,6 +6036,13 @@
             "nextReview": 1775825715522,
             "wrong": 0
         },
+        "teamwork": {
+            "box": 1,
+            "correct": 1,
+            "lastStudy": "2026-04-10T13:00:11.348Z",
+            "nextReview": 1775912411348,
+            "wrong": 0
+        },
         "technology": {
             "box": 2,
             "correct": 2,
@@ -5580,10 +6072,10 @@
             "wrong": 0
         },
         "think about": {
-            "box": 1,
-            "correct": 1,
-            "lastStudy": "2026-03-09T13:06:47.636Z",
-            "nextReview": 1773148007636,
+            "box": 2,
+            "correct": 2,
+            "lastStudy": "2026-04-14T12:45:24.421Z",
+            "nextReview": 1776429924421,
             "wrong": 1
         },
         "think of": {
@@ -5636,10 +6128,10 @@
             "wrong": 0
         },
         "tonight": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-11T12:05:50.911Z",
-            "nextReview": 1773489950911,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T14:11:43.895Z",
+            "nextReview": 1776521503895,
             "wrong": 1
         },
         "toothache": {
@@ -5706,11 +6198,11 @@
             "wrong": 0
         },
         "turn off/on": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-09T13:07:24.641Z",
-            "nextReview": 1773320844641,
-            "wrong": 1
+            "box": 3,
+            "correct": 4,
+            "lastStudy": "2026-04-14T12:46:06.355Z",
+            "nextReview": 1776775566355,
+            "wrong": 4
         },
         "turn up": {
             "box": 1,
@@ -5762,10 +6254,10 @@
             "wrong": 0
         },
         "valuable": {
-            "box": 2,
-            "correct": 1,
-            "lastStudy": "2026-03-31T13:00:33.000Z",
-            "nextReview": 1775221233000,
+            "box": 3,
+            "correct": 2,
+            "lastStudy": "2026-04-11T14:06:16.675Z",
+            "nextReview": 1776521176675,
             "wrong": 1
         },
         "value": {
@@ -5914,126 +6406,7 @@
             "lastStudy": "2026-03-11T12:06:02.740Z",
             "nextReview": 1773317162740,
             "wrong": 0
-        },
-        "communicative": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:00:25.705Z",
-            "box": 2,
-            "nextReview": 1776085225705
-        },
-        "preparation": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:56:44.121Z",
-            "box": 2,
-            "nextReview": 1776085004121
-        },
-        "punctual": {
-            "correct": 2,
-            "wrong": 1,
-            "lastStudy": "2026-04-10T13:01:12.650Z",
-            "box": 3,
-            "nextReview": 1776430872650
-        },
-        "creative": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:59:05.831Z",
-            "box": 2,
-            "nextReview": 1776085145831
-        },
-        "science": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:58:26.685Z",
-            "box": 2,
-            "nextReview": 1776085106685
-        },
-        "flexible": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:56:57.919Z",
-            "box": 2,
-            "nextReview": 1776085017919
-        },
-        "biological": {
-            "correct": 2,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:03:09.528Z",
-            "box": 2,
-            "nextReview": 1776085389528
-        },
-        "cooperate": {
-            "correct": 1,
-            "wrong": 1,
-            "lastStudy": "2026-04-10T12:59:23.744Z",
-            "box": 2,
-            "nextReview": 1776085163744
-        },
-        "chemical": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:56:21.573Z",
-            "box": 1,
-            "nextReview": 1775912181573
-        },
-        "architect": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:57:29.926Z",
-            "box": 1,
-            "nextReview": 1775912249926
-        },
-        "leadership": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T12:58:06.466Z",
-            "box": 1,
-            "nextReview": 1775912286466
-        },
-        "teamwork": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:00:11.348Z",
-            "box": 1,
-            "nextReview": 1775912411348
-        },
-        "professional": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:00:52.742Z",
-            "box": 1,
-            "nextReview": 1775912452742
-        },
-        "organized": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:01:26.862Z",
-            "box": 1,
-            "nextReview": 1775912486862
-        },
-        "responsible": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:01:52.265Z",
-            "box": 1,
-            "nextReview": 1775912512265
-        },
-        "reliable": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:02:18.532Z",
-            "box": 1,
-            "nextReview": 1775912538532
-        },
-        "determined": {
-            "correct": 1,
-            "wrong": 0,
-            "lastStudy": "2026-04-10T13:02:49.009Z",
-            "box": 1,
-            "nextReview": 1775912569009
         }
     },
-    "xp": 13820
+    "xp": 14840
 }

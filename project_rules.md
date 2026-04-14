@@ -29,7 +29,7 @@
 1. 读取 `vocab_progress.json` 中的 `completedDays` 最大值
 2. 读取 `listening_data.json` 和 `cloze_data.json` 中的最大 `day` 值
 3. 如果 `max_data_day - max_completed_day < 2`，自动扩充后续天数
-4. 扩充标准：北京中考英语难度（A2-B1），每天生成 1 篇听力 + 1 篇完形
+4. 扩充标准：北京中考英语难度（A2-B1），每天生成 20 个核心词汇 + 1 篇听力 + 1 篇完形
 
 ## 04. 学习效果改造规则（2026-04 实施）
 

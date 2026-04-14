@@ -1708,5 +1708,157 @@
                 "answer": 1
             }
         ]
+    },
+    {
+        "id": "L46",
+        "day": 46,
+        "title": "City Greenery",
+        "text": "Beijing has made great efforts to increase greenery in recent years. Many new parks have been built near residential areas, allowing citizens to enjoy nature without traveling far. These parks not only provide a place for exercise and relaxation but also help to improve air quality. My grandfather goes to the nearby park every morning to practice Tai Chi. He says the fresh air and green trees make him feel energetic. We should all cherish these green spaces and avoid littering. Protecting the environment starts with small actions in our daily lives.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is a benefit of the new parks?",
+                "options": [
+                    "They provide free food",
+                    "They help to improve air quality",
+                    "They are for cars only"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What does the speaker's grandfather do in the park?",
+                "options": [
+                    "He plants trees",
+                    "He practices Tai Chi",
+                    "He sleeps on the grass"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "Where should we start protecting the environment?",
+                "options": [
+                    "With small daily actions",
+                    "By moving to another city",
+                    "Only in big forests"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L47",
+        "day": 47,
+        "title": "The Lantern Festival",
+        "text": "The Lantern Festival falls on the 15th day of the first lunar month, marking the end of the Spring Festival. It is a time for family reunions and traditional activities. People usually eat Yuanxiao, which are sweet rice balls symbolizing togetherness. In many cities, there are beautiful lantern displays and dragon dances in the streets. Children often carry colorful lanterns and solve riddles written on them. It is one of the most exciting festivals in China. My favorite part is watching the fireworks with my family. The bright lights in the night sky always make me feel hopeful for the new year.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What does eating Yuanxiao symbolize?",
+                "options": [
+                    "Good luck",
+                    "Togetherness",
+                    "Wealth"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What do children often do during the festival?",
+                "options": [
+                    "They study for exams",
+                    "They solve lantern riddles",
+                    "They go to bed early"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "When is the Lantern Festival celebrated?",
+                "options": [
+                    "The 1st day of Spring",
+                    "The 15th day of the first lunar month",
+                    "On New Year's Eve"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L48",
+        "day": 48,
+        "title": "The Power of Reading",
+        "text": "Reading is like opening a window to a new world. It allows us to travel through time and space without leaving our homes. Through books, we can learn about different cultures, scientific discoveries, and great people's lives. Reading also helps to improve our language skills and imagination. I try to read for at least thirty minutes every night before going to bed. It helps me relax after a busy school day. As the saying goes, 'A book is like a garden carried in the pocket.' No matter how busy we are, we should always make time to read and enrich our minds.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is reading compared to in the text?",
+                "options": [
+                    "A closed door",
+                    "Opening a window",
+                    "A long journey"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "How long does the speaker usually read every night?",
+                "options": [
+                    "One hour",
+                    "Thirty minutes",
+                    "Ten minutes"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What can we learn through books?",
+                "options": [
+                    "Only how to cook",
+                    "Different cultures and discoveries",
+                    "How to win games"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L49",
+        "day": 49,
+        "title": "Tiangong Space Station",
+        "text": "China's Tiangong Space Station is a great achievement in space exploration. It is a home for astronauts in space where they conduct various scientific experiments. Recently, several astronauts have lived there for six months at a time. They even gave 'space lessons' to students on Earth, showing how water and objects behave in zero gravity. These lessons have inspired many young people to take an interest in science and space. In the future, China plans to cooperate with other countries to explore the universe together. I hope that one day, I can also contribute to our country's space dreams.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How long did astronauts stay in the space station recently?",
+                "options": [
+                    "One month",
+                    "Six months",
+                    "A whole year"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What did the astronauts show in their space lessons?",
+                "options": [
+                    "How to cook food",
+                    "How things behave in zero gravity",
+                    "How to drive a car"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is China's plan for the future in space?",
+                "options": [
+                    "To explore alone",
+                    "To cooperate with other countries",
+                    "To stop the project"
+                ],
+                "answer": 1
+            }
+        ]
     }
 ]
