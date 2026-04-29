@@ -1,12 +1,33 @@
+# Environments
 .venv/
-.DS_Store
-__pycache__/
-*.pyc
-_bmad-output/
-.gemini/
+**/venv/
 node_modules/
-.idea/
-.vscode/
 
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and PIDs
 *.log
 *.pid
+server.log
+server.pid
+app.log
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project Specific
+_bmad/
+_bmad-output/
+.gemini/
+
+# Data and Artifacts
+*.pdf
+vocab_progress.json
+vocab_progress_test.json
+

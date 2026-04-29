@@ -2542,5 +2542,217 @@
                 "answer": 0
             }
         ]
+    },
+    {
+        "id": "C50",
+        "day": 50,
+        "title": "Our Shared Responsibility",
+        "text": "Protecting our planet is a shared {1}. Every citizen has a duty to {2} to the community. We should respect the {3} of nature and live in {4} with it. If we all {5} our efforts, we can overcome any challenge.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "responsibility",
+                    "result",
+                    "response"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "contribute",
+                    "continue",
+                    "consider"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "diversity",
+                    "distance",
+                    "direction"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "harmony",
+                    "hurry",
+                    "heat"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "unite",
+                    "use",
+                    "understand"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C51",
+        "day": 51,
+        "title": "The Future of Technology",
+        "text": "The {1} of the Internet has created a global {2}. Computers can {3} huge amounts of data in seconds. We should use these {4} tools to improve our lives. Constant {5} is required to stay ahead in the tech world.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "invention",
+                    "information",
+                    "invitation"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "network",
+                    "notebook",
+                    "needle"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "process",
+                    "practice",
+                    "protect"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "advanced",
+                    "ancient",
+                    "awful"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "innovation",
+                    "invitation",
+                    "instruction"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C52",
+        "day": 52,
+        "title": "Sustainable Living",
+        "text": "A sustainable lifestyle means using {1} that don't harm the environment. We should {2} the amount of waste we produce. Using {3} energy and reusing items are good examples. It's not always {4}, but it's {5} for our future.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "resources",
+                    "rewards",
+                    "records"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "reduce",
+                    "refuse",
+                    "receive"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "solar",
+                    "silent",
+                    "simple"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "easy",
+                    "empty",
+                    "excellent"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "essential",
+                    "excellent",
+                    "empty"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C53",
+        "day": 53,
+        "title": "Planning for the Future",
+        "text": "It is never too early to {1} for your future. Think about your {2} and what you want to achieve. If you have a clear {3}, you can work toward it every day. Don't be afraid of {4}. With hard work and {5}, you will succeed.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "plan",
+                    "play",
+                    "praise"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "dreams",
+                    "debts",
+                    "doubts"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "goal",
+                    "game",
+                    "gift"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "failure",
+                    "feeling",
+                    "force"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "persistence",
+                    "patience",
+                    "pressure"
+                ],
+                "answer": 0
+            }
+        ]
     }
 ]

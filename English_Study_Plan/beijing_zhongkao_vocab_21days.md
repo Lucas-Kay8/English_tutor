@@ -2367,3 +2367,179 @@
 20. **society** - 社会
 * *Volunteering is a great way to serve society.* (志愿服务是服务社会的一种很好方式。)
 * *A small act of kindness can warm someone's heart.* (小小的一举之善也能温暖他人的心。)
+
+## Week 8: 全球化、责任与未来 (Globalization, Responsibility & Future)
+
+### Day 50: 社会责任与全球视野 (Social Responsibility & Global Vision)
+
+1. **cooperate** - 合作
+    * *Scientists from different countries **cooperate** to solve the climate problem.* (各国科学家合作解决气候问题。)
+2. **contribution** - 贡献
+    * *She made a great **contribution** to the local community.* (她对当地社区做出了巨大贡献。)
+3. **responsibility** - 责任
+    * *It's our **responsibility** to keep the park clean.* (保持公园干净是我们的责任。)
+4. **volunteer** - 志愿者；自愿
+    * *He offered to **volunteer** at the city library.* (他主动提出在市图书馆当志愿者。)
+5. **humanity** - 人类；人性
+    * *The development of medicine has benefited all **humanity**.* (医学的发展造福了全人类。)
+6. **harmony** - 和谐
+    * *We should live in **harmony** with nature.* (我们应该与自然和谐相处。)
+7. **poverty** - 贫困
+    * *The government is working hard to reduce **poverty**.* (政府正努力减少贫困。)
+8. **justice** - 公义；正义
+    * *They fight for fairness and **justice** in the society.* (他们为社会的公平与正义而战。)
+9. **vision** - 视野；愿景
+    * *As a student, you should have a global **vision**.* (做为学生，你应该具备全球视野。)
+10. **challenge** - 挑战
+    * *Facing a **challenge** is a good way to grow.* (面对挑战是成长的好方法。)
+11. **opportunity** - 机会
+    * *Travel provides a great **opportunity** to learn new cultures.* (旅行提供了学习新文化的绝佳机会。)
+12. **diversity** - 多样性
+    * *We should respect the **diversity** of different cultures.* (我们应该尊重不同文化的多样性。)
+13. **peace** - 和平
+    * *Everyone in the world hopes for **peace**.* (世界上的每个人都希望和平。)
+14. **standard** - 标准
+    * *We must maintain a high **standard** of work.* (我们必须维持高标准的工作。)
+15. **respect** - 尊重
+    * *It's important to **respect** other people's opinions.* (尊重他人的意见很重要。)
+16. **support** - 支持
+    * *My family always **supports** my dreams.* (我的家人一直支持我的梦想。)
+17. **unite** - 团结
+    * *The whole country **united** to fight against the disaster.* (全国人民团结起来抗击灾难。)
+18. **value** - 价值；重视
+    * *Time is a **value** that we should all treasure.* (时间是我们都应该珍惜的价值。)
+19. **willing** - 乐意的
+    * *Are you **willing** to help those in need?* (你愿意帮助那些有需要的人吗？)
+20. **youth** - 青年；青春
+    * *The **youth** of today are the leaders of tomorrow.* (今天的青年是明天的领导者。)
+
+### Day 51: 科技前沿与数字化生存 (Frontiers of Tech & Digital Life)
+
+1. **advanced** - 先进的
+    * *This factory uses the most **advanced** technology.* (这家工厂使用最先进的科技。)
+2. **artificial** - 人造的；人工的
+    * ***Artificial** intelligence is changing our world.* (人工智能正在改变我们的世界。)
+3. **automatic** - 自动的
+    * *The **automatic** door opens when you get close.* (当你靠近时，自动门会打开。)
+4. **digital** - 数字的
+    * *We live in a **digital** age.* (我们生活在数字时代。)
+5. **efficient** - 高效的
+    * *The new machine is much more **efficient**.* (这台新机器要高效得多。)
+6. **explore** - 探索
+    * *Humans continue to **explore** outer space.* (人类继续探索外层空间。)
+7. **innovation** - 创新
+    * ***Innovation** is key to success in business.* (创新是商业成功的关键。)
+    
+8. **invention** - 发明
+    * *The **invention** of the Internet changed everything.* (互联网的发明改变了一切。)
+9. **network** - 网络
+    * *The social **network** connects people worldwide.* (社交网络联系着全世界的人。)
+10. **platform** - 平台
+    * *Online learning **platforms** are very popular now.* (在线学习平台现在非常受欢迎。)
+11. **process** - 处理；过程
+    * *The computer can **process** data very quickly.* (电脑可以非常快地处理数据。)
+12. **program** - 程序
+    * *She is learning how to write a computer **program**.* (她正在学习如何编写电脑程序。)
+13. **robot** - 机器人
+    * *The **robot** can help with housework.* (机器人可以帮忙做家务。)
+14. **satellite** - 卫星
+    * *The **satellite** sends signals back to Earth.* (卫星将信号发回地球。)
+15. **science** - 科学
+    * *She loves studying natural **science**.* (她喜欢学习自然科学。)
+16. **signal** - 信号
+    * *The cell phone **signal** is weak in the mountains.* (山里手机信号很弱。)
+17. **software** - 软件
+    * *I need to install new **software** on my computer.* (我需要在电脑上安装新软件。)
+18. **system** - 系统
+    * *The solar **system** has eight planets.* (太阳系有八颗行星。)
+19. **tech** - 科技（缩写）
+    * *High-**tech** products are everywhere.* (高科技产品无处不在。)
+20. **wireless** - 无线的
+    * *We have **wireless** internet access at school.* (我们在学校有无线网络连接。)
+
+
+### Day 52: 环境挑战与可持续发展 (Environmental Challenges & Sustainability)
+
+1. **sustainable** - 可持续的
+    * *We should lead a **sustainable** life.* (我们应该过可持续的生活。)
+2. **resource** - 资源
+    * *Water is a precious natural **resource**.* (水是宝贵的自然资源。)
+3. **recycle** - 回收利用
+    * *It's important to **recycle** plastic bottles.* (回收塑料瓶很重要。)
+4. **pollute** - 污染
+    * *Factories shouldn't **pollute** the river.* (工厂不应该污染河流。)
+5. **environment** - 环境
+    * *We must protect our **environment**.* (我们必须保护我们的环境。)
+6. **climate** - 气候
+    * *The world's **climate** is changing fast.* (世界气候正在快速变化。)
+7. **solar** - 太阳能的
+    * *Solar energy is clean and free.* (太阳能是清洁且免费的。)
+8. **energy** - 能量
+    * *We need to save **energy** at home.* (我们需要在家里节约能源。)
+9. **reduce** - 减少
+    * *Try to **reduce** the use of plastic bags.* (尽量减少塑料袋的使用。)
+10. **reuse** - 重复使用
+    * ***Reuse** your shopping bags every time.* (每次都重复使用你的购物袋。)
+11. **plastic** - 塑料
+    * *Too much **plastic** is bad for the ocean.* (太多的塑料对海洋有害。)
+12. **waste** - 浪费；废物
+    * *Don't **waste** food; it's a bad habit.* (不要浪费食物；这是个坏习惯。)
+13. **protect** - 保护
+    * *We should **protect** wild animals.* (我们应该保护野生动物。)
+14. **natural** - 自然的
+    * *The park is full of **natural** beauty.* (公园里充满了自然美。)
+15. **damage** - 损害
+    * *Pollution can **damage** our health.* (污染会损害我们的健康。)
+16. **threaten** - 威胁
+    * *Climate change **threatens** many species.* (气候变化威胁着许多物种。)
+17. **global** - 全球的
+    * ***Global** warming is a serious problem.* (全球变暖是一个严重的问题。)
+18. **carbon** - 碳
+    * *We need to reduce **carbon** emissions.* (我们需要减少碳排放。)
+19. **impact** - 影响
+    * *Our actions have a big **impact** on Earth.* (我们的行为对地球有很大影响。)
+20. **future** - 未来
+    * *Think about the **future** of our planet.* (想想我们星球的未来。)
+
+### Day 53: 未来梦想与人生规划 (Future Dreams & Career Planning)
+
+1. **ambition** - 志向
+    * *He has the **ambition** to be a great artist.* (他有成为伟大艺术家的志向。)
+2. **career** - 职业
+    * *Choosing a **career** is an important decision.* (选择职业是一个重要的决定。)
+3. **goal** - 目标
+    * *Set a clear **goal** for your studies.* (为你的学习设定一个明确的目标。)
+4. **achievement** - 成就
+    * *Winning the prize was a great **achievement**.* (获奖是一项伟大的成就。)
+5. **persistence** - 坚持
+    * *Success requires **persistence** and hard work.* (成功需要坚持和努力。)
+6. **challenge** - 挑战
+    * *Don't be afraid of the **challenge**.* (不要害怕挑战。)
+7. **opportunity** - 机会
+    * *This is a great **opportunity** to learn.* (这是学习的好机会。)
+8. **potential** - 潜力
+    * *Every student has the **potential** to succeed.* (每个学生都有成功的潜力。)
+9. **determine** - 决定
+    * *Your attitude **determines** your future.* (你的态度决定你的未来。)
+10. **succeed** - 成功
+    * *I hope you **succeed** in your project.* (我希望你的项目获得成功。)
+11. **fail** - 失败
+    * *It's okay to **fail**, just try again.* (失败没关系，再试一次就好。)
+12. **experience** - 经验
+    * *She has a lot of **experience** in teaching.* (她有很多教学经验。)
+13. **skill** - 技能
+    * *Computer **skills** are very useful.* (电脑技能非常有用。)
+14. **professional** - 专业的
+    * *He gave me some **professional** advice.* (他给了我一些专业的建议。)
+15. **inspiration** - 灵感
+    * *Nature is a great source of **inspiration**.* (大自然是灵感的巨大源泉。)
+16. **encourage** - 鼓励
+    * *My parents always **encourage** me.* (我的父母总是鼓励我。)
+17. **support** - 支持
+    * *Thanks for your **support** and help.* (感谢你的支持和帮助。)
+18. **dream** - 梦想
+    * *Follow your **dream** and never give up.* (追求你的梦想，永不放弃。)
+19. **plan** - 计划
+    * *Let's make a **plan** for the weekend.* (让我们为周末制定一个计划。)
+20. **hard-working** - 勤奋的
+    * *She is the most **hard-working** student.* (她是那个最勤奋的学生。)

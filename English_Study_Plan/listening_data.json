@@ -1860,5 +1860,157 @@
                 "answer": 1
             }
         ]
+    },
+    {
+        "id": "L50",
+        "day": 50,
+        "title": "The Importance of Global Cooperation",
+        "text": "In today's world, no country can solve all its problems alone. We face global challenges like climate change, poverty, and diseases. To solve these problems, different countries must cooperate and share their knowledge. Every person can also make a contribution. For example, by being a volunteer in your community, you are helping to build a better world. We should have a global vision and respect the diversity of different cultures. Only by working together in harmony can we achieve lasting peace and prosperity for all humanity.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is mentioned as a global challenge?",
+                "options": [
+                    "Climate change",
+                    "High prices",
+                    "Local games"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "question": "How can an individual make a contribution?",
+                "options": [
+                    "By traveling",
+                    "By being a volunteer",
+                    "By buying gifts"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is the key to achieving lasting peace?",
+                "options": [
+                    "Working alone",
+                    "Competition",
+                    "Working together in harmony"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "id": "L51",
+        "day": 51,
+        "title": "Living in a Digital Age",
+        "text": "We are living in an advanced digital age where artificial intelligence and robots are becoming part of our daily lives. Technology has made our work more efficient and has opened new platforms for learning. For example, satellite communication allows us to receive signals from all over the world instantly. However, we should also be aware of the importance of innovation and continuous exploration. As young people, you should learn to use digital tools wisely to solve complex problems. The process of learning new software and programs is essential for your future career.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is becoming part of our daily lives?",
+                "options": [
+                    "Old tools",
+                    "AI and robots",
+                    "Manual work"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What allows us to receive signals worldwide?",
+                "options": [
+                    "Books",
+                    "Satellite communication",
+                    "Radio"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What should young people learn to do?",
+                "options": [
+                    "Use digital tools wisely",
+                    "Stop using computers",
+                    "Wait for others"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "L52",
+        "day": 52,
+        "title": "Protecting Our Oceans",
+        "text": "Oceans cover more than seventy percent of the Earth's surface. They are home to millions of species and play a vital role in our climate. Unfortunately, oceans are being polluted by plastic and chemicals. Overfishing is also a major problem. We need to take action now to save our oceans. By reducing plastic waste and supporting sustainable fishing, we can help protect marine life for future generations.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "How much of Earth's surface is covered by oceans?",
+                "options": [
+                    "More than 50%",
+                    "More than 70%",
+                    "Exactly 90%"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is a major problem for oceans mentioned?",
+                "options": [
+                    "Too many fish",
+                    "Plastic pollution",
+                    "Too much salt"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What can we do to help?",
+                "options": [
+                    "Waste more plastic",
+                    "Support sustainable fishing",
+                    "Stop swimming"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L53",
+        "day": 53,
+        "title": "Becoming a Space Scientist",
+        "text": "Have you ever looked at the stars and wondered about the universe? My dream is to become a space scientist. I want to study distant planets and search for signs of life beyond Earth. To achieve this, I must study math and physics very hard. I also enjoy reading about the latest space missions. Space exploration is challenging, but it is also full of wonder and discovery. I hope to contribute to our understanding of the cosmos one day.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the speaker's dream?",
+                "options": [
+                    "To be an artist",
+                    "To be a space scientist",
+                    "To be a pilot"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What subjects does the speaker need to study?",
+                "options": [
+                    "History and Art",
+                    "Math and Physics",
+                    "Biology and Chemistry"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How does the speaker feel about space exploration?",
+                "options": [
+                    "It is boring",
+                    "It is challenging but full of wonder",
+                    "It is too expensive"
+                ],
+                "answer": 1
+            }
+        ]
     }
 ]
