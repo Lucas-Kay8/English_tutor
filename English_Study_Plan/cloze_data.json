@@ -2754,5 +2754,270 @@
                 "answer": 0
             }
         ]
+    },
+    {
+        "id": "C54",
+        "day": 54,
+        "title": "Tradition and Change",
+        "text": "Traditional festivals are very {1} in China. During Spring Festival, families gather {2} to enjoy a big meal. We eat dumplings and {3} red envelopes. Although life is changing {4}, we should still {5} our culture.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "important",
+                    "impossible",
+                    "impolite"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "together",
+                    "towards",
+                    "twice"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "receive",
+                    "refuse",
+                    "repeat"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "rapidly",
+                    "rarely",
+                    "roughly"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "respect",
+                    "remove",
+                    "replace"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C55",
+        "day": 55,
+        "title": "Team Effort",
+        "text": "Sports are more than just {1}. They teach us how to {2} with others. Even if we {3} a match, we should keep a positive {4}. Persistence and hard work will {5} to success eventually.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "games",
+                    "goals",
+                    "gifts"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "cooperate",
+                    "compete",
+                    "complain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "lose",
+                    "lack",
+                    "leave"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "attitude",
+                    "ability",
+                    "action"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "lead",
+                    "last",
+                    "look"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C56",
+        "day": 56,
+        "title": "Internet Manners",
+        "text": "When we use the internet, we should {1} our privacy. Don't tell your {2} to anyone. We must also be {3} when talking to others online. Cyberbullying is a serious {4}. Let's make the web a {5} place for everyone.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "protect",
+                    "provide",
+                    "produce"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "password",
+                    "payment",
+                    "project"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "kind",
+                    "keen",
+                    "knowing"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "problem",
+                    "process",
+                    "program"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "safer",
+                    "slower",
+                    "smaller"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C57",
+        "day": 57,
+        "title": "Creative Art",
+        "text": "Art is a way to {1} our feelings. Some people like {2} while others prefer music. It helps us see the {3} in life. You can try to {4} something new every day. Creativity is a {5} that everyone has.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "express",
+                    "expect",
+                    "explain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "painting",
+                    "parking",
+                    "playing"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "beauty",
+                    "break",
+                    "belief"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "create",
+                    "catch",
+                    "choose"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "talent",
+                    "target",
+                    "title"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C58",
+        "day": 58,
+        "title": "Space Travel",
+        "text": "Many people {1} of traveling to space. Scientists are {2} Mars to see if we can live there. Technology is {3} very fast. In the future, we might {4} cities on other planets. The universe is full of {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "dream",
+                    "doubt",
+                    "decide"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "exploring",
+                    "entering",
+                    "expecting"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "developing",
+                    "describing",
+                    "depending"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "build",
+                    "borrow",
+                    "break"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "mysteries",
+                    "mistakes",
+                    "members"
+                ],
+                "answer": 0
+            }
+        ]
     }
 ]

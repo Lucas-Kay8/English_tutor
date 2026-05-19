@@ -2012,5 +2012,195 @@
                 "answer": 1
             }
         ]
+    },
+    {
+        "id": "L54",
+        "day": 54,
+        "title": "Chinese Festivals",
+        "text": "The Spring Festival is the most important traditional festival in China. During this time, families get together for a big dinner. We eat dumplings and set off fireworks. Children are always excited because they receive red envelopes with money. Nowadays, some traditions are changing. For example, people send digital red envelopes through their phones. Although modern life is fast, these festivals remind us of our history and family values. We should pass these traditions on to the next generation.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What do people eat during Spring Festival?",
+                "options": [
+                    "Pizza",
+                    "Dumplings",
+                    "Bread"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "Why are children excited?",
+                "options": [
+                    "They have no homework",
+                    "They receive red envelopes",
+                    "They go to school"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is changing about red envelopes?",
+                "options": [
+                    "They are becoming larger",
+                    "People send digital ones",
+                    "They are no longer given"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L55",
+        "day": 55,
+        "title": "The Spirit of Sports",
+        "text": "Basketball is very popular among teenagers. It's not just about winning; it's about teamwork and persistence. When our team lost the game last week, we felt sad. But our coach told us that failure is a part of growth. We practiced harder and focused on our cooperation. In the next match, we played much better together and finally won. Sports teach us how to face challenges and support each other. Whether we win or lose, the spirit of never giving up is what matters most.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is basketball mainly about according to the text?",
+                "options": [
+                    "Just winning",
+                    "Teamwork and persistence",
+                    "Individual skills"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "How did the team react to their loss?",
+                "options": [
+                    "They gave up",
+                    "They practiced harder",
+                    "They blamed the coach"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "What is the most important thing in sports?",
+                "options": [
+                    "The trophy",
+                    "The spirit of never giving up",
+                    "Being famous"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L56",
+        "day": 56,
+        "title": "Online Safety",
+        "text": "The internet is a wonderful tool, but it also has risks. Many students spend hours on social media sharing their daily lives. We should be careful about our privacy. Never share your password or home address with strangers online. Also, we should be polite when posting comments. Cyberbullying can hurt people's feelings deeply. If you see something that makes you uncomfortable, tell your parents or teachers. Let's work together to create a safe and friendly online environment.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What should we be careful about on social media?",
+                "options": [
+                    "Privacy",
+                    "Making friends",
+                    "Reading news"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "question": "What should you never share with strangers?",
+                "options": [
+                    "Your favorite food",
+                    "Your password",
+                    "Your hobbies"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "Who should you talk to if you feel uncomfortable online?",
+                "options": [
+                    "Strangers",
+                    "Parents or teachers",
+                    "No one"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L57",
+        "day": 57,
+        "title": "The Power of Art",
+        "text": "Visiting an art gallery can be a relaxing experience. Art comes in many forms, such as painting, sculpture, and photography. It allows us to express our emotions and see the world from different perspectives. Last month, I visited a modern art exhibition. I was amazed by how the artists used bright colors to show happiness. You don't have to be a professional to enjoy art. Everyone can pick up a brush and start creating. Art enriches our souls and makes our lives more colorful.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What forms of art are mentioned?",
+                "options": [
+                    "Singing and dancing",
+                    "Painting and sculpture",
+                    "Cooking and gardening"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What was the speaker amazed by at the exhibition?",
+                "options": [
+                    "The price of the art",
+                    "The use of bright colors",
+                    "The size of the building"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "Can anyone enjoy art?",
+                "options": [
+                    "Only professionals",
+                    "Yes, everyone",
+                    "Only rich people"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "id": "L58",
+        "day": 58,
+        "title": "Life on Mars?",
+        "text": "Scientists have been exploring Mars for decades. They want to know if there was ever life on the Red Planet. Robots like 'Perseverance' are sent to collect soil samples. Although Mars is very cold and has no liquid water on the surface, some believe that humans might live there in the future. Imagine a city inside a giant glass dome! It sounds like a science fiction movie, but with the development of technology, it might come true one day. Space exploration helps us understand our place in the universe.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "What are scientists looking for on Mars?",
+                "options": [
+                    "Gold",
+                    "Signs of life",
+                    "Alien spaceships"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 2,
+                "question": "What is the environment of Mars like?",
+                "options": [
+                    "Hot and rainy",
+                    "Very cold",
+                    "Full of oceans"
+                ],
+                "answer": 1
+            },
+            {
+                "id": 3,
+                "question": "How might humans live on Mars in the future?",
+                "options": [
+                    "In tents",
+                    "Inside glass domes",
+                    "Underground"
+                ],
+                "answer": 1
+            }
+        ]
     }
 ]

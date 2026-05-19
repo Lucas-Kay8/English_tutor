@@ -256,14 +256,16 @@ body {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 12px;
-    padding: 4px 0 20px 0;
+    padding: 10px 20px 24px 20px; /* Increased bottom padding for shadow */
+    margin: 0 -20px; /* Offset parent container padding */
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 .horizontal-scroll-snap::-webkit-scrollbar { display: none; }
 
 .horizontal-scroll-snap .stat-card {
     flex: 0 0 140px;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     margin-top: 0;
 }
 

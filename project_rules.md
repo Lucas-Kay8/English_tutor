@@ -10,7 +10,7 @@
 
 **默认执行以下动作（无需二次询问）：**
 
-1.  **检查环境**：进入目录 `/Users/lucas/Work/AntiGravity/Oli/English_Study_Plan`。
+1.  **检查环境**：进入目录 `/Users/lucas/Work/09.Antigravity/Oli/English_Study_Plan`。
 2.  **启动服务**：使用本地虚拟环境启动 Flask 应用。
     - 命令：`nohup ./venv/bin/python app.py > server.log 2>&1 & echo $! > server.pid`
     - 端口：`8888`
