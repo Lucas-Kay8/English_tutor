@@ -1,0 +1,2202 @@
+[
+  {
+    "day": "Day 59",
+    "word": "motivate",
+    "meaning": "['məutiveit] vt.驱使，激发 (词频: 42)"
+  },
+  {
+    "day": "Day 59",
+    "word": "plastic",
+    "meaning": "[ˈplæstik] n./adj.塑料 (词频: 41)"
+  },
+  {
+    "day": "Day 59",
+    "word": "positive",
+    "meaning": "[ˈpɔzətiv] adj.积极的，肯定的 (词频: 38)"
+  },
+  {
+    "day": "Day 59",
+    "word": "physical",
+    "meaning": "[ˈfizikəl] adj.身体的，物理的 (词频: 30)"
+  },
+  {
+    "day": "Day 59",
+    "word": "reduce",
+    "meaning": "[ri'dju:s] v.减少，缩小 (词频: 30)"
+  },
+  {
+    "day": "Day 59",
+    "word": "performance",
+    "meaning": "[pə'fɔ:məns] n.表现，表演 (词频: 29)"
+  },
+  {
+    "day": "Day 59",
+    "word": "emotional",
+    "meaning": "[iˈməuʃənəl] adj.情感的，情绪的 (词频: 27)"
+  },
+  {
+    "day": "Day 59",
+    "word": "participant",
+    "meaning": "[pɑ:ˈtisipənt] n.参加者 (词频: 25)"
+  },
+  {
+    "day": "Day 59",
+    "word": "view",
+    "meaning": "[vju:] n./vt.风景，视野，见解；观看 (词频: 24)"
+  },
+  {
+    "day": "Day 59",
+    "word": "cooperate",
+    "meaning": "[kəuˈɔpəreit] vi.合作，配合 (词频: 22)"
+  },
+  {
+    "day": "Day 59",
+    "word": "negative",
+    "meaning": "[ˈnegətiv] adj.负面的，消极的，否定的 (词频: 21)"
+  },
+  {
+    "day": "Day 59",
+    "word": "pressure",
+    "meaning": "['preʃə(r)] n.压力 (词频: 21)"
+  },
+  {
+    "day": "Day 59",
+    "word": "failure",
+    "meaning": "[ˈfeiljə(r)] n.失败 (词频: 20)"
+  },
+  {
+    "day": "Day 59",
+    "word": "garbage",
+    "meaning": "[ˈgɑ:bidʒ] n.垃圾 (词频: 20)"
+  },
+  {
+    "day": "Day 59",
+    "word": "journal",
+    "meaning": "[ˈdʒə:nəl] n.杂志，期刊，日志 (词频: 20)"
+  },
+  {
+    "day": "Day 59",
+    "word": "device",
+    "meaning": "[diˈvais] n.设备 (词频: 19)"
+  },
+  {
+    "day": "Day 59",
+    "word": "literature",
+    "meaning": "[ˈlitərətʃə] n.文学，文学作品 (词频: 19)"
+  },
+  {
+    "day": "Day 59",
+    "word": "bacteria",
+    "meaning": "[bækˈtiəriə] n.细菌 (词频: 18)"
+  },
+  {
+    "day": "Day 59",
+    "word": "landfill",
+    "meaning": "[ˈlændfil] n.垃圾填埋场 (词频: 18)"
+  },
+  {
+    "day": "Day 59",
+    "word": "personality",
+    "meaning": "[pərsə'næləti] n.性格，个性；特色，特征 (词频: 18)"
+  },
+  {
+    "day": "Day 60",
+    "word": "solution",
+    "meaning": "[səˈlu:ʃən] n.解决办法，答案 (词频: 18)"
+  },
+  {
+    "day": "Day 60",
+    "word": "affect",
+    "meaning": "[ə'fekt] vt.影响，感动，侵袭 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "average",
+    "meaning": "[ˈævəridʒ] n./adj.平均数，平均水平；平均的 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "comfort",
+    "meaning": "[ˈkʌmfət] n./vt.舒适，安慰 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "connection",
+    "meaning": "[kəˈnekʃən] n.联系，连接 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "quality",
+    "meaning": "['kwɔləti] n.质量，品质，性质 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "violent",
+    "meaning": "[ˈvaiələnt] adj.猛烈的，暴力的 (词频: 17)"
+  },
+  {
+    "day": "Day 60",
+    "word": "generate",
+    "meaning": "[ˈdʒenəreit] vt.产生，引起 (词频: 16)"
+  },
+  {
+    "day": "Day 60",
+    "word": "publish",
+    "meaning": "[ˈpʌbliʃ] v.出版 (词频: 16)"
+  },
+  {
+    "day": "Day 60",
+    "word": "effective",
+    "meaning": "[iˈfektiv] adj.有效的 (词频: 15)"
+  },
+  {
+    "day": "Day 60",
+    "word": "gossip",
+    "meaning": "[ˈgɔsip] n.流言蜚语 (词频: 15)"
+  },
+  {
+    "day": "Day 60",
+    "word": "intelligence",
+    "meaning": "[in'telidʒəns] n.智力，聪明，智能 (词频: 15)"
+  },
+  {
+    "day": "Day 60",
+    "word": "reality",
+    "meaning": "[ri'æləti] n.真实，事实，现实 (词频: 15)"
+  },
+  {
+    "day": "Day 60",
+    "word": "exploration",
+    "meaning": "[ˌekspləˈreiʃn] n.探索，探究 (词频: 14)"
+  },
+  {
+    "day": "Day 60",
+    "word": "species",
+    "meaning": "['spi:ʃi:z] n.种类，物种 (词频: 14)"
+  },
+  {
+    "day": "Day 60",
+    "word": "cognitive",
+    "meaning": "[ˈkɔgnitiv] adj.认知的 (词频: 13)"
+  },
+  {
+    "day": "Day 60",
+    "word": "compete",
+    "meaning": "[kəmˈpi:t] vi.竞争，比赛 (词频: 13)"
+  },
+  {
+    "day": "Day 60",
+    "word": "disease",
+    "meaning": "[diˈzi:z] n.疾病 (词频: 13)"
+  },
+  {
+    "day": "Day 60",
+    "word": "evidence",
+    "meaning": "['evidəns] n.证据 (词频: 13)"
+  },
+  {
+    "day": "Day 60",
+    "word": "memorize",
+    "meaning": "[ˈmeməraiz] v.记住 (词频: 13)"
+  },
+  {
+    "day": "Day 61",
+    "word": "recycle",
+    "meaning": "[ˌri:ˈsaikəl] vt.回收 (词频: 13)"
+  },
+  {
+    "day": "Day 61",
+    "word": "resource",
+    "meaning": "[riˈsɔ:s] n.资源 (词频: 13)"
+  },
+  {
+    "day": "Day 61",
+    "word": "argument",
+    "meaning": "[ˈɑ:gju:mənt] n.争论(吵)，辩论，理由，论证 (词频: 12)"
+  },
+  {
+    "day": "Day 61",
+    "word": "esteem",
+    "meaning": "[iˈsti:m] n./vt.尊重，敬重；把…看作，认为 (词频: 12)"
+  },
+  {
+    "day": "Day 61",
+    "word": "injury",
+    "meaning": "[ˈindʒəri] n.伤害 (词频: 12)"
+  },
+  {
+    "day": "Day 61",
+    "word": "powerful",
+    "meaning": "['pauəful] adj.强大的，有权力的 (词频: 12)"
+  },
+  {
+    "day": "Day 61",
+    "word": "throughout",
+    "meaning": "[θruːˈaʊt] prep./adv.遍及，贯穿；始终 (词频: 12)"
+  },
+  {
+    "day": "Day 61",
+    "word": "appreciate",
+    "meaning": "[ə'pri:ʃieit] vt.欣赏，感激，理解 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "gratitude",
+    "meaning": "[ˈgrætitju:d] n.感激 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "limited",
+    "meaning": "['limitid] adj.有限的 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "mental",
+    "meaning": "[ˈmentl] adj.精神的，心理的 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "outcome",
+    "meaning": "[ˈautkʌm] n.结果 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "reward",
+    "meaning": "[ri'wɔ:d] n./vt.报酬，酬劳；奖赏 (词频: 11)"
+  },
+  {
+    "day": "Day 61",
+    "word": "beneficial",
+    "meaning": "[ˌbeniˈfiʃəl] adj.有益的，有利的 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "biological",
+    "meaning": "[ˌbaiəˈlɔdʒikəl] adj.生物学的 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "conclude",
+    "meaning": "[kənˈklu:d] v.得出结论， （使）结束 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "define",
+    "meaning": "[diˈfain] vt.阐明，限定；给…下定义 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "package",
+    "meaning": "[ˈpækidʒ] n.包裹 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "psychological",
+    "meaning": "[ˌsaikəˈlɒdʒikl] adj.心理的；精神上的；心理学的 (词频: 10)"
+  },
+  {
+    "day": "Day 61",
+    "word": "recall",
+    "meaning": "[riˈkɔ(:)l] v.记起，召回 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "recipe",
+    "meaning": "['resəpi] n.食谱，处方，秘诀 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "replace",
+    "meaning": "[ri'pleis] vt.代替 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "respond",
+    "meaning": "[riˈspɒnd] v.反映，回应 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "status",
+    "meaning": "[ˈsteitəs] n.地位，身份，状态 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "strengthen",
+    "meaning": "[ˈstreŋθən] v.加强，巩固 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "stressed",
+    "meaning": "[strest] adj.焦虑不安的；心力交瘁的 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "unlock",
+    "meaning": "[ˌʌnˈlɒk] vt.开…的锁；揭示 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "willing",
+    "meaning": "[ˈwiliŋ] adj.愿意的，乐意的 (词频: 10)"
+  },
+  {
+    "day": "Day 62",
+    "word": "challenging",
+    "meaning": "[tʃ'ælindʒiŋ] adj.有挑战性的 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "detail",
+    "meaning": "[ˈdi:teil] n.细节 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "digital",
+    "meaning": "['didʒitəl] adj.数字式的 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "discipline",
+    "meaning": "['disiplin] n./v.学科，纪律；管教 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "exposure",
+    "meaning": "[ik'spəuʒə] n.暴露，显露，揭露 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "imagination",
+    "meaning": "[i，mædʒi'neiʃən] n.想像，想像力 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "literacy",
+    "meaning": "[ˈlitərəsi] n.识字；有文化 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "overweight",
+    "meaning": "[ˌəʊvəˈweit] n.超重 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "tend",
+    "meaning": "[tend] v.倾向，照料 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "track",
+    "meaning": "[træk] n./vt.踪迹，轨道，跑道，小径；跟踪 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "transportation",
+    "meaning": "[ˌtrænspɔːˈteiʃn] n.运输 (词频: 9)"
+  },
+  {
+    "day": "Day 62",
+    "word": "athlete",
+    "meaning": "['æθli:t] n.运动员 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "climate",
+    "meaning": "[ˈklaimət] n.气候 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "desire",
+    "meaning": "[diˈzaiə(r)] n./v.渴望，要求 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "distance",
+    "meaning": "['distəns] n.距离 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "exist",
+    "meaning": "[ig'zist] v.存在，生存 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "function",
+    "meaning": "['fʌŋkʃən] n./vi 功能，机能，函数；运转，起作用 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "gradual",
+    "meaning": "['ɡrædʒuəl] adj.逐渐的 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "inspire",
+    "meaning": "[inˈspaiə] vt.鼓舞，给…以灵感 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "potential",
+    "meaning": "[pəˈtenʃəl] n./adj.潜能，可能性；可能的，潜在的 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "procrastinate",
+    "meaning": "[prəuˈkræstineit] v.耽搁，拖延 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "puzzle",
+    "meaning": "['pʌzl] n./v.谜；迷惑，使困惑 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "signal",
+    "meaning": "['siɡnəl] n./v.信号；发信号，表明 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "structure",
+    "meaning": "[ˈstrʌktʃə] n.结构 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "theory",
+    "meaning": "[ˈθiəri] n.理论 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "variety",
+    "meaning": "[və'raiəti] n.多样性，种类 (词频: 8)"
+  },
+  {
+    "day": "Day 63",
+    "word": "available",
+    "meaning": "[ə'veiləbəl] adj.可用的，可得到的，有空的 (词频: 7)"
+  },
+  {
+    "day": "Day 63",
+    "word": "boredom",
+    "meaning": "[ˈbɔːdəm] n.无聊 (词频: 7)"
+  },
+  {
+    "day": "Day 63",
+    "word": "charity",
+    "meaning": "[ˈtʃæriti] n.慈善团体 (词频: 7)"
+  },
+  {
+    "day": "Day 63",
+    "word": "combine",
+    "meaning": "[kəm'bain] vt.联合，结合 (词频: 7)"
+  },
+  {
+    "day": "Day 63",
+    "word": "confused",
+    "meaning": "[kənˈfju:zd] adj.糊涂的，迷惑的 (词频: 7)"
+  },
+  {
+    "day": "Day 63",
+    "word": "escape",
+    "meaning": "[i'skeip] vi.逃脱，逃走 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "exchange",
+    "meaning": "[iks'tʃeindʒ] n./vt.外汇，兑换，交换，交流 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "expand",
+    "meaning": "[ik'spænd] v.扩大，扩展 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "expression",
+    "meaning": "[ikˈspreʃn] n.词语，表示，表达 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "increasingly",
+    "meaning": "[inˈkriːsiŋli] adv.越来越多地，不断增加地 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "loneliness",
+    "meaning": "[ˈləunliniz] n.孤独，寂寞 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "movement",
+    "meaning": "['mu:vmənt] n.运动，动作，活动 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "observe",
+    "meaning": "[əb'zə:v] v.观察，遵守，庆祝 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "option",
+    "meaning": "[ˈɔpʃən] n.选择 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "particular",
+    "meaning": "[pə'tikjulə] adj.特别的，讲究的，挑剔的 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "reaction",
+    "meaning": "[ri(:)'ækʃən] n.反应，化学反应 (词频: 7)"
+  },
+  {
+    "day": "Day 64",
+    "word": "charge",
+    "meaning": "[tʃɑ:dʒ] vt.收费，管理，充电，冲刺，控告 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "competence",
+    "meaning": "[ˈkɔmpitəns] n.能力 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "concentrate",
+    "meaning": "[ˈkɔnsəntreit] v.集中 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "consume",
+    "meaning": "[kənˈsju:m] vt.消耗，消费 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "critical",
+    "meaning": "[ˈkritikəl] adj.关键性的，批评的 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "decrease",
+    "meaning": "[diˈkriːs] v./n.减少，降低 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "ecology",
+    "meaning": "[iˈkɒlədʒi] n.生态 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "enrich",
+    "meaning": "[inˈritʃ] n./vt.使丰富 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "evaluate",
+    "meaning": "[iˈvæljueit] vt.评价，评估 (词频: 6)"
+  },
+  {
+    "day": "Day 64",
+    "word": "exhibit",
+    "meaning": "[ig'zibit] n./vt.展品，展览；表现，显出 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "extracurricular",
+    "meaning": "[ˌekstrəkə'rɪkjʊlə] adj.课外的 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "independent",
+    "meaning": "[ˌindiˈpendənt] adj.独立的，不相关的 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "interact",
+    "meaning": "[ˌintə'rækt] vi.互动，相互作用 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "layer",
+    "meaning": "[ˈleiə(r)] n./v.（分）层次 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "major",
+    "meaning": "['meidʒə] n./adj./vi.主修，主修科目；主要的 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "pattern",
+    "meaning": "['pætən] n.图案，样式，模式，榜样 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "popularity",
+    "meaning": "[ˌpɔpjuˈlæriti] n.受欢迎，普及 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "practical",
+    "meaning": "[ˈpræktikəl] adj.实用的，实际的 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "priority",
+    "meaning": "[praiˈɔrəti] n.优先事项，优先(权) (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "privacy",
+    "meaning": "[ˈpraivəsi] n.隐私 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "productive",
+    "meaning": "[prəˈdʌktiv] adj.多产的 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "routine",
+    "meaning": "[ru:ˈti:n] n.常规 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "sacrifice",
+    "meaning": "[ˈsækrifais] n./vt.牺牲，祭祀，祭品 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "socialize",
+    "meaning": "[ˈsəʊʃəlaiz] vt.（和他人）交往，交际 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "storage",
+    "meaning": "[ˈstɔːridʒ] n.贮藏，仓库 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "struggle",
+    "meaning": "['strʌɡl] n./v.挣扎 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "switch",
+    "meaning": "[switʃ] n./v.开关，转变 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "trash",
+    "meaning": "[træʃ] n.垃圾 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "trick",
+    "meaning": "[trik] n./vt.诡计，把戏，诀窍；欺骗 (词频: 6)"
+  },
+  {
+    "day": "Day 65",
+    "word": "trustworthy",
+    "meaning": "[ˈtrʌstwɜ:ði] adj.值得信任的，可靠的 (词频: 6)"
+  },
+  {
+    "day": "Day 66",
+    "word": "virtual",
+    "meaning": "['və:tʃuəl] adj.虚拟的 (词频: 6)"
+  },
+  {
+    "day": "Day 66",
+    "word": "access",
+    "meaning": "[ˈækses] n./v.通道、路径，机会 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "adapt",
+    "meaning": "[ə'dæpt] vt.改编，适应 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "attack",
+    "meaning": "[ə'tæk] n./vt.攻击 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "carbon",
+    "meaning": "['kɑ:bən] n.碳 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "damage",
+    "meaning": "['dæmidʒ] n./vt.损失，损害 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "display",
+    "meaning": "[disˈplei] vt./n.陈列，展出 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "distract",
+    "meaning": "[diˈstrækt] vt.使分心 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "equipment",
+    "meaning": "[iˈkwipmənt] n.装备，器材 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "external",
+    "meaning": "[ikˈstə:nəl] adj.外部的 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "feedback",
+    "meaning": "[ˈfi:dbæk] n.反馈 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "freedom",
+    "meaning": "['fri:dəm] n.自由 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "indicator",
+    "meaning": "[ˈindikeitə(r)] n.指示信号，标志，迹象，指示器 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "intake",
+    "meaning": "[ˈinteik] n.吸收；吸入 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "invitation",
+    "meaning": "[invi'teiʃən] n.邀请，招待 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "lifestyle",
+    "meaning": "[ˈlaifstail] n.生活方式 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "management",
+    "meaning": "['mænidӡmənt] n.管理 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "metal",
+    "meaning": "['metl] n.金属 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "mindful",
+    "meaning": "[ˈmaindfl] adj.留心的，注意的 (词频: 5)"
+  },
+  {
+    "day": "Day 66",
+    "word": "principle",
+    "meaning": "[ˈprinsəpl] n.道德原则，行为准则，法则 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "react",
+    "meaning": "[ri'ækt] vi.反应 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "reasonable",
+    "meaning": "['rizənəbəl] adj.有道理的，合理的 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "release",
+    "meaning": "[ri'li:s] n./v.释放，发行，发布 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "stare",
+    "meaning": "[steə] n./v.凝视，注视 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "strategy",
+    "meaning": "[ˈstrætidʒi] n.战略，策略 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "transport",
+    "meaning": "['trænspɔ:t] n./vt.运送，运输 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "trend",
+    "meaning": "[trend] n.趋势，潮流 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "virus",
+    "meaning": "[ˈvairəs] n.病毒 (词频: 5)"
+  },
+  {
+    "day": "Day 67",
+    "word": "abuse",
+    "meaning": "[ə'bju:s] vt.滥用 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "adventure",
+    "meaning": "[ədˈventʃə] n.冒险(活动) (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "ancestor",
+    "meaning": "[ˈænsestə] n.祖先 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "artificial",
+    "meaning": "[ˌɑ:tiˈfiʃəl] adj.人造的，假的 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "assess",
+    "meaning": "[əˈses] v.评估 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "assumption",
+    "meaning": "[əˈsʌmpʃən] n.假定，承担 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "audience",
+    "meaning": "[ˈɔ:diəns] n.听众，观众 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "balanced",
+    "meaning": "[ˈbælənst] adj.平衡的 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "bargain",
+    "meaning": "[ˈbɑ:ɡin] n./vt.交易，便宜货；讨价还价 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "battery",
+    "meaning": "[ˈbætəri] n.电池 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "bias",
+    "meaning": "[ˈbaiəs] n./vt.偏见，成见，偏好，偏爱 (词频: 4)"
+  },
+  {
+    "day": "Day 67",
+    "word": "capsule",
+    "meaning": "[ˈkæpsju:l] n.胶囊，密封舱 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "characteristic",
+    "meaning": "[ˌkæriktəˈristik] n./adj.特性；特有的，典型的 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "comment",
+    "meaning": "['kɔment] n./vi.评论 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "concept",
+    "meaning": "[ˈkɔnsept] n.概念 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "contain",
+    "meaning": "[kənˈtein] vt.包含，容纳 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "decade",
+    "meaning": "[ˈdekeid] n.十年，十年期 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "depression",
+    "meaning": "[diˈpreʃn] n.抑郁，沮丧 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "ecosystem",
+    "meaning": "[ˈi:kəʊsistəm] n.生态系统 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "elementary",
+    "meaning": "[ˌeliˈmentəri] adj.基本的，初级的 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "extreme",
+    "meaning": "[ikˈstri:m] n./adj.极端；极端的，末端的，尽头的 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "familiar",
+    "meaning": "[fəˈmiliə] adj.熟悉的 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "fitness",
+    "meaning": "[fitnis] n.适合，健康 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "historical",
+    "meaning": "[hisˈtɔrikəl] adj.历史(上)的 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "ingredient",
+    "meaning": "[inˈɡriːdiənt] n.组成部分， （烹调的）原料 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "insight",
+    "meaning": "[ˈinsait] n.洞察力，领悟 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "laptop",
+    "meaning": "[ˈlæpˌtɔp] n.笔记本电脑 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "leak",
+    "meaning": "[li:k] n./v.漏洞；渗漏，泄露 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "meanwhile",
+    "meaning": "[ˈmi:nˈwail] adv./n.与此同时，其间 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "obesity",
+    "meaning": "[əuˈbiːsiti] n.肥胖 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "outweigh",
+    "meaning": "[autˈwei] vt.比...更重，比...更重要 (词频: 4)"
+  },
+  {
+    "day": "Day 68",
+    "word": "overcome",
+    "meaning": "[əuvə'kʌm] v.克服，(感情上)受到极大影响 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "platform",
+    "meaning": "['plætfɔ:m] n.站台，平台 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "preference",
+    "meaning": "[ˈprefərəns] n.偏爱 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "presence",
+    "meaning": "[ˈprezns] n.出席；存在 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "psychology",
+    "meaning": "[saiˈkɒlədʒi] n.心理学，心理 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "range",
+    "meaning": "[reindʒ] n./v.山脉，幅度，范围，种类；变动 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "relaxation",
+    "meaning": "[ˌri:lækˈseiʃn] n.放松，休息，消遣 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "satellite",
+    "meaning": "[ˈsætəlait] n.卫星 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "satisfaction",
+    "meaning": "[ˌsætisˈfækʃən] n.满足(意) (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "schedule",
+    "meaning": "['skedʒu:əl] [ˈʃedju:l] n./vt.日程表；为某事安排时间 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "sensitive",
+    "meaning": "[ˈsensitiv] adj.体贴的，敏感的，灵敏的 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "specialist",
+    "meaning": "[ˈspeʃəlist] n.专家 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "steel",
+    "meaning": "[stiːl] n.钢，钢铁 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "suffer",
+    "meaning": "[ˈsʌfə] v.经受，遭受 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "survive",
+    "meaning": "[sə'vaiv] v.幸免，幸存 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "tank",
+    "meaning": "[tæŋk] n.坦克，箱，储水池 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "tap",
+    "meaning": "[tæp] n./v.塞子，龙头；轻拍 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "timetable",
+    "meaning": "[ˈtaimteibl] n.时间表，时刻表 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "treatment",
+    "meaning": "[ˈtri:tmənt] n.对待，治疗 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "volume",
+    "meaning": "[ˈvɔlju:m] n.卷，册，体积，容量，大量，音量 (词频: 4)"
+  },
+  {
+    "day": "Day 69",
+    "word": "widespread",
+    "meaning": "['waidspred] adj.分布广泛的，普遍的 (词频: 4)"
+  },
+  {
+    "day": "Day 70",
+    "word": "absolute",
+    "meaning": "[ˈæbsəlu:t] adj.绝对的，完全的 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "admit",
+    "meaning": "[ədˈmit] v.承认，准许…进入，录取 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "aggression",
+    "meaning": "[əˈgreʃən] n.进攻；侵略；侵犯 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "awesome",
+    "meaning": "[ɔːsəm] adj.可怕的，令人敬畏的，极好的 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "bake",
+    "meaning": "[beik] v./n.烘焙，烤 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "blame",
+    "meaning": "[bleim] n./vt.(坏事或错事的)责任；责备，归咎于 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "border",
+    "meaning": "['bɔ:də] n./v.边界，边境；接壤 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "bother",
+    "meaning": "[ˈbɔðə] v.打扰，使烦恼，费心 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "civilization",
+    "meaning": "[ˌsivilaiˈzeiʃən] n.文明 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "colleague",
+    "meaning": "['kɔli:ɡ] n.同事 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "complex",
+    "meaning": "[ˈkɔmpleks] adj.复杂的 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "concern",
+    "meaning": "[kənˈsə:n] n./vt.关心；与…有关 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "conserve",
+    "meaning": "[kənˈsə:v] vt.保存，节约 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "contribute",
+    "meaning": "[kən'tribju:t] vt.捐献，贡献，是…的原因 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "credit",
+    "meaning": "[ˈkredit] n./v.信誉，学分，赞扬；归功于 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "crime",
+    "meaning": "[kraim] n.犯罪，罪行 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "criticism",
+    "meaning": "[ˈkritisizəm] n.批评，评论 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "deadline",
+    "meaning": "['dedlain] n.截止日期 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "degrade",
+    "meaning": "[diˈgreid] vt.贬低，使恶化，分解 (词频: 3)"
+  },
+  {
+    "day": "Day 70",
+    "word": "delivery",
+    "meaning": "[diˈlivəri] n.传送；递送 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "demand",
+    "meaning": "[di'mɑ:nd] n./vt.(强烈)要求 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "dessert",
+    "meaning": "[diˈzə:t] n.甜食，点心 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "discomfort",
+    "meaning": "[disˈkʌmfət] n.\\vt.不舒服；不适 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "discourage",
+    "meaning": "[disˈkʌridʒ] vt.使泄气，使沮丧，劝阻 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "economic",
+    "meaning": "[i:kə'nɔmik] adj.经济的，经济学的 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "emergency",
+    "meaning": "[i'mə:dʒənsi] n.紧急情况 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "endanger",
+    "meaning": "[in'deindʒə] vt.危害，使受到危险 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "entertain",
+    "meaning": "[ˌentə'tein] v.使…娱乐，招待 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "exception",
+    "meaning": "[ik'sepʃən] n.例外，例外的人、事 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "extraordinary",
+    "meaning": "[ikˈstrɔ:dinəri] adj.非凡的，不平常的 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "financial",
+    "meaning": "[faiˈnænʃl] adj.财政的，金融的 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "flexible",
+    "meaning": "[ˈfleksəbəl] adj.柔韧的，易弯曲的，灵活的 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "grateful",
+    "meaning": "[ˈgreitfl] adj.感谢的 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "greenhouse",
+    "meaning": "['griːnhaus] n.温室 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "handle",
+    "meaning": "[ˈhændl] n./v.柄，把手；拿，处理，操纵，驾驭 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "healthcare",
+    "meaning": "['helθkeə] n.健康护理 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "humanity",
+    "meaning": "[hjuːˈmænəti] n.人类，人性；人文学科 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "import",
+    "meaning": "[ˈimpɔːt] n./v.进口，输入 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "income",
+    "meaning": "['inkʌm] n.收入 (词频: 3)"
+  },
+  {
+    "day": "Day 71",
+    "word": "inherit",
+    "meaning": "[inˈherit] vt.继承，经遗传获得 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "innovation",
+    "meaning": "[ˌinəˈveiʃən] n.创新 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "install",
+    "meaning": "[inˈstɔ:l] vt.安装；设置 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "interpersonal",
+    "meaning": "[ˌintəˈpɜ:sənl] adj.人际的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "lantern",
+    "meaning": "['læntən] n.灯笼 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "length",
+    "meaning": "[leŋθ] n.长度 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "location",
+    "meaning": "[lə(u)'keiʃ(ə)n] n.位置 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "logical",
+    "meaning": "['lɒdʒikəl] adj.符合逻辑的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "male",
+    "meaning": "[meil] adj.男性的；雄性的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "multiple",
+    "meaning": "[ˈmʌltipəl] n./adj.倍数；多的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "nationwide",
+    "meaning": "[ˌneiʃnˈwaid] adj.全国性的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "native",
+    "meaning": "[ˈneitiv] adj./n.当地的；本地人 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "noticeable",
+    "meaning": "[ˈnəʊtisəbl] adj.显著的；显而易见的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "occasional",
+    "meaning": "[əˈkeiʒənəl] adj.偶尔的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "outgoing",
+    "meaning": "['autgəuiŋ] adj.开朗的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "overlook",
+    "meaning": "[ˌəuvəˈluk] v./n.忽略；俯视 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "pack",
+    "meaning": "[pæk] n./v.包裹；包装，打包 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "passive",
+    "meaning": "[ˈpæsiv] adj.消极的，被动的 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "poetry",
+    "meaning": "['pəuitri] n.诗篇，诗歌 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "pollutant",
+    "meaning": "[pəˈlu:tənt] n.污染物 (词频: 3)"
+  },
+  {
+    "day": "Day 72",
+    "word": "preserve",
+    "meaning": "[pri'zə:v] n./vt.腌菜，泡菜，果酱；保存，保护 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "professional",
+    "meaning": "[prəˈfeʃənəl] adj./n.专业的，职业的，专业人员 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "pure",
+    "meaning": "[pjʊə(r)] adj.纯的，纯粹的，纯洁的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "realistic",
+    "meaning": "[riəˈlistik] adj.现实的，实际的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "relaxing",
+    "meaning": "[ri'læksiŋ] adj.轻松的，放松的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "religious",
+    "meaning": "[riˈlidʒəs] adj.宗教的，虔诚的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "reserve",
+    "meaning": "[ri'zə:v] n./vt.保护区；保护，预定 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "reusable",
+    "meaning": "[riː'juːzəbl] adj.可重复使用的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "risky",
+    "meaning": "[ˈriski] adj.有风险的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "roll",
+    "meaning": "[rəul] n./v.卷形物，面包圈；滚动 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "satisfying",
+    "meaning": "[ˈsætisfaiiŋ] adj.令人满意（或满足）的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "scan",
+    "meaning": "[skæn] n./v.扫描，浏览 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "scared",
+    "meaning": "[skeəd] adj.感到害怕的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "scene",
+    "meaning": "[si:n] n.景色，场景，现场 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "sculpture",
+    "meaning": "['skʌlptʃə] n.雕刻 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "stable",
+    "meaning": "[ˈsteibəl] n./adj.马厩；稳固的，稳定的，沉稳的 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "strength",
+    "meaning": "[streŋθ] n.力气，毅力，优势 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "threat",
+    "meaning": "['θret] n.威胁，征兆 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "thrill",
+    "meaning": "[θril] n./v.兴奋，激动，使非常兴奋， (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "tiredness",
+    "meaning": "['taiə(r)dnis] n.疲劳 (词频: 3)"
+  },
+  {
+    "day": "Day 73",
+    "word": "tiring",
+    "meaning": "[ˈtaiəriŋ] adj.令人困倦的；使人疲劳的 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "update",
+    "meaning": "[ˌʌpˈdeit] v./n.更新 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "version",
+    "meaning": "[ˈvə:ʃən] n.版本 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "wander",
+    "meaning": "[ˈwɔndə] n./vi.闲逛，漫游，漫步 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "weaken",
+    "meaning": "[ˈwiːkən] v.（使）虚弱，削弱；动摇 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "whale",
+    "meaning": "[weil] n.鲸鱼 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "willpower",
+    "meaning": "[ˈwilpaʊə(r)] n.意志力 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "wrap",
+    "meaning": "[ræp] vt.包，裹 (词频: 3)"
+  },
+  {
+    "day": "Day 74",
+    "word": "achievable",
+    "meaning": "[ə'tʃivəbl] adj.可实现的 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "addiction",
+    "meaning": "[əˈdikʃn] n.着迷，嗜好 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "admiration",
+    "meaning": "[ˌædməˈreiʃən] n.赞赏，钦佩 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "advance",
+    "meaning": "[əd'vɑ:ns] [ədˈvæns] n./v.前进，进步，提前 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "affordable",
+    "meaning": "[ə'fɔ:dəbl] adj.负担得起的 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "analysis",
+    "meaning": "[əˈnæləsis] n.分析 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "appeal",
+    "meaning": "[ə'pi:l] n./vi.呼吁，上诉，吸引 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "application",
+    "meaning": "[ˌæpliˈkeiʃ(ə)n] n.应用，申请 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "approach",
+    "meaning": "[ə'prəutʃ] n./v.方法，途径；靠近 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "appropriate",
+    "meaning": "[əˈprəuprieit] adj.恰当的 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "architecture",
+    "meaning": "[ˈɑ:kitektʃə] n.建筑学(业) (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "artwork",
+    "meaning": "[ˈɑːtwɜːk] n.艺术作品 (词频: 2)"
+  },
+  {
+    "day": "Day 74",
+    "word": "assignment",
+    "meaning": "[əˈsainmənt] n.任务，作业 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "associated",
+    "meaning": "[əˈsoʊʃieitid] adj.关联的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "award",
+    "meaning": "[ə'wɔ:d] n.奖，奖品 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "breakthrough",
+    "meaning": "['breikθru:] n.突破 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "budget",
+    "meaning": "[ˈbʌdʒit] n.预算 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "calculation",
+    "meaning": "[ˌkælkjuˈleiʃn] n.计算，估算 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "capable",
+    "meaning": "[ˈkeipəbəl] adj.有能力的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "category",
+    "meaning": "[ˈkætigəri] n.种类，类别 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "channel",
+    "meaning": "['tʃænəl] n.频道，渠道，途径，海峡 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "classic",
+    "meaning": "['klæsik] n./adj.名著，经典著作；经典的，典型的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "clinical",
+    "meaning": "[ˈklinikl] adj.临床的，临床诊断的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "command",
+    "meaning": "[kəˈmɑ:nd] n./v.命令，指挥 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "companion",
+    "meaning": "[kəmˈpæniən] n.同伴，伴侣 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "comparison",
+    "meaning": "[kəmˈpærisən] n.比较 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "compromise",
+    "meaning": "[ˈkɔmprəmaiz] n./v.妥协，折衷 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "conference",
+    "meaning": "[ˈkɔnfərəns] n.会议 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "consequence",
+    "meaning": "['kɔnsikwəns] n.后果 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "considerate",
+    "meaning": "[kənˈsidərit] adj.体贴的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "constant",
+    "meaning": "[ˈkɔnstənt] adj.不变的，恒定的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "cruel",
+    "meaning": "[ˈkru:əl] adj.残酷的，残忍的 (词频: 2)"
+  },
+  {
+    "day": "Day 75",
+    "word": "curiosity",
+    "meaning": "[ˌkjuəriˈɔsiti] n.好奇心 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "curriculum",
+    "meaning": "[kəˈrikjuləm] n.课程 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "defense",
+    "meaning": "[diˈfens] n.防御，保卫 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "department",
+    "meaning": "[diˈpɑ:tmənt] n.部，部门，系 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "dependable",
+    "meaning": "[diˈpendəbl] adj.可信赖的；可靠的 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "determination",
+    "meaning": "[diˌtɜːmiˈneiʃn] n.决心，决定 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "dilemma",
+    "meaning": "[diˈlemə] n.(进退两难的)困境 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "dishonest",
+    "meaning": "[disˈɒnist] adj.不诚实的；骗人的；欺骗性的 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "dispose",
+    "meaning": "[disˈpəuz] v.安排，布置，去除，处理 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "distribute",
+    "meaning": "[diˈstribju:t] vt.分发，分配 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "disturb",
+    "meaning": "[diˈstə:b] vt.打扰，妨碍 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "embrace",
+    "meaning": "[imˈbreis] n./vt.拥抱；包括，欣然接受，乐意采纳 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "encounter",
+    "meaning": "[inˈkaʊntə(r)] n./v.遭遇，偶遇 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "encouragement",
+    "meaning": "[in'kʌridӡmənt] n.鼓励，激励 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "enhance",
+    "meaning": "[inˈhɑ:ns] vt.提高，增加，加强 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "ensure",
+    "meaning": "[inˈʃuə] vt.确保，保证 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "evolution",
+    "meaning": "[ˌi:vəˈlu:ʃən] n.进化 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "float",
+    "meaning": "[fləut] v.浮，漂浮 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "fluid",
+    "meaning": "[ˈflu:id] n./adj.液体 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "format",
+    "meaning": "['fɔːmæt] n.格式 (词频: 2)"
+  },
+  {
+    "day": "Day 76",
+    "word": "fortunate",
+    "meaning": "[ˈfɔ:tʃənət] adj.幸运的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "foundation",
+    "meaning": "[faunˈdeiʃən] n.地基，基础 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "fragile",
+    "meaning": "['frædʒail] adj.易损坏的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "frightened",
+    "meaning": "['fraitnd] adj.害怕的，受惊吓的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "furniture",
+    "meaning": "[ˈfɜːnitʃə(r)] n.家具 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "generous",
+    "meaning": "[ˈdʒenərəs] adj.慷慨的，丰富的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "gesture",
+    "meaning": "[ˈdʒestʃə] n./v.姿势，手势，姿态；作手势 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "graduate",
+    "meaning": "['ɡrædʒueit] n./vi.毕业生；毕业 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "grain",
+    "meaning": "[grein] n.谷物，谷粒 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "grand",
+    "meaning": "[grænd] adj.宏伟的，壮丽的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "guidance",
+    "meaning": "['ɡaidəns] n.指导，领导 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "identify",
+    "meaning": "[ai'dentifai] vt.认出，识别 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "ignore",
+    "meaning": "[igˈnɔ:(r)] vt.不理会，忽视 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "immune",
+    "meaning": "[iˈmju:n] adj.免疫的，有免疫力的，不受影响的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "implication",
+    "meaning": "[ˌimpliˈkeiʃən] n.暗示 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "impression",
+    "meaning": "[imˈpreʃən] n.印象 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "inability",
+    "meaning": "[ˌinəˈbiləti] n.无能 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "incident",
+    "meaning": "['insidənt] n.小事件，暴力冲突事件 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "incorrect",
+    "meaning": "[ˌinkəˈrekt] adj.不准确的；不正确的 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "initial",
+    "meaning": "[iˈniʃəl] adj./n.最初的，词首的；(姓名的)首字母 (词频: 2)"
+  },
+  {
+    "day": "Day 77",
+    "word": "intensive",
+    "meaning": "[inˈtensiv] adj.密集的，加强的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "internal",
+    "meaning": "[in'tɜːn(ə)l] adj.国内的，内部的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "invasion",
+    "meaning": "[inˈveiʒn] n.入侵；侵犯 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "irrelevant",
+    "meaning": "[iˈrelivənt] adj.无关的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "judgment",
+    "meaning": "[ˈdʒʌdʒmənt] n.判断，判决 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "knowledgeable",
+    "meaning": "[ˈnɔlidʒəbəl] adj.博学的，有见识的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "lane",
+    "meaning": "[lein] n.小路 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "lighten",
+    "meaning": "[ˈlaitn] v.(使某物)变轻；(使某事物)令人放心，解除忧虑 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "lung",
+    "meaning": "[lʌŋ] n.肺 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "maintain",
+    "meaning": "[meinˈtein] vt.维持，保持，供养 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "mass",
+    "meaning": "[mæs] n.\\adj.大量，很多；大批的，广泛的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "mature",
+    "meaning": "[məˈtjuə，məˈtʃʊə(r)] v./adj.(使)成熟；深思熟虑的，成熟的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "messy",
+    "meaning": "[ˈmesi] adj.凌乱的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "mission",
+    "meaning": "['miʃ(ə)n] n.使命 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "mixture",
+    "meaning": "[ˈmikstʃə(r)] n.混合，混合物 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "multimedia",
+    "meaning": "[ˌmʌltiˈmi:diə] adj.多媒体的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "muscle",
+    "meaning": "['mʌs(ə)l] n.肌肉 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "nutrition",
+    "meaning": "[nju:'triʃən] n.营养 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "occasion",
+    "meaning": "[ə'keiʒən] n.场合 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "original",
+    "meaning": "[əˈridʒənəl] adj.原本的，独创的 (词频: 2)"
+  },
+  {
+    "day": "Day 78",
+    "word": "passion",
+    "meaning": "['pæʃən] n.激情，热情 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "passionate",
+    "meaning": "[ˈpæʃənit] adj.充满激情的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "perspective",
+    "meaning": "[pəˈspektiv] n.角度，观点，想法 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "phenomenon",
+    "meaning": "[fəˈnɒminən] n.现象 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "plain",
+    "meaning": "[plein] n./adj./adv.平原；清楚的，平常的，直率的；显然地 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "plate",
+    "meaning": "[pleit] n.盘子，碟，薄板 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "poisonous",
+    "meaning": "[ˈpɔizənəs] vt./adj.使中毒，毒害；有毒的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "precious",
+    "meaning": "[ˈpreʃəs] adj.珍贵的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "promote",
+    "meaning": "[prəu'məut] vt.促进，晋升，促销 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "rebuild",
+    "meaning": "[ˌri:'bild] vt.重建 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "recreate",
+    "meaning": "[ˌri:kriˈeit] vt.再现；再创造 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "reflect",
+    "meaning": "[riˈflekt] vt.反射，反映，反思 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "relation",
+    "meaning": "[riˈleiʃn] n.关系 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "relevant",
+    "meaning": "[ˈreləvənt] adj.相关的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "relief",
+    "meaning": "[ri'li:f] n.减轻，宽慰，轻松，解脱 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "resistant",
+    "meaning": "[riˈzistənt] adj.有抵抗力的，抵抗的；顽固的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "route",
+    "meaning": "[ru:t] n.路线 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "sample",
+    "meaning": "['sɑːmp(ə)l] n.样本，例子 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "selfish",
+    "meaning": "[ˈselfiʃ] adj.自私的 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "slip",
+    "meaning": "[slip] n./vi.滑倒，滑落 (词频: 2)"
+  },
+  {
+    "day": "Day 79",
+    "word": "snack",
+    "meaning": "[snæk] n./vi.小吃；点心 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "solar",
+    "meaning": "[ˈsəulə(r)] adj.太阳的，太阳能的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "spiritual",
+    "meaning": "[ˈspiritʃuəl] adj.精神上的，心灵的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "stimulate",
+    "meaning": "[ˈstimjuleit] vt.刺激，激发 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "summarize",
+    "meaning": "[ˈsʌməraiz] vt.总结 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "talented",
+    "meaning": "[ˈtæləntid] adj.有才能的，有才干的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "tease",
+    "meaning": "[ti:z] v.取笑，逗弄 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "tension",
+    "meaning": "['tenʃ(ə)n] n.（情况、心情）紧张 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "thoughtful",
+    "meaning": "[ˈθɔ:tfəl] adj.深思熟虑的，体贴的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "tongue",
+    "meaning": "[tʌŋ] n.舌头，语言 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "tough",
+    "meaning": "[tʌf] adj.艰难的，严厉的，坚强的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "trial",
+    "meaning": "[ˈtraiəl] n.审判，试用 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "tricky",
+    "meaning": "[ˈtriki] adj.难办的；难对付的，狡猾的；诡计多端的 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "trigger",
+    "meaning": "[ˈtrigə] n/v.扳机，起因；引起 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "undertake",
+    "meaning": "[ˌʌndəˈteik] vt.承担，着手做，同意 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "universe",
+    "meaning": "[ˈju:nivə:s] n.宇宙，全世界 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "upload",
+    "meaning": "[ˌʌpˈləud] vt.上传 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "vitamin",
+    "meaning": "[ˈvitəmin] n.维生素 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "weapon",
+    "meaning": "['wep(ə)n] n.武器 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "workload",
+    "meaning": "[ˈwɜ:kləud] n.（某一人或组织的）工作量，工作负担 (词频: 2)"
+  },
+  {
+    "day": "Day 80",
+    "word": "worthwhile",
+    "meaning": "[wə:θ'wail] adj.有价值的，值得花时间(或钱、努力等) (词频: 2)"
+  }
+]

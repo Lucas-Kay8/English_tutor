@@ -37,7 +37,10 @@ const state = {
     currentWeek: 1,
 
     // 题型
-    questionTypes: ['choice', 'spell', 'listen', 'fill']
+    questionTypes: ['choice', 'spell', 'listen', 'fill'],
+
+    // 拼写微错尝试次数
+    currentSpellAttempts: 0
 };
 
 // ===== 常量 =====
@@ -911,6 +914,15 @@ function bindEvents() {
         playStudyWord();
     });
 
+    // 朗读打卡按钮
+    const btnSpeech = document.getElementById('btn-study-speech');
+    if (btnSpeech) {
+        btnSpeech.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleStudySpeech();
+        });
+    }
+
     // 翻转卡片
     document.getElementById('flashcard').addEventListener('click', () => {
         document.getElementById('flashcard').classList.toggle('flipped');
@@ -962,14 +974,8 @@ async function switchUser(userId) {
 // ===== 【改造一】复习门槛检查 (Review Gate) =====
 function checkReviewGate() {
     const mistakes = state.progress.mistakes || [];
-    const lastReviewDate = state.progress.lastReviewDate;
-    const daysSinceReview = lastReviewDate
-        ? Math.floor((Date.now() - new Date(lastReviewDate).getTime()) / 86400000)
-        : 999;
-
-    // 条件1：错题超过15个 且 2天以上没复习
-    // 条件2：错题超过30个（无论是否复习过）
-    if ((mistakes.length >= 15 && daysSinceReview >= 2) || mistakes.length >= 30) {
+    // Oli错题堆积超过 15 个，强制启动智能复习拦截，贯彻“科学遗忘曲线复习”
+    if (mistakes.length >= 15) {
         return mistakes.length;
     }
     return 0;
@@ -1148,15 +1154,30 @@ function weightedRandom(weights) {
 function getWeightedQuestionType(word) {
     const stats = state.progress.wordStats?.[word.word];
     const box = stats?.box || 0;
+    const hasSpeech = ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window);
+
+    console.log(`🎤 [Speech Support Check] 单词: "${word.word}" | Box: ${box} | 语音识别支持: ${hasSpeech ? '支持 ✅' : '不支持 ❌'}`, {
+        SpeechRecognition: 'SpeechRecognition' in window,
+        webkitSpeechRecognition: 'webkitSpeechRecognition' in window
+    });
 
     if (box >= 3) {
-        // 已经比较熟悉：80% 产出型（拼写/填空/听写），20% 选择
+        // 已经比较熟悉：75% 产出型/发音型，25% 选择
+        if (hasSpeech) {
+            return weightedRandom({ spell: 25, fill: 20, listen: 15, choice: 15, speech: 25 });
+        }
         return weightedRandom({ spell: 35, fill: 30, listen: 15, choice: 20 });
     } else if (box >= 1) {
-        // 学过但不熟：60% 产出型
+        // 学过但不熟
+        if (hasSpeech) {
+            return weightedRandom({ spell: 20, fill: 15, listen: 15, choice: 30, speech: 20 });
+        }
         return weightedRandom({ spell: 25, fill: 20, listen: 15, choice: 40 });
     } else {
-        // 全新词：先以选择题建立初印象
+        // 全新词
+        if (hasSpeech) {
+            return weightedRandom({ spell: 10, fill: 10, listen: 10, choice: 50, speech: 20 });
+        }
         return weightedRandom({ spell: 10, fill: 10, listen: 10, choice: 70 });
     }
 }
@@ -1169,17 +1190,47 @@ function renderQuestion() {
         return;
     }
 
+    // 每次进入新题，静默停止上一题的语音录音，并隐藏测试语音反馈框
+    stopSpeechSilently();
+    const quizSpeechFeedback = document.getElementById('quiz-speech-feedback');
+    if (quizSpeechFeedback) {
+        quizSpeechFeedback.classList.add('hidden');
+        quizSpeechFeedback.className = 'speech-feedback';
+        quizSpeechFeedback.textContent = '';
+    }
+    const btnQuizSpeech = document.getElementById('btn-quiz-speech');
+    if (btnQuizSpeech) {
+        btnQuizSpeech.classList.remove('recording');
+        btnQuizSpeech.textContent = '🎤';
+        btnQuizSpeech.disabled = false;
+    }
+
+    // 每次进入新题，重置拼写错误微调机会，并隐藏微错气泡提示
+    state.currentSpellAttempts = 0;
+    const hintEl = document.getElementById('spell-hint');
+    if (hintEl) {
+        hintEl.classList.add('hidden');
+    }
+
     // 更新进度条
     const progress = (state.currentQuestion / state.quizWords.length) * 100;
     document.getElementById('quiz-progress').style.width = progress + '%';
 
     // 【改造二】加权题型选择，替代均匀随机
-    const type = getWeightedQuestionType(q);
+    let type = getWeightedQuestionType(q);
+
+    // 天才产品体验：如果支持语音，且在每日测试中词数多于1个，强制将第2题（索引为1）设为发音挑战题，确保打卡必练且方便测试快速确认与首次授权麦克风
+    const hasSpeech = ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window);
+    if (hasSpeech && state.quizWords.length > 1 && state.currentQuestion === 1) {
+        type = 'speech';
+        console.log("💡 [Product Experience] 强制第2题为发音挑战题，以便快速验证和练习！");
+    }
 
     // 重置UI
     hideFeedback();
     document.getElementById('input-mode').classList.add('hidden');
     document.getElementById('choice-mode').classList.add('hidden');
+    document.getElementById('speech-mode')?.classList.add('hidden');
     document.getElementById('btn-audio').classList.add('hidden');
     document.getElementById('question-example').classList.add('hidden');
 
@@ -1195,6 +1246,9 @@ function renderQuestion() {
             break;
         case 'fill':
             renderFillQuestion(q);
+            break;
+        case 'speech':
+            renderSpeechQuestion(q);
             break;
     }
 }
@@ -1362,9 +1416,48 @@ function checkAnswer() {
     const isCorrect = answer === correct;
 
     if (isCorrect) {
+        // 答对后隐藏拼写纠错微提示气泡
+        const hintEl = document.getElementById('spell-hint');
+        if (hintEl) hintEl.classList.add('hidden');
+
         input.classList.add('correct');
+        input.blur(); // 答对后立刻让输入框失焦，收起移动端键盘，使底部的绿色继续按钮浮现
         handleCorrect();
     } else {
+        // 智能微错判定 (编辑距离为 1 且 单词长度 >= 3 且 2次纠错机会未用完)
+        const dist = getEditDistance(answer, correct);
+        const minLen = Math.min(answer.length, correct.length);
+        if (dist === 1 && minLen >= 3 && state.currentSpellAttempts < 2) {
+            state.currentSpellAttempts++;
+            
+            let hintEl = document.getElementById('spell-hint');
+            if (!hintEl) {
+                hintEl = document.createElement('div');
+                hintEl.id = 'spell-hint';
+                hintEl.style.color = '#e28743';
+                hintEl.style.fontSize = '0.95rem';
+                hintEl.style.marginTop = '8px';
+                hintEl.style.fontWeight = 'bold';
+                hintEl.style.textAlign = 'center';
+                input.parentNode.appendChild(hintEl);
+            }
+            hintEl.textContent = `💡 差一点点！是不是拼错了一个字母？再试一次吧！（第 ${state.currentSpellAttempts}/2 次机会）`;
+            hintEl.classList.remove('hidden');
+
+            // 原生晃动微交互反馈
+            input.classList.add('shake');
+            setTimeout(() => {
+                input.classList.remove('shake');
+            }, 500);
+
+            // 柔性保留输入，允许Oli微调，不扣血，不走 handleWrong
+            return;
+        }
+
+        // 答错后隐藏拼写纠错微提示气泡
+        const hintEl = document.getElementById('spell-hint');
+        if (hintEl) hintEl.classList.add('hidden');
+
         // Debug
         console.log('Wrong answer:', answer, 'Expected:', correct);
         console.log('Codes:', answer.split('').map(c => c.charCodeAt(0)), 'Expected:', correct.split('').map(c => c.charCodeAt(0)));
@@ -1373,6 +1466,7 @@ function checkAnswer() {
         }
 
         input.classList.add('wrong');
+        input.blur(); // 彻底答错后也立刻失焦，收起软键盘，露出错误底栏
         handleWrong(state.quizWords[state.currentQuestion]);
     }
 }
@@ -1589,6 +1683,8 @@ function showRescueFail() {
 // ===== 显示救援成功 =====
 function showRescueSuccess() {
     document.getElementById('rescue-success-modal').classList.remove('hidden');
+    // 精准救援成功，奖励令人惊喜的五彩碎纸粒子特效！
+    setTimeout(triggerConfetti, 200);
 
     document.getElementById('btn-continue-rescue').onclick = () => {
         document.getElementById('rescue-success-modal').classList.add('hidden');
@@ -1729,6 +1825,11 @@ function finishQuiz() {
 
     // 保存进度
     saveProgress();
+
+    // 满分通关答对所有单词，绽放精美五彩碎纸雨粒子特效！
+    if (accuracy === 100) {
+        setTimeout(triggerConfetti, 300);
+    }
 
     // 渲染结果
     showView('result');
@@ -2204,6 +2305,36 @@ function showStudyCard() {
     const word = state.studyWords[state.studyIndex];
     if (!word) return;
 
+    // 1. 停止上一轮的录音
+    stopStudySpeechSilently();
+
+    // 2. 重置语音反馈框
+    const feedback = document.getElementById('speech-feedback');
+    if (feedback) {
+        feedback.classList.add('hidden');
+        feedback.className = 'speech-feedback';
+        feedback.textContent = '';
+    }
+
+    // 3. 检查该单词今天是否已经成功朗读打卡
+    const crown = document.getElementById('study-word-crown');
+    const btnSpeech = document.getElementById('btn-study-speech');
+    const hasSpoken = state.progress && state.progress.wordStats && 
+                      state.progress.wordStats[word.word] && 
+                      state.progress.wordStats[word.word].spoken > 0;
+
+    if (crown) {
+        if (hasSpoken) {
+            crown.classList.remove('hidden');
+        } else {
+            crown.classList.add('hidden');
+        }
+    }
+    if (btnSpeech) {
+        btnSpeech.textContent = hasSpoken ? '👑' : '🎤';
+        btnSpeech.classList.remove('recording');
+    }
+
     // 更新进度
     const progress = ((state.studyIndex + 1) / state.studyWords.length) * 100;
     document.getElementById('study-progress').style.width = progress + '%';
@@ -2214,7 +2345,7 @@ function showStudyCard() {
     document.getElementById('study-word').textContent = word.word;
     document.getElementById('study-meaning').textContent = word.meaning;
     document.getElementById('study-example').textContent = word.example || '暂无例句';
-    document.getElementById('study-example-cn').textContent = '';
+    document.getElementById('study-example-cn').textContent = word.example_cn || '';
 
     // 重置卡片为正面
     document.getElementById('flashcard').classList.remove('flipped');
@@ -2512,3 +2643,526 @@ document.getElementById('btn-cloze-close').addEventListener('click', () => showV
 
 // ===== 启动 =====
 document.addEventListener('DOMContentLoaded', init);
+
+// ===== 【追加工具】原生震动与粒子特效引擎 =====
+(function() {
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+        }
+        .shake {
+            animation: shake 0.3s ease-in-out;
+            border: 2px solid #ff4b4b !important;
+            box-shadow: 0 0 10px rgba(255, 75, 75, 0.2) !important;
+        }
+    `;
+    document.head.appendChild(style);
+})();
+
+// 经典的莱文斯坦编辑距离算法 (Levenshtein Distance)
+function getEditDistance(a, b) {
+    if (a.length === 0) return b.length;
+    if (b.length === 0) return a.length;
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++) {
+        matrix[i] = [i];
+    }
+    for (let j = 0; j <= a.length; j++) {
+        matrix[0][j] = j;
+    }
+    for (let i = 1; i <= b.length; i++) {
+        for (let j = 1; j <= a.length; j++) {
+            if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+            } else {
+                matrix[i][j] = Math.min(
+                    matrix[i - 1][j - 1] + 1, // 替换
+                    Math.min(
+                        matrix[i][j - 1] + 1, // 插入
+                        matrix[i - 1][j] + 1  // 删除
+                    )
+                );
+            }
+        }
+    }
+    return matrix[b.length][a.length];
+}
+
+// 纯原生离线、高性能 Canvas 五彩纸屑碎纸粒子特效
+function triggerConfetti() {
+    const canvas = document.createElement('canvas');
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.width = '100vw';
+    canvas.style.height = '100vh';
+    canvas.style.zIndex = '9999';
+    canvas.style.pointerEvents = 'none';
+    document.body.appendChild(canvas);
+
+    const ctx = canvas.getContext('2d');
+    let width = canvas.width = window.innerWidth * window.devicePixelRatio;
+    let height = canvas.height = window.innerHeight * window.devicePixelRatio;
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+
+    window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth * window.devicePixelRatio;
+        height = canvas.height = window.innerHeight * window.devicePixelRatio;
+        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    });
+
+    const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#ff5722'];
+    const particles = [];
+    const particleCount = 120;
+
+    for (let i = 0; i < particleCount; i++) {
+        particles.push({
+            x: Math.random() * window.innerWidth,
+            y: Math.random() * -window.innerHeight - 20,
+            size: Math.random() * 8 + 6,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            rotation: Math.random() * 360,
+            rotationSpeed: Math.random() * 8 - 4,
+            speedX: Math.random() * 4 - 2,
+            speedY: Math.random() * 5 + 4,
+            opacity: 1
+        });
+    }
+
+    function animate() {
+        ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+        let active = false;
+
+        particles.forEach(p => {
+            if (p.y < window.innerHeight) {
+                active = true;
+                p.y += p.speedY;
+                p.x += p.speedX + Math.sin(p.y / 30) * 0.5;
+                p.rotation += p.rotationSpeed;
+                
+                ctx.save();
+                ctx.translate(p.x, p.y);
+                ctx.rotate((p.rotation * Math.PI) / 180);
+                ctx.fillStyle = p.color;
+                ctx.globalAlpha = p.opacity;
+                
+                if (p.size % 2 === 0) {
+                    ctx.fillRect(-p.size / 2, -p.size / 4, p.size, p.size / 2);
+                } else {
+                    ctx.beginPath();
+                    ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+                ctx.restore();
+            }
+        });
+
+        if (active) {
+            requestAnimationFrame(animate);
+        } else {
+            canvas.remove();
+        }
+    }
+    animate();
+}
+
+// ===== 系统四大升级核心功能诊断与自测试工具 =====
+window.runDiagnostics = function() {
+    console.log("%c🔍 正在启动 Oli 单词系统4大核心升级自测试...", "color: #3b82f6; font-size: 14px; font-weight: bold;");
+    let passedCount = 0;
+    let failedCount = 0;
+
+    function assert(name, condition) {
+        if (condition) {
+            console.log(`%c[PASS] ${name}`, "color: #10b981; font-weight: bold;");
+            passedCount++;
+        } else {
+            console.error(`[FAIL] ${name}`);
+            failedCount++;
+        }
+    }
+
+    try {
+        // 1. 验证 Levenshtein Distance 编辑距离算法
+        assert("Levenstein 算法 - 替换 1 个字母 (difficult -> dificult)", getEditDistance("difficult", "dificult") === 1);
+        assert("Levenstein 算法 - 多出 1 个字母 (motivate -> motivatee)", getEditDistance("motivate", "motivatee") === 1);
+        assert("Levenstein 算法 - 完全不同单词", getEditDistance("apple", "banana") > 2);
+        assert("Levenstein 算法 - 完全相同单词", getEditDistance("hello", "hello") === 0);
+
+        // 2. 验证 Canvas 五彩纸屑雨触发
+        const canvasBefore = document.querySelectorAll('canvas').length;
+        triggerConfetti();
+        const canvasAfter = document.querySelectorAll('canvas').length;
+        assert("Canvas 五彩纸屑雨 - Canvas 元素成功创建且挂载至 DOM", canvasAfter === canvasBefore + 1);
+
+        // 3. 验证拼写纠错微提示逻辑
+        // 备份原有状态
+        const origState = JSON.parse(JSON.stringify(state));
+        
+        // 模拟拼写测试环境
+        state.quizWords = [{ word: 'motivate', meaning: '驱使' }];
+        state.currentQuestion = 0;
+        state.currentSpellAttempts = 0;
+        state.hearts = 5;
+
+        // 创建虚拟输入框
+        const mockInput = document.createElement('input');
+        mockInput.id = 'answer-input';
+        mockInput.value = 'motivatee'; // 拼错一个字母
+        mockInput.dataset.answer = 'motivate';
+        document.body.appendChild(mockInput);
+
+        // 执行拼写判定
+        checkAnswer();
+
+        const hintEl = document.getElementById('spell-hint');
+        assert("柔性拼写纠错 - 第一次拼写微错尝试被记录", state.currentSpellAttempts === 1);
+        assert("柔性拼写纠错 - 柔性微提示气泡正常渲染", hintEl && !hintEl.classList.contains('hidden'));
+        assert("柔性拼写纠错 - 气泡文案符合期望", hintEl && hintEl.textContent.includes("💡 差一点点！"));
+        assert("柔性拼写纠错 - 未扣除生命值", state.hearts === 5);
+
+        // 清理虚拟输入框和气泡
+        mockInput.remove();
+        if (hintEl) hintEl.remove();
+
+        // 4. 验证复习拦截门槛 (Review Gate)
+        state.progress = state.progress || {};
+        const oldMistakes = state.progress.mistakes || [];
+        state.progress.mistakes = Array(16).fill('test'); // 模拟16个错词
+        const oldCompletedDays = state.progress.completedDays || [];
+        state.progress.completedDays = []; // 尚未通过
+
+        // 获取拦截状态
+        const gateCount = checkReviewGate();
+        assert("复习门槛检测 - 错词 >= 15 时成功检测到拦截条件", gateCount === 16);
+
+        // 模拟开启新天数
+        const modal = document.getElementById('review-gate-modal');
+        if (modal) {
+            startDayQuiz(60);
+            assert("复习门槛拦截 - Review Gate 弹窗被成功激活并显示", !modal.classList.contains('hidden'));
+            const gateCountText = document.getElementById('review-gate-count').textContent;
+            assert("复习门槛拦截 - 弹窗内显示的错词数完全正确", gateCountText === "16");
+            
+            // 模拟点击跳过
+            document.getElementById('btn-review-gate-skip').click();
+            assert("复习门槛拦截 - 跳过按钮正常关闭弹窗", modal.classList.contains('hidden'));
+        } else {
+            console.warn("未能找到 #review-gate-modal 元素，跳过弹窗UI检测");
+        }
+
+        // 恢复原有状态
+        Object.assign(state, origState);
+        state.progress.mistakes = oldMistakes;
+        state.progress.completedDays = oldCompletedDays;
+
+        console.log(`\n%c📊 诊断结果: 共 ${passedCount + failedCount} 项测试，%c${passedCount} 项通过%c, ${failedCount} 项失败。`, 
+            "font-weight: bold;", "color: #10b981; font-weight: bold;", "color: #f44336; font-weight: bold;");
+        if (failedCount === 0) {
+            console.log("%c🎉 OLI 背词系统4大核心系统升级 100% 运行完美，体验流畅！", "color: #10b981; font-size: 14px; font-weight: bold;");
+        }
+    } catch(e) {
+        console.error("❌ 诊断过程中发生异常:", e);
+    }
+};
+
+// ===== 追加：朗读打卡与发音检验功能 =====
+
+// 全局语音识别状态
+let speechRecognition = null;
+let isSpeechRecording = false;
+
+// 检查当前是否在测试页面
+function isCurrentlyInQuiz() {
+    const quizEl = document.getElementById('quiz-view');
+    return (quizEl && quizEl.classList.contains('active')) || (state.currentView === 'quiz');
+}
+
+// 初始化语音识别
+function initSpeechRecognition() {
+    if (speechRecognition) return speechRecognition;
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+        console.warn("当前浏览器不支持 Speech Recognition API");
+        return null;
+    }
+
+    const recognition = new SpeechRecognition();
+    recognition.continuous = false;
+    recognition.lang = 'en-US';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    recognition.onstart = () => {
+        isSpeechRecording = true;
+        const isQuiz = isCurrentlyInQuiz();
+        const btnId = isQuiz ? 'btn-quiz-speech' : 'btn-study-speech';
+        const feedbackId = isQuiz ? 'quiz-speech-feedback' : 'speech-feedback';
+
+        const btn = document.getElementById(btnId);
+        const feedback = document.getElementById(feedbackId);
+
+        if (btn) {
+            btn.classList.add('recording');
+            btn.textContent = '🛑';
+        }
+        if (feedback) {
+            feedback.classList.remove('hidden');
+            feedback.className = 'speech-feedback listening';
+            feedback.textContent = '👂 正在倾听中，请大声读出来...';
+        }
+    };
+
+    recognition.onend = () => {
+        isSpeechRecording = false;
+        const isQuiz = isCurrentlyInQuiz();
+        const btnId = isQuiz ? 'btn-quiz-speech' : 'btn-study-speech';
+        const btn = document.getElementById(btnId);
+        if (btn) {
+            btn.classList.remove('recording');
+            if (isQuiz) {
+                // 测试模式下，如果通过了应该已经在 handleQuizSpeechResult 里禁用了按钮并显示了皇冠
+                // 否则这里恢复为 🎤
+                if (!btn.disabled) {
+                    btn.textContent = '🎤';
+                }
+            } else {
+                // 如果该词已经读对，恢复为已打卡状态，否则恢复为话筒
+                const word = state.studyWords[state.studyIndex];
+                const hasSpoken = word && state.progress.wordStats && state.progress.wordStats[word.word] && state.progress.wordStats[word.word].spoken > 0;
+                btn.textContent = hasSpoken ? '👑' : '🎤';
+            }
+        }
+    };
+
+    recognition.onerror = (event) => {
+        console.error("语音识别错误:", event.error);
+        const isQuiz = isCurrentlyInQuiz();
+        const feedbackId = isQuiz ? 'quiz-speech-feedback' : 'speech-feedback';
+        const feedback = document.getElementById(feedbackId);
+        if (feedback) {
+            feedback.className = 'speech-feedback error';
+            if (event.error === 'no-speech') {
+                feedback.textContent = '😢 没有听到声音，请再试一次。';
+            } else if (event.error === 'not-allowed') {
+                feedback.textContent = '🚫 麦克风权限被拒绝，请在浏览器中允许权限。';
+            } else {
+                feedback.textContent = '⚠️ 听不清，请稍后再试。';
+            }
+        }
+    };
+
+    recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        const isQuiz = isCurrentlyInQuiz();
+        if (isQuiz) {
+            handleQuizSpeechResult(transcript);
+        } else {
+            handleSpeechResult(transcript);
+        }
+    };
+
+    speechRecognition = recognition;
+    return speechRecognition;
+}
+
+// 开启或关闭录音
+function toggleStudySpeech() {
+    const rec = initSpeechRecognition();
+    if (!rec) {
+        alert("非常抱歉，当前浏览器（或iPad版本）不支持语音识别，推荐使用 iPad 的 Safari 浏览器体验哦！");
+        return;
+    }
+
+    if (isSpeechRecording) {
+        rec.stop();
+    } else {
+        try {
+            rec.start();
+        } catch (e) {
+            console.error("启动语音识别失败", e);
+            rec.stop();
+        }
+    }
+}
+
+// 静默停止录音 (双端切换卡片时通用)
+function stopSpeechSilently() {
+    if (speechRecognition && isSpeechRecording) {
+        speechRecognition.abort();
+        isSpeechRecording = false;
+    }
+}
+
+// 保留为了预习卡片的兼容性命名
+function stopStudySpeechSilently() {
+    stopSpeechSilently();
+}
+
+// 处理识别出的结果并与原单词进行相似度匹配 (预习卡片端)
+function handleSpeechResult(transcript) {
+    const wordObj = state.studyWords[state.studyIndex];
+    if (!wordObj) return;
+
+    const targetWord = wordObj.word.trim().toLowerCase();
+    const heardText = transcript.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g, "");
+
+    const feedback = document.getElementById('speech-feedback');
+    if (!feedback) return;
+
+    // 比对算法
+    const distance = getEditDistance(targetWord, heardText);
+    const maxAllowedDistance = Math.max(1, Math.floor(targetWord.length / 4)); // 允许一定的小发音误差
+
+    if (distance === 0) {
+        feedback.className = 'speech-feedback success';
+        feedback.innerHTML = `👑 <strong>完美！发音太准了！</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        awardSpeechBonus(wordObj.word, true);
+    } else if (distance <= maxAllowedDistance) {
+        feedback.className = 'speech-feedback success';
+        feedback.innerHTML = `✨ <strong>发音不错，通过！</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        awardSpeechBonus(wordObj.word, false);
+    } else {
+        feedback.className = 'speech-feedback error';
+        feedback.innerHTML = `😢 <strong>没读准，再试试看？</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        playSound('wrong');
+    }
+}
+
+// 奖励发音加成并保存 (预习卡片端)
+function awardSpeechBonus(word, isPerfect) {
+    const btn = document.getElementById('btn-study-speech');
+    const crown = document.getElementById('study-word-crown');
+
+    // 1. 初始化该单词的统计
+    if (!state.progress.wordStats) {
+        state.progress.wordStats = {};
+    }
+    if (!state.progress.wordStats[word]) {
+        state.progress.wordStats[word] = { correct: 0, wrong: 0 };
+    }
+
+    const stats = state.progress.wordStats[word];
+    const alreadySpoken = stats.spoken && stats.spoken > 0;
+
+    // 累加已读对次数
+    stats.spoken = (stats.spoken || 0) + 1;
+
+    // 展现打卡成功效果
+    if (btn) btn.textContent = '👑';
+    if (crown) crown.classList.remove('hidden');
+
+    // 首次成功加 5 XP
+    if (!alreadySpoken) {
+        state.xp += 5;
+        state.progress.xp = (state.progress.xp || 0) + 5;
+        showSpeechXpPopup("+5 XP (朗读)");
+        setTimeout(() => triggerConfetti(), 100);
+        playSound('correct');
+        saveProgress();
+    } else {
+        playSound('correct');
+    }
+}
+
+// 展示语音专用的 XP 飘起特效
+function showSpeechXpPopup(text) {
+    const popup = document.getElementById('xp-popup');
+    if (popup) {
+        popup.textContent = text;
+        popup.classList.add('show');
+        setTimeout(() => {
+            popup.classList.remove('show');
+        }, 800);
+    }
+}
+
+// ===== 每日打卡测试朗读题渲染 =====
+function renderSpeechQuestion(q) {
+    document.getElementById('question-type').textContent = '发音挑战 🗣️';
+    document.getElementById('question-content').textContent = q.word;
+
+    // 朗读题可播放发音，支持先听后读
+    const audioBtn = document.getElementById('btn-audio');
+    audioBtn.classList.remove('hidden');
+    audioBtn.dataset.word = q.word;
+
+    if (q.example) {
+        const example = document.getElementById('question-example');
+        example.textContent = q.example;
+        example.classList.remove('hidden');
+    }
+
+    const speechMode = document.getElementById('speech-mode');
+    speechMode.classList.remove('hidden');
+
+    // 绑定麦克风跟读按钮点击
+    const btnQuizSpeech = document.getElementById('btn-quiz-speech');
+    btnQuizSpeech.onclick = () => {
+        toggleQuizSpeech(q);
+    };
+}
+
+// 测试端跟读录音切换
+function toggleQuizSpeech(q) {
+    const rec = initSpeechRecognition();
+    if (!rec) {
+        alert("非常抱歉，当前浏览器（或iPad版本）不支持语音识别，推荐使用 iPad 的 Safari 浏览器体验哦！");
+        return;
+    }
+
+    if (isSpeechRecording) {
+        rec.stop();
+    } else {
+        try {
+            rec.start();
+        } catch (e) {
+            console.error("启动语音识别失败", e);
+            rec.stop();
+        }
+    }
+}
+
+// 测试端语音识别结果判定
+function handleQuizSpeechResult(transcript) {
+    const q = state.quizWords[state.currentQuestion];
+    if (!q) return;
+
+    const targetWord = q.word.trim().toLowerCase();
+    const heardText = transcript.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g, "");
+
+    const feedback = document.getElementById('quiz-speech-feedback');
+    if (!feedback) return;
+
+    const distance = getEditDistance(targetWord, heardText);
+    const maxAllowedDistance = Math.max(1, Math.floor(targetWord.length / 4)); // 允许一定的小发音误差
+
+    if (distance <= maxAllowedDistance) {
+        // 答对发音挑战！
+        feedback.className = 'speech-feedback success';
+        if (distance === 0) {
+            feedback.innerHTML = `👑 <strong>完美！发音太准了！</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        } else {
+            feedback.innerHTML = `✨ <strong>发音不错，通过！</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        }
+
+        // 禁用测试麦克风
+        const btnQuizSpeech = document.getElementById('btn-quiz-speech');
+        if (btnQuizSpeech) {
+            btnQuizSpeech.disabled = true;
+            btnQuizSpeech.textContent = '👑';
+        }
+
+        // 触发正确处理（会加 XP 并弹出绿色继续反馈栏，同时播放正确音效和撒花）
+        handleCorrect();
+    } else {
+        // 读错或杂音，不扣减生命值，只提醒重试，且可无限次重读
+        feedback.className = 'speech-feedback error';
+        feedback.innerHTML = `😢 <strong>没读准，再试试看？</strong><br><span style="font-size:12px;opacity:0.8;">听到的是: "${transcript}"</span>`;
+        playSound('wrong');
+    }
+}

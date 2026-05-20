@@ -86,6 +86,7 @@ def get_cached_api_vocabulary():
                     'word': word.get('word', ''),
                     'meaning': word.get('meaning', ''),
                     'example': example_en,
+                    'example_cn': word.get('example_cn', ''),
                     'day': day
                 })
         _cached_api_vocabulary = result

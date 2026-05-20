@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VocabQuest - Oli的单词冒险</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v={{ version }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -173,9 +173,14 @@
                     <div class="flashcard" id="flashcard">
                         <!-- 正面：英文单词 -->
                         <div class="flashcard-front">
-                            <button class="btn-audio-large" id="btn-study-audio">🔊</button>
+                            <div class="flashcard-actions" style="display: flex; gap: 20px; margin-bottom: 16px;">
+                                <button class="btn-audio-large" id="btn-study-audio" style="margin-bottom: 0;">🔊</button>
+                                <button class="btn-speech" id="btn-study-speech" style="margin-bottom: 0;">🎤</button>
+                            </div>
+                            <div class="flashcard-crown hidden" id="study-word-crown" style="font-size: 24px; margin-bottom: 8px;">👑</div>
                             <div class="flashcard-word" id="study-word">afford</div>
                             <p class="flashcard-hint">点击卡片查看释义</p>
+                            <div id="speech-feedback" class="speech-feedback hidden"></div>
                         </div>
                         <!-- 背面：释义和例句 -->
                         <div class="flashcard-back">
@@ -245,12 +250,18 @@
                     <!-- 输入模式 -->
                     <div id="input-mode" class="hidden">
                         <input type="text" class="input-answer" id="answer-input" placeholder="输入单词..."
-                            autocomplete="one-time-code" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus>
+                            autocomplete="new-password" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus>
                     </div>
 
                     <!-- 选择模式 -->
                     <div id="choice-mode" class="choices-grid hidden">
                         <!-- JS 生成选项 -->
+                    </div>
+
+                    <!-- 朗读模式 -->
+                    <div id="speech-mode" class="hidden" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+                        <button class="btn-speech" id="btn-quiz-speech" style="width: 72px; height: 72px; font-size: 36px; margin: 0 auto;">🎤</button>
+                        <div id="quiz-speech-feedback" class="speech-feedback hidden" style="margin-top: 0; width: 100%;"></div>
                     </div>
                 </div>
 

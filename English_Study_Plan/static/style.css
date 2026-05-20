@@ -14,6 +14,14 @@
     /* Duo Compatibility */
     --duo-green: #58CC02;
     --duo-green-dark: #46a302;
+    --duo-blue: #1CB0F6;
+    --duo-blue-dark: #1899D6;
+    --duo-orange: #FF9600;
+    --duo-orange-dark: #E68500;
+    --duo-red: #FF4B4B;
+    --duo-red-dark: #EA2B2B;
+    --duo-gray: #AFAFAF;
+    --duo-gray-light: #E5E5E5;
     --primary-color: var(--duo-green);
 
     /* Backgrounds */
@@ -1943,4 +1951,85 @@ body {
     color: var(--apple-orange);
     font-weight: 600;
     margin-top: 4px;
+}
+
+/* ===== 朗读麦克风与声波呼吸灯 ===== */
+.btn-speech {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-speech:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.btn-speech:active {
+    transform: scale(0.95);
+}
+
+.btn-speech.recording {
+    background: var(--duo-red, #ff4b4b);
+    animation: pulseSpeech 1.2s infinite ease-in-out;
+    box-shadow: 0 0 0 0 rgba(255, 75, 75, 0.7);
+}
+
+@keyframes pulseSpeech {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 75, 75, 0.7);
+    }
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 15px rgba(255, 75, 75, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 75, 75, 0);
+    }
+}
+
+/* ===== 语音识别反馈药丸框 ===== */
+.speech-feedback {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 20px;
+    max-width: 85%;
+    text-align: center;
+    word-break: break-all;
+    animation: popIn 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all 0.3s ease;
+}
+
+.speech-feedback.listening {
+    background: rgba(28, 176, 246, 0.15);
+    color: #0079b0;
+    border: 1px dashed #1cb0f6;
+}
+
+.speech-feedback.success {
+    background: rgba(88, 204, 2, 0.15);
+    color: #3b8801;
+    border: 1px solid #58cc02;
+}
+
+.speech-feedback.error {
+    background: rgba(255, 75, 75, 0.1);
+    color: #ea2b2b;
+    border: 1px solid #ff4b4b;
+}
+
+.flashcard-crown {
+    animation: bounce 0.6s ease infinite alternate;
 }
