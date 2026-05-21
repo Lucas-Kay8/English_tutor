@@ -635,6 +635,25 @@ function bindEvents() {
         document.getElementById('mistakes-section').classList.toggle('hidden');
     });
 
+    // 语音识别不支持弹窗关闭按钮
+    const btnCloseSpeechModal = document.getElementById('btn-close-speech-modal');
+    if (btnCloseSpeechModal) {
+        btnCloseSpeechModal.addEventListener('click', () => {
+            document.getElementById('speech-unsupported-modal').classList.add('hidden');
+        });
+    }
+
+    // 环境不支持语音识别时的视觉降级
+    const hasSpeechTemp = ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window);
+    if (!hasSpeechTemp) {
+        const btnSpeech = document.getElementById('btn-study-speech');
+        if (btnSpeech) {
+            btnSpeech.style.opacity = '0.4';
+            btnSpeech.title = '当前设备或浏览器不支持语音识别，请在 iPad 的 Safari 浏览器中体验';
+            btnSpeech.style.cursor = 'not-allowed';
+        }
+    }
+
     // 关闭家长报告
     document.getElementById('btn-parent-close').addEventListener('click', () => {
         showView('home');
@@ -2970,11 +2989,19 @@ function initSpeechRecognition() {
     return speechRecognition;
 }
 
+// 显示语音识别不支持的精美弹窗
+function showSpeechUnsupportedModal() {
+    const modal = document.getElementById('speech-unsupported-modal');
+    if (modal) {
+        modal.classList.remove('hidden');
+    }
+}
+
 // 开启或关闭录音
 function toggleStudySpeech() {
     const rec = initSpeechRecognition();
     if (!rec) {
-        alert("非常抱歉，当前浏览器（或iPad版本）不支持语音识别，推荐使用 iPad 的 Safari 浏览器体验哦！");
+        showSpeechUnsupportedModal();
         return;
     }
 
@@ -3111,7 +3138,7 @@ function renderSpeechQuestion(q) {
 function toggleQuizSpeech(q) {
     const rec = initSpeechRecognition();
     if (!rec) {
-        alert("非常抱歉，当前浏览器（或iPad版本）不支持语音识别，推荐使用 iPad 的 Safari 浏览器体验哦！");
+        showSpeechUnsupportedModal();
         return;
     }
 

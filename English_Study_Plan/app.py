@@ -96,6 +96,14 @@ def get_cached_api_vocabulary():
 def index():
     return render_template('index.html', version=time.time())
 
+@app.route('/service-worker.js')
+def service_worker():
+    from flask import send_from_directory, make_response
+    response = make_response(send_from_directory('static', 'service-worker.js'))
+    response.headers['Content-Type'] = 'application/javascript'
+    response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+    return response
+
 @app.route('/api/vocab')
 def get_vocab():
     return jsonify(_cached_vocab_data)
@@ -145,4 +153,21 @@ def handle_progress():
         return jsonify({"status": "success"})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=False, port=8888)
+    # 优先尝试以安全加密的 HTTPS 启动服务，确保 iPad 的 Safari 在局域网下能够完美启用语音识别功能
+    try:
+        import cryptography
+        import OpenSSL
+        print("\n" + "="*60)
+        print("🔐 [SSL 自动升级] 检测到本地已安装 SSL 依赖，成功开启临时 HTTPS 服务！")
+        print("🐣 【Oli 专属提示】：")
+        print("    请在 iPad 的 Safari 浏览器中，使用 https://<您的电脑IP>:8888 访问！")
+        print("    (由于使用的是临时的自签名证书，首次访问会弹出 '此网站不受信任/警告'，")
+        print("     请点击 '显示详细信息' 并选择 '访问此网站/继续访问' 即可完美解锁语音功能！)")
+        print("="*60 + "\n")
+        app.run(host='0.0.0.0', debug=False, port=8888, ssl_context='adhoc')
+    except ImportError:
+        print("\n" + "="*60)
+        print("⚠️ [HTTP 降级运行] 未检测到 cryptography 或 pyopenssl，以普通 HTTP 模式启动。")
+        print("   由于苹果的安全沙盒限制，局域网内的 iPad 在普通 http:// 下可能无法使用语音识别功能。")
+        print("="*60 + "\n")
+        app.run(host='0.0.0.0', debug=False, port=8888)
