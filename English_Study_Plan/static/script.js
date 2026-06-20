@@ -1142,6 +1142,9 @@ function startQuiz() {
     state.streakCount = 0;
     state.startTime = Date.now();
 
+    // 记录原始题目数量，防止 Ghost Review 膨胀 total 导致正确率被稀释
+    state.originalQuizLength = state.quizWords.length;
+
     showView('quiz');
     updateHeartsDisplay();
     renderQuestion();
@@ -1174,11 +1177,22 @@ function getWeightedQuestionType(word) {
     const stats = state.progress.wordStats?.[word.word];
     const box = stats?.box || 0;
     const hasSpeech = ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window);
+    // 检测是否为短语（包含空格或点号的词条）
+    const isPhrase = word.word.includes(' ') || word.word.includes('.');
 
-    console.log(`🎤 [Speech Support Check] 单词: "${word.word}" | Box: ${box} | 语音识别支持: ${hasSpeech ? '支持 ✅' : '不支持 ❌'}`, {
+    console.log(`🎤 [Speech Support Check] 单词: "${word.word}" | Box: ${box} | 短语: ${isPhrase} | 语音识别支持: ${hasSpeech ? '支持 ✅' : '不支持 ❌'}`, {
         SpeechRecognition: 'SpeechRecognition' in window,
         webkitSpeechRecognition: 'webkitSpeechRecognition' in window
     });
+
+    // 短语专项：Box ≤ 2 的短语优先出短语配对题和选择题（拼写题对短语体验差）
+    if (isPhrase && box <= 2) {
+        return weightedRandom({ phrase: 40, choice: 35, fill: 25 });
+    }
+    if (isPhrase) {
+        // 已掌握的短语仍然增加短语配对题比例
+        return weightedRandom({ phrase: 25, choice: 25, fill: 25, spell: 15, listen: 10 });
+    }
 
     if (box >= 3) {
         // 已经比较熟悉：75% 产出型/发音型，25% 选择
@@ -1268,6 +1282,9 @@ function renderQuestion() {
             break;
         case 'speech':
             renderSpeechQuestion(q);
+            break;
+        case 'phrase':
+            renderPhraseQuestion(q);
             break;
     }
 }
@@ -1381,6 +1398,71 @@ function renderFillQuestion(q) {
     input.focus();
 
     input.dataset.answer = q.word.toLowerCase();
+}
+
+// ===== 短语配对题 =====
+function renderPhraseQuestion(q) {
+    document.getElementById('question-type').textContent = '短语配对';
+    document.getElementById('question-content').textContent = q.meaning;
+
+    // 显示例句上下文帮助理解
+    if (q.example) {
+        const example = document.getElementById('question-example');
+        example.textContent = q.example.replace(new RegExp(q.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '_____');
+        example.classList.remove('hidden');
+    }
+
+    // 从词库中筛选其他短语作为干扰项
+    const otherPhrases = state.vocabulary.filter(w =>
+        w.word !== q.word && (w.word.includes(' ') || w.word.includes('.'))
+    );
+    // 如果短语数量不够，退而用普通单词补充
+    const otherWords = state.vocabulary.filter(w => w.word !== q.word);
+    shuffleArray(otherPhrases);
+    shuffleArray(otherWords);
+
+    const choices = [q.word];
+    // 优先用短语作为干扰项
+    for (let i = 0; i < 3; i++) {
+        if (i < otherPhrases.length) {
+            choices.push(otherPhrases[i].word);
+        } else if (i < otherWords.length) {
+            choices.push(otherWords[i].word);
+        }
+    }
+    shuffleArray(choices);
+
+    const choiceContainer = document.getElementById('choice-mode');
+    choiceContainer.classList.remove('hidden');
+    choiceContainer.innerHTML = choices.map(c => `
+        <button class="choice-btn" data-choice="${c}">${c}</button>
+    `).join('');
+
+    // 绑定点击
+    choiceContainer.querySelectorAll('.choice-btn').forEach(btn => {
+        btn.addEventListener('click', () => selectPhraseChoice(btn, q.word));
+    });
+}
+
+// ===== 短语配对答案判定 =====
+function selectPhraseChoice(btn, correctWord) {
+    const selected = btn.dataset.choice;
+    const isCorrect = selected === correctWord;
+
+    // 禁用所有按钮
+    document.querySelectorAll('.choice-btn').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.choice === correctWord) {
+            b.classList.add('correct');
+        }
+    });
+
+    if (isCorrect) {
+        handleCorrect();
+    } else {
+        btn.classList.add('wrong');
+        handleWrong(state.quizWords[state.currentQuestion]);
+    }
 }
 
 // ===== 播放发音 =====
@@ -1562,7 +1644,11 @@ function handleCorrect() {
 // ===== 处理错误 =====
 function handleWrong(question) {
     state.streakCount = 0;
-    state.hearts--;
+
+    // Review 模式不扣爱心：复习错题不应惩罚，避免挫败感循环
+    if (state.quizMode !== 'review') {
+        state.hearts--;
+    }
 
     // 记录错题
     state.sessionMistakes.push(question);
@@ -1820,9 +1906,9 @@ function nextQuestion() {
 
 // ===== 完成测试 =====
 function finishQuiz() {
-    // 计算结果
-    const total = state.quizWords.length;
-    const correct = state.sessionScore;
+    // 计算结果：使用原始题目数量（Ghost Review 会向 quizWords 动态插入重试题目导致 total 膨胀）
+    const total = state.originalQuizLength || state.quizWords.length;
+    const correct = Math.min(state.sessionScore, total); // 正确数不应超过原始题目数
     const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
     const xpEarned = correct * XP_PER_CORRECT;
     const elapsed = Math.round((Date.now() - state.startTime) / 1000);
@@ -1862,6 +1948,31 @@ function finishQuiz() {
     document.getElementById('result-streak').textContent = state.streak + ' 天';
     document.getElementById('result-time').textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
     document.getElementById('result-accuracy').textContent = accuracy + '%';
+
+    // === Review 模式专属反馈 ===
+    if (state.quizMode === 'review') {
+        const resultActions = document.querySelector('.result-actions');
+        let reviewMsgEl = document.getElementById('review-result-msg');
+        if (!reviewMsgEl) {
+            reviewMsgEl = document.createElement('div');
+            reviewMsgEl.id = 'review-result-msg';
+            reviewMsgEl.style.marginTop = '15px';
+            reviewMsgEl.style.fontWeight = 'bold';
+            reviewMsgEl.style.textAlign = 'center';
+            resultActions.parentElement.insertBefore(reviewMsgEl, resultActions);
+        }
+
+        if (accuracy >= 60) {
+            reviewMsgEl.style.color = '#58cc02';
+            reviewMsgEl.innerHTML = `✅ 复习达标！(正确率 ${accuracy}%)<br><span style="font-size:0.9em; font-weight:normal; color:#666;">你已成功完成了一轮错题复习，可以继续学习新内容了！</span>`;
+        } else {
+            reviewMsgEl.style.color = '#ff4b4b';
+            reviewMsgEl.innerHTML = `💪 还需要再巩固！(正确率 ${accuracy}%)<br><span style="font-size:0.9em; font-weight:normal; color:#666;">目标正确率: 60%。建议稍作休息后再次进行复习。</span>`;
+        }
+    } else {
+        const reviewMsgEl = document.getElementById('review-result-msg');
+        if (reviewMsgEl) reviewMsgEl.style.display = 'none';
+    }
 
     // 渲染错题
     const mistakesSection = document.getElementById('mistakes-section');

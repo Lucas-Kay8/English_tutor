@@ -318,271 +318,6 @@
         ]
     },
     {
-        "id": "C7",
-        "day": 31,
-        "title": "Space Mission",
-        "text": "The {1} of outer space is an exciting mission. Researchers use powerful {2} to study the universe. They want to know if there are other {3} on remote planets. Since the {4} from Earth is very far, they need enough {5} to complete the journey.",
-        "blanks": [
-            {
-                "id": 1,
-                "options": [
-                    "exploration",
-                    "experiment",
-                    "explanation"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 2,
-                "options": [
-                    "telescopes",
-                    "signals",
-                    "systems"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 3,
-                "options": [
-                    "creatures",
-                    "researchers",
-                    "satellites"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 4,
-                "options": [
-                    "distance",
-                    "gravity",
-                    "orbit"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 5,
-                "options": [
-                    "fuel",
-                    "oxygen",
-                    "limit"
-                ],
-                "answer": 0
-            }
-        ]
-    },
-    {
-        "id": "C8",
-        "day": 32,
-        "title": "The Power of Art",
-        "text": "Art is a unique way to {1} with others. Whether it's a {2} or a piano {3}, it can show our feelings. Many people {4} classic {5} because it has deep meanings. We should try to protect our cultural heritage.",
-        "blanks": [
-            {
-                "id": 1,
-                "options": [
-                    "communicate",
-                    "appreciate",
-                    "maintain"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 2,
-                "options": [
-                    "painting",
-                    "novel",
-                    "style"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 3,
-                "options": [
-                    "performance",
-                    "instrument",
-                    "style"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 4,
-                "options": [
-                    "appreciate",
-                    "meaningful",
-                    "standard"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 5,
-                "options": [
-                    "literature",
-                    "architecture",
-                    "custom"
-                ],
-                "answer": 0
-            }
-        ]
-    },
-    {
-        "id": "C9",
-        "day": 33,
-        "title": "Community Betterment",
-        "text": "Every {1} should have a sense of {2}. We can join local {3} to help those in poverty. By providing {4} to the elderly, we show our {5} for them. Small efforts make a big difference in society.",
-        "blanks": [
-            {
-                "id": 1,
-                "options": [
-                    "citizen",
-                    "volunteer",
-                    "manager"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 2,
-                "options": [
-                    "responsibility",
-                    "protection",
-                    "poverty"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 3,
-                "options": [
-                    "charities",
-                    "companies",
-                    "factories"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 4,
-                "options": [
-                    "service",
-                    "donation",
-                    "support"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 5,
-                "options": [
-                    "respect",
-                    "courage",
-                    "success"
-                ],
-                "answer": 0
-            }
-        ]
-    },
-    {
-        "id": "C10",
-        "day": 34,
-        "title": "A Future Architect",
-        "text": "Choosing a right {1} requires careful thought. You should know your {2} and skills. To prepare for an {3}, you need some work {4}. If you become an {5} in your field, you will have a successful life.",
-        "blanks": [
-            {
-                "id": 1,
-                "options": [
-                    "career",
-                    "business",
-                    "company"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 2,
-                "options": [
-                    "ambition",
-                    "pressure",
-                    "salary"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 3,
-                "options": [
-                    "interview",
-                    "employer",
-                    "employee"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 4,
-                "options": [
-                    "experience",
-                    "knowledge",
-                    "result"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 5,
-                "options": [
-                    "expert",
-                    "manager",
-                    "manager"
-                ],
-                "answer": 0
-            }
-        ]
-    },
-    {
-        "id": "C11",
-        "day": 35,
-        "title": "Logical Writing",
-        "text": "In your essay, it is {1} to have a clear {2}. You should provide {3} and clear {4} to support your opinion. An {5} conclusion is also very important for a high-score writing.",
-        "blanks": [
-            {
-                "id": 1,
-                "options": [
-                    "essential",
-                    "valuable",
-                    "excellent"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 2,
-                "options": [
-                    "perspective",
-                    "result",
-                    "evidence"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 3,
-                "options": [
-                    "evidence",
-                    "solution",
-                    "conclusion"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 4,
-                "options": [
-                    "reasoning",
-                    "argument",
-                    "conclusion"
-                ],
-                "answer": 0
-            },
-            {
-                "id": 5,
-                "options": [
-                    "excellent",
-                    "significant",
-                    "crucial"
-                ],
-                "answer": 0
-            }
-        ]
-    },
-    {
         "id": "C12",
         "day": 7,
         "title": "A Museum Visit",
@@ -1590,6 +1325,59 @@
         ]
     },
     {
+        "id": "C_D26",
+        "day": 26,
+        "title": "A Space Dream",
+        "text": "My dream is to {1} in space one day. I often read books about {2} and the universe. Scientists have made great {3} in this field. They have sent many {4} into orbit. The latest {5} is truly amazing.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "travel",
+                    "trouble",
+                    "trust"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "exploration",
+                    "explanation",
+                    "expression"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "discoveries",
+                    "discussions",
+                    "directions"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "satellites",
+                    "subjects",
+                    "systems"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "technology",
+                    "tradition",
+                    "temperature"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
         "id": "C31",
         "day": 27,
         "title": "Learning Ability",
@@ -1796,6 +1584,271 @@
                     "purpose",
                     "praise",
                     "poverty"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C7",
+        "day": 31,
+        "title": "Space Mission",
+        "text": "The {1} of outer space is an exciting mission. Researchers use powerful {2} to study the universe. They want to know if there are other {3} on remote planets. Since the {4} from Earth is very far, they need enough {5} to complete the journey.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "exploration",
+                    "experiment",
+                    "explanation"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "telescopes",
+                    "signals",
+                    "systems"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "creatures",
+                    "researchers",
+                    "satellites"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "distance",
+                    "gravity",
+                    "orbit"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "fuel",
+                    "oxygen",
+                    "limit"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C8",
+        "day": 32,
+        "title": "The Power of Art",
+        "text": "Art is a unique way to {1} with others. Whether it's a {2} or a piano {3}, it can show our feelings. Many people {4} classic {5} because it has deep meanings. We should try to protect our cultural heritage.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "communicate",
+                    "appreciate",
+                    "maintain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "painting",
+                    "novel",
+                    "style"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "performance",
+                    "instrument",
+                    "style"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "appreciate",
+                    "meaningful",
+                    "standard"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "literature",
+                    "architecture",
+                    "custom"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C9",
+        "day": 33,
+        "title": "Community Betterment",
+        "text": "Every {1} should have a sense of {2}. We can join local {3} to help those in poverty. By providing {4} to the elderly, we show our {5} for them. Small efforts make a big difference in society.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "citizen",
+                    "volunteer",
+                    "manager"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "responsibility",
+                    "protection",
+                    "poverty"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "charities",
+                    "companies",
+                    "factories"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "service",
+                    "donation",
+                    "support"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "respect",
+                    "courage",
+                    "success"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C10",
+        "day": 34,
+        "title": "A Future Architect",
+        "text": "Choosing a right {1} requires careful thought. You should know your {2} and skills. To prepare for an {3}, you need some work {4}. If you become an {5} in your field, you will have a successful life.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "career",
+                    "business",
+                    "company"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "ambition",
+                    "pressure",
+                    "salary"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "interview",
+                    "employer",
+                    "employee"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "experience",
+                    "knowledge",
+                    "result"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "expert",
+                    "manager",
+                    "manager"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C11",
+        "day": 35,
+        "title": "Logical Writing",
+        "text": "In your essay, it is {1} to have a clear {2}. You should provide {3} and clear {4} to support your opinion. An {5} conclusion is also very important for a high-score writing.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "essential",
+                    "valuable",
+                    "excellent"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "perspective",
+                    "result",
+                    "evidence"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "evidence",
+                    "solution",
+                    "conclusion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "reasoning",
+                    "argument",
+                    "conclusion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "excellent",
+                    "significant",
+                    "crucial"
                 ],
                 "answer": 0
             }
@@ -3015,6 +3068,1172 @@
                     "mysteries",
                     "mistakes",
                     "members"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C59",
+        "day": 59,
+        "title": "Staying Positive",
+        "text": "It's important to stay {1} even when things are hard. We should try to {2} stress by doing exercise. A healthy {3} lifestyle helps us feel better. Music can also {4} us to keep going. Small changes can {5} our life greatly.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "positive",
+                    "plastic",
+                    "physical"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "reduce",
+                    "replace",
+                    "recycle"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "physical",
+                    "personal",
+                    "peaceful"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "motivate",
+                    "measure",
+                    "mention"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "improve",
+                    "ignore",
+                    "include"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C60",
+        "day": 60,
+        "title": "Working Together",
+        "text": "Finding a good {1} takes teamwork. How pollution {2} our city is a big question. The {3} student can make a difference. Building a strong {4} between people helps us cooperate. Even small efforts bring {5} to our community.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "solution",
+                    "situation",
+                    "subject"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "affects",
+                    "affords",
+                    "allows"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "average",
+                    "ancient",
+                    "angry"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "connection",
+                    "collection",
+                    "condition"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "comfort",
+                    "conflict",
+                    "control"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C61",
+        "day": 61,
+        "title": "Save the Earth",
+        "text": "We should {1} paper and plastic to save our planet. Natural {2} are limited and precious. Getting into an {3} about it won't help. Instead, we should build self-{4} by taking action. Even preventing one {5} to nature makes a difference.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "recycle",
+                    "refuse",
+                    "remove"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "resources",
+                    "results",
+                    "reasons"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "argument",
+                    "agreement",
+                    "adventure"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "esteem",
+                    "energy",
+                    "effort"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "injury",
+                    "interest",
+                    "income"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C62",
+        "day": 62,
+        "title": "A Kitchen Experiment",
+        "text": "My mom followed a new {1} she found online. She decided to {2} sugar with honey. When I tasted the result, I {3} with a smile. Good food can {4} family bonds. It's also a way to check our health {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "recipe",
+                    "record",
+                    "report"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "replace",
+                    "repeat",
+                    "require"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "responded",
+                    "refused",
+                    "returned"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "strengthen",
+                    "struggle",
+                    "suggest"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "status",
+                    "system",
+                    "style"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C63",
+        "day": 63,
+        "title": "Our Changing Planet",
+        "text": "The {1} is getting warmer each year. Many people have a strong {2} to help. The {3} between cities and nature is growing. Some animals may stop to {4} in certain areas. Every {5} of nature needs our protection.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "climate",
+                    "culture",
+                    "custom"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "desire",
+                    "design",
+                    "demand"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "distance",
+                    "difference",
+                    "direction"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "exist",
+                    "expect",
+                    "express"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "function",
+                    "fashion",
+                    "feature"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C64",
+        "day": 64,
+        "title": "Global Connections",
+        "text": "A cultural {1} program helps students see the world. We can {2} our knowledge by meeting people from other countries. Every facial {3} tells a story. The feeling of {4} goes away when we make new friends. {5}, more schools are offering these programs.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "exchange",
+                    "example",
+                    "exercise"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "expand",
+                    "explain",
+                    "explore"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "expression",
+                    "experience",
+                    "experiment"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "loneliness",
+                    "laziness",
+                    "loudness"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "Increasingly",
+                    "Immediately",
+                    "Impossibly"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C65",
+        "day": 65,
+        "title": "Beyond the Classroom",
+        "text": "Joining {1} activities is a great way to learn. Being {2} helps you grow as a person. You can {3} with students from all grades. One {4} benefit is developing teamwork. Choosing the right {5} in life starts early.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "extracurricular",
+                    "extraordinary",
+                    "external"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "independent",
+                    "impossible",
+                    "impolite"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "interact",
+                    "interrupt",
+                    "introduce"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "major",
+                    "minor",
+                    "middle"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "path",
+                    "part",
+                    "place"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C66",
+        "day": 66,
+        "title": "The Digital World",
+        "text": "{1} reality is changing education. Students can {2} information from anywhere. They need to {3} to new technologies quickly. Protecting against cyber {4} is important. We must also reduce our {5} footprint.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "Virtual",
+                    "Various",
+                    "Valuable"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "access",
+                    "accept",
+                    "achieve"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "adapt",
+                    "adopt",
+                    "admit"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "attacks",
+                    "actions",
+                    "attempts"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "carbon",
+                    "common",
+                    "central"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C67",
+        "day": 67,
+        "title": "A Better Approach",
+        "text": "How you {1} to a problem matters. Be {2} when making decisions. Sometimes you need to {3} old habits. Don't just {4} at the problem — take action. Having a good {5} helps you succeed.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "react",
+                    "refuse",
+                    "repeat"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "reasonable",
+                    "religious",
+                    "realistic"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "release",
+                    "replace",
+                    "remain"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "stare",
+                    "start",
+                    "stand"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "strategy",
+                    "struggle",
+                    "structure"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C68",
+        "day": 68,
+        "title": "A History Lesson",
+        "text": "Understanding key {1} helps us think clearly. One {2} of great leaders is their courage. The {3} of history is complex. In the last {4}, technology has changed a lot. Every period {5} important lessons.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "concepts",
+                    "comments",
+                    "contests"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "characteristic",
+                    "celebration",
+                    "competition"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "concept",
+                    "content",
+                    "context"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "decade",
+                    "design",
+                    "detail"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "contains",
+                    "controls",
+                    "continues"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C69",
+        "day": 69,
+        "title": "Online Life Balance",
+        "text": "Social media {1} are everywhere today. Everyone has a {2} for different apps. Our {3} online should be positive. Research in {4} warns us about too much screen time. A good {5} of activities keeps us balanced.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "platforms",
+                    "problems",
+                    "programs"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "preference",
+                    "pressure",
+                    "promise"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "presence",
+                    "patience",
+                    "purpose"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "psychology",
+                    "philosophy",
+                    "photography"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "range",
+                    "rate",
+                    "role"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C70",
+        "day": 70,
+        "title": "School Charity Event",
+        "text": "It takes courage to {1} you need help. The results were {2} amazing. Everyone thought the cookies were {3}. Students learned to {4} simple treats. Even small acts of kindness are never a sign of {5}.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "admit",
+                    "avoid",
+                    "argue"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "absolutely",
+                    "actually",
+                    "already"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "awesome",
+                    "awful",
+                    "awkward"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "bake",
+                    "break",
+                    "bring"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "aggression",
+                    "agreement",
+                    "attention"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C71",
+        "day": 71,
+        "title": "Eating Well",
+        "text": "The {1} for healthy food is growing. Too much {2} is bad for you. Sugar {3} can cause stomach problems. Don't be {4} by the difficulty of changing habits. The {5} benefits of eating well are huge.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "demand",
+                    "design",
+                    "detail"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "dessert",
+                    "dinner",
+                    "drink"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "discomfort",
+                    "discovery",
+                    "distance"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "discouraged",
+                    "disappointed",
+                    "disabled"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "economic",
+                    "electronic",
+                    "emotional"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C72",
+        "day": 72,
+        "title": "Festival Lights",
+        "text": "The {1} in lantern design has been amazing. Workers {2} lights along the streets. Good {3} skills help people cooperate. Beautiful {4} of all sizes light up the night. The {5} of the festival parade is impressive.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "innovation",
+                    "invitation",
+                    "information"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "install",
+                    "include",
+                    "increase"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "interpersonal",
+                    "international",
+                    "interesting"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "lanterns",
+                    "letters",
+                    "lessons"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "length",
+                    "level",
+                    "limit"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C73",
+        "day": 73,
+        "title": "The Road to Excellence",
+        "text": "Becoming a {1} takes years of practice. Keeping expectations {2} helps us avoid stress. Listening to music is very {3}. During {4} celebrations, artists often perform. His guitar playing sounds {5} and natural.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "professional",
+                    "personal",
+                    "practical"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "realistic",
+                    "random",
+                    "regular"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "relaxing",
+                    "remaining",
+                    "removing"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "religious",
+                    "regular",
+                    "remote"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "pure",
+                    "plain",
+                    "poor"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C74",
+        "day": 74,
+        "title": "Ocean Guardians",
+        "text": "Scientists regularly {1} their research on marine life. The latest {2} of the report shows serious problems. Pollution can {3} ocean ecosystems. Huge {4} are especially at risk. Our minds sometimes {5} to thoughts about the future of our seas.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "update",
+                    "upload",
+                    "unite"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "version",
+                    "value",
+                    "voice"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "weaken",
+                    "widen",
+                    "wonder"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "whales",
+                    "waves",
+                    "walls"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "wander",
+                    "wonder",
+                    "waste"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C75",
+        "day": 75,
+        "title": "Clean Energy Future",
+        "text": "A recent {1} in solar technology is exciting. The {2} shows it can save families money. This research is {3} with a top university. The team worked within a tight {4}. Their careful {5} proved the new panels work better.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "breakthrough",
+                    "breakdown",
+                    "breakout"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "calculation",
+                    "celebration",
+                    "collection"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "associated",
+                    "abandoned",
+                    "absorbed"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "budget",
+                    "burden",
+                    "barrier"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "award",
+                    "advice",
+                    "attempt"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C76",
+        "day": 76,
+        "title": "New School Rules",
+        "text": "The school {1} now includes practical life skills. The education {2} made this decision. Self-{3} against false information is a new focus. Being {4} is valued by teachers. Students need {5} to face new challenges.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "curriculum",
+                    "custom",
+                    "culture"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "department",
+                    "development",
+                    "discussion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "defense",
+                    "design",
+                    "desire"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "dependable",
+                    "desperate",
+                    "different"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "determination",
+                    "decoration",
+                    "destination"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C77",
+        "day": 77,
+        "title": "A Kind Heart",
+        "text": "The {1} of our school charity is strong. Old {2} can be donated to those in need. Although some things seem {3}, they still have value. Feeling {4} is natural when facing something new. The most {5} gift is your time.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "foundation",
+                    "function",
+                    "fashion"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "furniture",
+                    "figures",
+                    "flowers"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "fragile",
+                    "familiar",
+                    "formal"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "frightened",
+                    "frustrated",
+                    "forgotten"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "generous",
+                    "gentle",
+                    "genuine"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C78",
+        "day": 78,
+        "title": "Seeking Knowledge",
+        "text": "Understanding the {1} workings of machines is useful. Some information may seem {2} at first. But good {3} comes from broad learning. Being {4} opens many doors. Even a single {5} move can change the game.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "internal",
+                    "important",
+                    "immediate"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "irrelevant",
+                    "interesting",
+                    "impossible"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "judgment",
+                    "journey",
+                    "justice"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "knowledgeable",
+                    "kindhearted",
+                    "keen"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "logical",
+                    "local",
+                    "lonely"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C79",
+        "day": 79,
+        "title": "Seeing Clearly",
+        "text": "Being {1} about a topic helps you speak well. Seeing things from different {2} is a valuable skill. Climate change is a {3} that affects everyone. Sometimes the truth is {4} and simple. Put your ideas on a {5} and share them.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "passionate",
+                    "patient",
+                    "peaceful"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "perspectives",
+                    "positions",
+                    "purposes"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "phenomenon",
+                    "philosophy",
+                    "photograph"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "plain",
+                    "pleasant",
+                    "precious"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "plate",
+                    "place",
+                    "page"
+                ],
+                "answer": 0
+            }
+        ]
+    },
+    {
+        "id": "C80",
+        "day": 80,
+        "title": "Energy for Tomorrow",
+        "text": "{1} energy from the sun is clean and free. We need to {2} more research in this area. Many {3} engineers are working on it. They can {4} data to show progress. The {5} drive to save our planet inspires us all.",
+        "blanks": [
+            {
+                "id": 1,
+                "options": [
+                    "Solar",
+                    "Social",
+                    "Simple"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 2,
+                "options": [
+                    "stimulate",
+                    "struggle",
+                    "suggest"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 3,
+                "options": [
+                    "talented",
+                    "terrible",
+                    "typical"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 4,
+                "options": [
+                    "summarize",
+                    "separate",
+                    "support"
+                ],
+                "answer": 0
+            },
+            {
+                "id": 5,
+                "options": [
+                    "spiritual",
+                    "special",
+                    "standard"
                 ],
                 "answer": 0
             }
